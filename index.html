@@ -4,9 +4,109 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lære med KI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Lære med KI</h1>
-  <p>Siden er under bygging.</p>
+
+  <header class="site-header">
+    <div class="wide">
+      <a class="logo" href="index.html"><img src="media/logo.png" alt="Lære med KI"></a>
+      <nav>
+        <ul class="site-nav">
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="#">Undervisningsaktiviteter</a></li>
+          <li><a href="#">Tips og triks</a></li>
+          <li><a href="#">Preledetekster</a></li>
+          <li><a href="#">Blogg og presse</a></li>
+          <li><a href="#">Andre ressurser</a></li>
+          <li><a href="#">Epostliste</a></li>
+          <li><a href="#">Om kunstig intelligens</a></li>
+          <li><a href="#">Om meg</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wide">
+      <div>
+        <p class="hero-kicker">Teknikker og undervisningsaktiviteter</p>
+        <h1>Lære med KI</h1>
+        <p>En blogg for å lære med (og om) kunstig intelligens.</p>
+        <div class="btn-row">
+          <a class="btn btn-fill" href="#">Meld deg på nyhetsbrev!</a>
+          <a class="btn btn-outline" href="#">Undervisningsaktiviteter</a>
+          <a class="btn btn-outline" href="#">Om meg og denne bloggen</a>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <img src="media/hero-vidar.jpg" alt="">
+        <figcaption>Foto: Hilde Lynnebakken</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="feature-band">
+    <div class="wide feature-cols">
+      <div>
+        <h3><a href="#">Personvern, etikk og miljø</a></h3>
+        <p>KI utfordrer oss på mange områder. Her leser du mer om vurderinger knyttet til personvern, etikk og miljø i forbindelse med KI.</p>
+      </div>
+      <div>
+        <h3><a href="#">Preledetekster</a></h3>
+        <p>Den beste måten å bruke KI på, er å bruke relevante preledetekster. Men å komme på disse, krever erfaring. Her finner du mange ulike eksempler.</p>
+      </div>
+      <div>
+        <h3><a href="#">Andre ressurser</a></h3>
+        <p>Andre ressurser: podcaster, videoer og nettsteder.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="search-block">
+    <form role="search" onsubmit="return false;">
+      <label for="s" style="display:block; margin-bottom:8px; font-size:14px;">Søk etter innhold</label>
+      <input id="s" type="search" name="s" placeholder="">
+      <button type="submit">Søk</button>
+    </form>
+  </div>
+
+  <section class="posts-section">
+    <div class="wide">
+      <h3>Siste 3 innlegg</h3>
+      <div class="posts-grid">
+        <article class="post-card">
+          <a href="#"><img src="media/post-fysikk.png" alt="Instrukser til fysikkundervisning"></a>
+          <span class="post-category"><a href="#">Preledetekst</a></span>
+          <h4 class="post-title"><a href="#">Instrukser til fysikkundervisning</a></h4>
+          <p class="post-meta">Publisert 7. august 2026 av vidarsko</p>
+          <p class="post-description">Læringsassistent med pensum 🤖 Praterobot Her er pensum: [PENSUM] Du er en oppmuntrende og positiv læ…</p>
+        </article>
+        <article class="post-card is-full">
+          <span class="post-category"><a href="#">Preledetekst</a></span>
+          <h4 class="post-title"><a href="#">Beskyttet: Instrukser fra fagboka «Lære med KI»</a></h4>
+          <p class="post-meta">Publisert 21. april 2026 av vidarsko</p>
+          <p class="post-description">Det finnes ikke utdrag siden innlegget er beskyttet.</p>
+        </article>
+        <article class="post-card">
+          <a href="#"><img src="media/post-differensiering.png" alt="Differensiering med KI"></a>
+          <span class="post-category"><a href="#">Preledetekst</a></span>
+          <h4 class="post-title"><a href="#">Differensiering med KI</a></h4>
+          <p class="post-meta">Publisert januar 2026 av vidarsko</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wide">
+      <p>Copyright 2026 - Lære med KI</p>
+      <nav><a href="#">Personvernerklæring</a></nav>
+    </div>
+  </footer>
+
 </body>
 </html>
