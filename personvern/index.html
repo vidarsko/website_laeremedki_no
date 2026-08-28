@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personvern – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "article-date": {"no": "Publisert 16. januar 2025", "en": "Published January 16, 2025"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wide">
+      <a class="logo" href="/"><img src="/media/logo.png" alt="Lære med KI"></a>
+      <div class="header-right">
+        <nav>
+          <ul class="site-nav">
+            <li><a href="/undervisningsaktiviteter/" data-i18n="nav-undervisningsaktiviteter">Undervisningsaktiviteter</a></li>
+            <li><a href="/alle-innlegg/" data-i18n="nav-alle-innlegg">Alle innlegg</a></li>
+            <li><a href="/om-meg/" data-i18n="nav-om-meg">Om meg</a></li>
+          </ul>
+        </nav>
+        <div class="nav-controls">
+          <button class="theme-toggle" type="button" data-i18n-attr="aria-label:theme-toggle-aria" aria-label="Bytt fargetema" aria-pressed="false">
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2.5 12h2M19.5 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+          </button>
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button type="button" class="lang-btn" data-lang="no">NO</button>
+            <button type="button" class="lang-btn" data-lang="en">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges"><a class="badge" href="/alle-innlegg/?kategori=om-kunstig-intelligens">Om kunstig intelligens</a></div>
+      <h1 class="article-title">Personvern</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 16. januar 2025</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang="no">
+        <p>Når man sender en beskjed inn til en språkmodell som f.eks. chatGPT, sendes det til en dataserver. Denne serveren kan befinne seg hvor som helst i verden. Dette gjør at man må tenke nøye gjennom hvilke data man gir fra seg.</p>
+
+        <p><em>Dersom du har kommentarer, innspill eller kritikk til denne bloggposten, setter jeg stor pris på om du <a href="https://www.mn.uio.no/personer/adm/fak/studieseksjonen/vidarsko/index.html">kontakter meg</a>.</em></p>
+
+        <h3 class="wp-block-heading">Er det så farlig da?</h3>
+
+        <p><a href="https://www.nrk.no/mr/nettsvindel-og-sms-svindel-aukar-voldsomt.-irene-knardal-fra-bud-vart-svindla-for-30.000-1.17047333">NRK skrev 26. september 2024 om Irene Knardal</a>. Irene fikk en melding fra sønnen som trengte hjelp til å betale en regning. Sønnen stod i butikken og skulle kjøpe mac han hadde bestilt, men siden han hadde en ny telefon fikk han ikke brukt Bank-ID. For å unngå gebyrer og forsinkelser i betalingen hjalp Irene, men det var et problem - det var ikke sønnen som hadde sendt melding og pengene var borte for godt.</p>
+
+        <p>Det er lett å være etterpåklok. Kanskje burde Irene ant ugler i mosen da sønnen sendte melding fra et nytt nummer, ringt for å dobbeltsjekke, eller stilt noen kontrollspørsmål?</p>
+
+        <p>Kanskje. Men jo mer persondata som ligger tilgjengelig på nett, desto enklere blir det for svindlere å utgi seg for deg. Og i de verste tilfellene kan lekket personinformasjon bli brukt til identitetstyveri, noe <a href="https://www.nrk.no/vestfoldogtelemark/storsvindler-siktet-for-nye-id-tyverier-1.16544795">kjendiser ofte opplever på grunn av all personinformasjonen som ligger ute om dem</a>.</p>
+
+        <p>Irenes historie illustrerer hvordan lekkede personopplysninger gjør det lettere for svindlere å manipulere oss. Men dette er bare én av mange måter uvøren håndtering av persondata kan skade oss. Her er noen andre eksempler:</p>
+
+        <ul class="wp-block-list">
+          <li><strong>Diskriminering eller trakassering</strong>: Lekkede opplysninger som helsehistorikk, seksuell orientering eller politiske overbevisninger kan føre til diskriminering. For eksempel kan et forsikringsselskap nekte deg forsikring basert på lekkede opplysninger om din helsehistorikk.</li>
+          <li><strong>Tap av privatliv</strong>: Når personlige opplysninger lekker, kan det føre til ubehag og i verste fall utpressing fra svindlere under trussel om å spre sjenerende opplysninger til dine nærmeste.</li>
+          <li><strong>Autoritære regimer</strong>: Vi lever godt i Norge, men i mer lukkede samfunn brukes personopplysninger til å holde oppsyn og kontroll med befolkningen. Det kan være lurt å fikse huset for lekkasjer før det begynner å pøsregne.</li>
+        </ul>
+
+        <h3 class="wp-block-heading">Klassifisering av data</h3>
+
+        <p>En nyttig måte å tenke om persondata er å følge oppdelingen etter grønn-gul-rød-svart-modellen, som brukes av mange organisasjoner, blant annet Universitetet i Oslo. Den går ut på å skille data etter hvor stort behov de har for vern:</p>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-large"><img src="/media/personvern-gronne-data.png" alt=""></figure></div>
+          <div class="wp-block-column">
+            <p><strong>Grønne data:</strong></p>
+            <p>Data som er åpent tilgjengelig og krever ingen beskyttelse. F.eks. faglige spørsmål.</p>
+          </div>
+          <div class="wp-block-column">
+            <p><strong>Trygge tjenester:</strong></p>
+            <p>Alt er trygt. F.eks.:</p>
+            <ul class="wp-block-list"><li>chatGPT</li><li>MidJourney</li></ul>
+          </div>
+        </div>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-large"><img src="/media/personvern-gule-data.png" alt=""></figure></div>
+          <div class="wp-block-column">
+            <p><strong>Gule data:</strong></p>
+            <p>Data som ikke er sensitive, men som ikke skal deles med hvem som helst. F.eks. elevbesvarelser, forskningsdata.</p>
+          </div>
+          <div class="wp-block-column">
+            <p><strong>Trygge tjenester:</strong></p>
+            <p>Forhåndsgodkjente tjenester. F.eks.:</p>
+            <ul class="wp-block-list">
+              <li><a href="https://ki.osloskolen.no/">Osloskolens KI-tjeneste</a></li>
+              <li><a href="https://gpt.uio.no/en">GPT UiO</a></li>
+              <li><a href="https://sikt.no/tjenester/sikt-ki-chat">SIKTs KI-chat</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/personvern-rode-data.png" alt=""></figure></div>
+          <div class="wp-block-column">
+            <p><strong>Røde data:</strong></p>
+            <p>Sensitive opplysninger som bare skal deles med det som har behov. F.eks. sykehistorie.</p>
+          </div>
+          <div class="wp-block-column">
+            <p><strong>Trygge tjenester:</strong></p>
+            <p>Spesialtjenester. F.eks.:</p>
+            <ul class="wp-block-list"><li>Programvare anvendt på et legekontor.</li></ul>
+          </div>
+        </div>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-large"><img src="/media/personvern-svarte-data.png" alt=""></figure></div>
+          <div class="wp-block-column">
+            <p><strong>Svarte data:</strong></p>
+            <p>Spesielt sensitive opplysninger. F.eks. store mengder sensitive personopplysninger eller statshemmeligheter.</p>
+          </div>
+          <div class="wp-block-column">
+            <p><strong>Trygge tjenester:</strong></p>
+            <p>Svarte data skal kun behandles i samråd med organisasjonens jurister og IT-avdeling.</p>
+          </div>
+        </div>
+
+        <p>Her kan du lese om <a href="https://www.uio.no/tjenester/it/sikkerhet/lsis/tillegg/lagring/infoklasser.html">klassifisering av data i henhold til reglene ved Universitetet i Oslo</a>.</p>
+
+        <h4 class="wp-block-heading">Hvorfor kan noen KI-tjenester håndtere gule data og andre ikke?</h4>
+
+        <p>De fleste av de store språkmodellene som chatGPT 4o, Claude osv. er ikke åpent tilgjengelige. Det vil si at dersom man skal bruke dem, så kan man ikke bare laste ned parameterne og kjøre dem selv. Så hva skjer når en tjeneste hevder å være "GDPR-godkjent"? Figuren under viser dataflyten fra når du bruker en tjeneste som er utviklet av din organisasjon, f.eks. GPT UiO.</p>
+
+        <figure class="wp-block-image size-large"><img src="/media/personvern-datahandtering.png" alt="" style="border-width:6px;border-radius:51px"></figure>
+
+        <p>Som vi ser, er poenget at disse spesiallagde tjenestene sørger både for å anonymisere data før det sendes til serverne som kjører språkmodellen, og dataene slettes etter å ha blitt analysert og brukes ikke til f.eks. å trene modellen.</p>
+      </div>
+
+      <div data-lang="en">
+        <div class="translation-pending">
+          <p data-i18n="not-translated-body">This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+
+  <footer class="site-footer">
+    <div class="wide">
+      <p data-i18n="footer-copyright">Copyright 2026 – Lære med KI</p>
+      <nav>
+        <a href="/personvernerklaering/" data-i18n="footer-personvern">Personvernerklæring</a>
+        <a href="/kontakt/" data-i18n="footer-kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>

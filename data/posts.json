@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "faktaforsoning",
+    "title": "Faktaforsoning",
+    "date": "2024-12-18",
+    "categories": [{ "name": "Naturfag", "slug": "naturfag" }],
+    "image": "/media/tile-faktaforsoning.png",
+    "excerpt": "Elevene velger to paradoksale fakta og bruker KI for å forstå sammenhengen mellom dem.",
+    "en_translated": false
+  },
+  {
+    "slug": "titan-no-5-tips-for-a-eie-eksamen-med-ki",
+    "title": "Titan: 5 tips for å eie eksamen med KI",
+    "date": "2024-11-12",
+    "categories": [{ "name": "Presse", "slug": "presse" }],
+    "image": "/media/tile-titan.jpg",
+    "excerpt": "Intervju om mine fem tips om hvordan man kan bruke KI til å lære, fram mot eksamen.",
+    "en_translated": false
+  },
+  {
+    "slug": "uio-no-mestre-gpt-uio-rolle",
+    "title": "Mestre GPT - Rolle",
+    "date": "2024-09-13",
+    "categories": [{ "name": "Blogg", "slug": "blogg" }],
+    "image": "/media/tile-mestre-gpt.png",
+    "excerpt": "Hvor viktig er det egentlig å gi språkmodellen en \"rolle\"? Det ønsket jeg å teste.",
+    "en_translated": false
+  },
+  {
+    "slug": "kiosk",
+    "title": "Podcast: KIosk",
+    "date": "2025-01-03",
+    "categories": [{ "name": "Podcast", "slug": "podcast" }],
+    "image": "/media/tile-kiosk.png",
+    "excerpt": "I hver episode snakker jeg med en lærer som har gjennomført et undervisningsopplegg med kunstig intelligens.",
+    "en_translated": false
+  },
+  {
+    "slug": "personvern",
+    "title": "Personvern",
+    "date": "2025-01-16",
+    "categories": [{ "name": "Om kunstig intelligens", "slug": "om-kunstig-intelligens" }],
+    "image": "/media/tile-personvern.png",
+    "excerpt": "Når man sender en beskjed til en språkmodell, sendes den til en server som kan befinne seg hvor som helst. Om grønn-gul-rød-svart-modellen for datavern.",
+    "en_translated": false
+  },
+  {
+    "slug": "amprimda",
+    "title": "AMPRIMDA",
+    "date": "2025-03-20",
+    "categories": [
+      { "name": "Preledetekst", "slug": "preledetekst" },
+      { "name": "Programmering", "slug": "programmering" }
+    ],
+    "image": "/media/tile-amprimda.png",
+    "excerpt": "Et verktøy for å undervise programmering, inspirert av PRIMM-metodikken innen programmeringsdidaktikk.",
+    "en_translated": false
+  }
+]

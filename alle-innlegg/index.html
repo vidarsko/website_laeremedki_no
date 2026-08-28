@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alle innlegg – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "page-heading": {"no": "Alle innlegg", "en": "All posts"},
+    "page-lead": {"no": "Her finner du en oversikt over alle innlegg publisert på denne bloggen.", "en": "An overview of every post published on this blog."},
+    "filter-label": {"no": "Kategori", "en": "Category"},
+    "filter-all": {"no": "Alle kategorier", "en": "All categories"},
+    "empty-state": {"no": "Ingen innlegg i denne kategorien ennå.", "en": "No posts in this category yet."},
+    "load-more-btn": {"no": "Vis flere", "en": "Show more"},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wide">
+      <a class="logo" href="/"><img src="/media/logo.png" alt="Lære med KI"></a>
+      <div class="header-right">
+        <nav>
+          <ul class="site-nav">
+            <li><a href="/undervisningsaktiviteter/" data-i18n="nav-undervisningsaktiviteter">Undervisningsaktiviteter</a></li>
+            <li><a href="/alle-innlegg/" data-i18n="nav-alle-innlegg">Alle innlegg</a></li>
+            <li><a href="/om-meg/" data-i18n="nav-om-meg">Om meg</a></li>
+          </ul>
+        </nav>
+        <div class="nav-controls">
+          <button class="theme-toggle" type="button" data-i18n-attr="aria-label:theme-toggle-aria" aria-label="Bytt fargetema" aria-pressed="false">
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2.5 12h2M19.5 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+          </button>
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button type="button" class="lang-btn" data-lang="no">NO</button>
+            <button type="button" class="lang-btn" data-lang="en">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" style="padding-bottom:0">
+    <div class="section-lead">
+      <h1 data-i18n="page-heading">Alle innlegg</h1>
+      <p data-i18n="page-lead">Her finner du en oversikt over alle innlegg publisert på denne bloggen.</p>
+    </div>
+    <div class="wide">
+      <p class="filter-group-label" data-i18n="filter-label">Kategori</p>
+      <div class="filter-box"><div class="filter-bar filter-bar--row" data-posts-filters></div></div>
+    </div>
+  </section>
+
+  <section class="posts-section">
+    <div class="wide">
+      <div class="posts-grid" data-posts-grid></div>
+      <div class="load-more" data-load-more></div>
+    </div>
+  </section>
+
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+  <script src="/js/posts.js" defer></script>
+
+  <footer class="site-footer">
+    <div class="wide">
+      <p data-i18n="footer-copyright">Copyright 2026 – Lære med KI</p>
+      <nav>
+        <a href="/personvernerklaering/" data-i18n="footer-personvern">Personvernerklæring</a>
+        <a href="/kontakt/" data-i18n="footer-kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
