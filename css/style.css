@@ -93,6 +93,36 @@ a:focus-visible, button:focus-visible {
 .btn-outline:hover { background: transparent; border-color: var(--accent); color: var(--accent); }
 .btn-row { display: flex; flex-wrap: wrap; gap: 16px; }
 
+.search-input {
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--fg);
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  padding: 10px 18px;
+  width: 100%;
+  max-width: 320px;
+}
+.search-input:focus-visible { outline: none; border-color: var(--border-strong); }
+.search-input::placeholder { color: var(--fg); opacity: 0.5; }
+.search-form { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.search-form .search-input { max-width: 260px; }
+[data-posts-search] { display: block; margin-bottom: 24px; }
+
+/* Password gate — client-side soft gate for password-protected posts (e.g. bok/).
+   Not real security (the hash + JS are visible in page source, same exposure level as
+   WordPress's own post-password feature) — see js/password-gate.js and CLAUDE.md. */
+.gate-box {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-alt);
+  padding: 24px;
+  margin: 0 0 16px;
+}
+.gate-form { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.gate-error { color: var(--accent); font-size: 14px; margin-top: 10px; }
+
 /* ==========================================================================
    Header / nav-controls (theme toggle + language switch)
    ========================================================================== */
@@ -133,6 +163,26 @@ a:focus-visible, button:focus-visible {
   gap: 8px;
   flex-shrink: 0;
 }
+
+.nav-toggle {
+  display: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background: none;
+  align-items: center;
+  justify-content: center;
+  color: var(--fg);
+  cursor: pointer;
+  transition: border-color 0.15s;
+  flex-shrink: 0;
+}
+.nav-toggle:hover, .nav-toggle:focus-visible { border-color: var(--border-strong); }
+.nav-toggle svg { width: 20px; height: 20px; }
+.nav-toggle .icon-close { display: none; }
+.site-header.menu-open .nav-toggle .icon-bars { display: none; }
+.site-header.menu-open .nav-toggle .icon-close { display: block; }
 
 .theme-toggle {
   width: 36px;
@@ -208,8 +258,8 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
 .hero-figure figcaption { font-size: 12px; opacity: 0.6; padding: 8px 12px; }
 
 .section { padding: 64px 24px; }
-.section-lead { max-width: var(--content-width); margin: 0 auto 32px; }
-.section-lead.center { text-align: center; }
+.section-lead { max-width: var(--content-width); margin: 0 0 32px; }
+.section-lead.center { text-align: center; margin: 0 auto 32px; }
 
 /* ==========================================================================
    Bento tile grid (category / subject hub pickers)
@@ -332,6 +382,7 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
 .badge:hover { border-color: var(--border-strong); }
 .post-title { font-size: 21px; margin-bottom: 4px; }
 .post-title a:hover { color: var(--accent); }
+.post-date { font-size: 13px; opacity: 0.6; margin: 0 0 8px; }
 .post-description { font-size: 14px; margin-bottom: 0; opacity: 0.8; flex: 1; }
 
 /* ==========================================================================
@@ -429,6 +480,62 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
 .post-body .wp-block-visual-link-preview-link h3 { font-size: 17px; margin-bottom: 4px; }
 .post-body .wp-block-visual-link-preview-link .summary { font-size: 14px; opacity: 0.75; margin: 0; }
 
+/* "Instrukser"-category copy-block — a labeled, copyable prompt/instruction.
+   Standard for Instrukser-posts, see CLAUDE.md "Instrukser — standard
+   copy-block-format". Copy-button click handling lives in js/copy-block.js. */
+.post-body .copy-block {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-alt);
+  padding: 20px;
+  margin: 0 0 16px;
+}
+.post-body .copy-block-label { font-weight: 600; color: var(--accent); font-size: 0.95rem; margin: 0 0 10px; }
+.post-body .copy-block-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 9px;
+  background: var(--accent);
+  color: var(--fg-inverse);
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.post-body .copy-block-content {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  margin: 0;
+  padding: 14px 16px;
+  background: var(--bg);
+  border-radius: 6px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.post-body .copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 8px 18px;
+  background: var(--accent);
+  color: var(--fg-inverse);
+  border: none;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s, transform 0.1s;
+}
+.post-body .copy-btn:hover { background: var(--accent-secondary); }
+.post-body .copy-btn:active { transform: scale(0.97); }
+.post-body .copy-btn svg { width: 15px; height: 15px; flex-shrink: 0; }
+.post-body .copy-btn.copied { background: #4a8c6f; }
+
 /* Raw iframe embeds (YouTube/Spotify, dropped in via wp:html) */
 .post-body iframe { max-width: 100%; border-radius: var(--radius); }
 .post-body .embed-16-9 { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius); margin: 0 0 16px; }
@@ -436,13 +543,17 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
 
 /* ==========================================================================
    Dual-language content blocks — both languages exist in the same document;
-   js/i18n.js toggles which [data-lang] block is visible. Distinct from the
-   data-i18n dict mechanism used for short chrome strings (nav/buttons).
+   js/i18n.js toggles which [data-lang-block] block is visible. Distinct from
+   the data-i18n dict mechanism used for short chrome strings (nav/buttons),
+   and deliberately a different attribute from .lang-btn's own [data-lang] —
+   sharing the name meant this rule and the JS toggle also matched the
+   buttons and force-hid whichever one didn't match the page's current
+   language (found 2026-08-29, see js/i18n.js).
    ========================================================================== */
 /* Norwegian shows by default with no JS required (matches DEFAULT_LANG in js/i18n.js) — only
    switching to English needs the deferred script, so there's no flash-of-blank-content while it
    loads, and content stays visible to no-JS clients/crawlers. */
-[data-lang="en"] { display: none; }
+[data-lang-block="en"] { display: none; }
 .translation-pending {
   border: 1px solid var(--border);
   border-left: 4px solid var(--accent);
@@ -498,7 +609,23 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
   .tile-grid { grid-template-columns: repeat(2, 1fr); }
   .tile--featured { grid-column: span 2; grid-row: span 1; aspect-ratio: 16/9; }
   .posts-grid { grid-template-columns: 1fr; }
-  .header-right { width: 100%; justify-content: space-between; }
+
+  .nav-toggle { display: flex; }
+  .header-right {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    order: 5;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+  .site-header.menu-open .header-right { display: flex; }
+  .site-nav { flex-direction: column; gap: 12px; }
+  .nav-controls { justify-content: space-between; }
+
   .bio-columns { flex-direction: column; }
   .bio-columns figure { flex: 0 0 auto; max-width: 220px; }
 }

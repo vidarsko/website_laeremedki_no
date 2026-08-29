@@ -3,7 +3,18 @@
     "slug": "faktaforsoning",
     "title": "Faktaforsoning",
     "date": "2024-12-18",
-    "categories": [{ "name": "Naturfag", "slug": "naturfag" }],
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
     "image": "/media/tile-faktaforsoning.png",
     "excerpt": "Elevene velger to paradoksale fakta og bruker KI for å forstå sammenhengen mellom dem.",
     "en_translated": false
@@ -12,7 +23,18 @@
     "slug": "titan-no-5-tips-for-a-eie-eksamen-med-ki",
     "title": "Titan: 5 tips for å eie eksamen med KI",
     "date": "2024-11-12",
-    "categories": [{ "name": "Presse", "slug": "presse" }],
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Presse",
+        "slug": "presse"
+      }
+    ],
     "image": "/media/tile-titan.jpg",
     "excerpt": "Intervju om mine fem tips om hvordan man kan bruke KI til å lære, fram mot eksamen.",
     "en_translated": false
@@ -21,7 +43,13 @@
     "slug": "uio-no-mestre-gpt-uio-rolle",
     "title": "Mestre GPT - Rolle",
     "date": "2024-09-13",
-    "categories": [{ "name": "Blogg", "slug": "blogg" }],
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [],
     "image": "/media/tile-mestre-gpt.png",
     "excerpt": "Hvor viktig er det egentlig å gi språkmodellen en \"rolle\"? Det ønsket jeg å teste.",
     "en_translated": false
@@ -30,7 +58,18 @@
     "slug": "kiosk",
     "title": "Podcast: KIosk",
     "date": "2025-01-03",
-    "categories": [{ "name": "Podcast", "slug": "podcast" }],
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Podcast",
+        "slug": "podcast"
+      }
+    ],
     "image": "/media/tile-kiosk.png",
     "excerpt": "I hver episode snakker jeg med en lærer som har gjennomført et undervisningsopplegg med kunstig intelligens.",
     "en_translated": false
@@ -39,7 +78,18 @@
     "slug": "personvern",
     "title": "Personvern",
     "date": "2025-01-16",
-    "categories": [{ "name": "Om kunstig intelligens", "slug": "om-kunstig-intelligens" }],
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Om kunstig intelligens",
+        "slug": "om-kunstig-intelligens"
+      }
+    ],
     "image": "/media/tile-personvern.png",
     "excerpt": "Når man sender en beskjed til en språkmodell, sendes den til en server som kan befinne seg hvor som helst. Om grønn-gul-rød-svart-modellen for datavern.",
     "en_translated": false
@@ -49,11 +99,2325 @@
     "title": "AMPRIMDA",
     "date": "2025-03-20",
     "categories": [
-      { "name": "Preledetekst", "slug": "preledetekst" },
-      { "name": "Programmering", "slug": "programmering" }
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      },
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      }
     ],
     "image": "/media/tile-amprimda.png",
     "excerpt": "Et verktøy for å undervise programmering, inspirert av PRIMM-metodikken innen programmeringsdidaktikk.",
     "en_translated": false
+  },
+  {
+    "slug": "bok",
+    "title": "Instrukser fra fagboka «Lære med KI»",
+    "date": "2026-04-21",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/logo.png",
+    "excerpt": "Passordbeskyttet samling av 64 KI-instrukser organisert etter kapittel, hentet fra fagboka. Passord finnes i boka.",
+    "en_translated": false
+  },
+  {
+    "slug": "prove-med-ki",
+    "title": "Prøve med KI",
+    "date": "2024-12-18",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
+    "image": "/media/tile-prove-med-ki.png",
+    "excerpt": "Elevene gjennomfører en skriftlig prøve med tilgang til en språkmodell, med tips til oppgavetyper som hindrer ren avskrift.",
+    "en_translated": true
+  },
+  {
+    "slug": "multiple-choice-sporsmal",
+    "title": "Multiple choice-spørsmål",
+    "date": "2024-12-18",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Starter",
+        "slug": "starter"
+      }
+    ],
+    "image": "/media/tile-multiple-choice-sporsmal.png",
+    "excerpt": "Bruk språkmodellen til å lage riktige og gale svar til multiple choice-prøver.",
+    "en_translated": true
+  },
+  {
+    "slug": "programmering-med-ki",
+    "title": "Programmering med KI",
+    "date": "2024-12-18",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      }
+    ],
+    "image": "/media/tile-programmering-med-ki.png",
+    "excerpt": "Tips og modeller, som PRIMM og MPRIM, for å undervise programmering med kunstig intelligens som verktøy.",
+    "en_translated": true
+  },
+  {
+    "slug": "metode-sammenlikning",
+    "title": "Metode-sammenlikning",
+    "date": "2024-12-18",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
+    "image": "/media/tile-metode-sammenlikning.png",
+    "excerpt": "Elevene lager sin egen metode for å løse et problem og sammenlikner den deretter med KI-ens metode.",
+    "en_translated": true
+  },
+  {
+    "slug": "flere-mulige-svar",
+    "title": "Flere mulige svar",
+    "date": "2024-12-19",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-flere-mulige-svar.png",
+    "excerpt": "En ledetekst som får språkmodellen til å svare kort på tre ulike måter – enkelt, vanlig og vilt kreativt.",
+    "en_translated": true
+  },
+  {
+    "slug": "ledetekstinnvending",
+    "title": "Ledetekstinnvending",
+    "date": "2024-12-19",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-ledetekstinnvending.png",
+    "excerpt": "En ledetekst som får språkmodellen til å stille nødvendige oppfølgingsspørsmål før den svarer.",
+    "en_translated": true
+  },
+  {
+    "slug": "bildegenereringsmal",
+    "title": "Bildegenereringsmal",
+    "date": "2024-12-19",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-bildegenereringsmal.png",
+    "excerpt": "En konkret formel og ledetekstmal for å generere bilder med konsistent stil ved hjelp av KI.",
+    "en_translated": true
+  },
+  {
+    "slug": "punktlister",
+    "title": "Punktlister",
+    "date": "2024-12-19",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-punktlister.png",
+    "excerpt": "Språkmodeller kan generere svært lange punktlister på forespørsel – nyttig for å løsne kreativ tenkning.",
+    "en_translated": true
+  },
+  {
+    "slug": "podcast-peagogisk-intelligens",
+    "title": "Podcast: Pedagogisk intelligens",
+    "date": "2025-01-03",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Podcast",
+        "slug": "podcast"
+      }
+    ],
+    "image": "/media/tile-podcast-peagogisk-intelligens.jpg",
+    "excerpt": "Ukentlig norsk podcast om KI i undervisning, produsert av Høgskolen i Østfold.",
+    "en_translated": true
+  },
+  {
+    "slug": "podcast-the-ai-daily-brief",
+    "title": "Podcast: The AI daily brief",
+    "date": "2025-01-03",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Podcast",
+        "slug": "podcast"
+      }
+    ],
+    "image": "/media/tile-podcast-the-ai-daily-brief.jpg",
+    "excerpt": "Daglig engelsk podcast om de seneste utviklingene innen kunstig intelligens.",
+    "en_translated": true
+  },
+  {
+    "slug": "ki-svarvurdering",
+    "title": "KI-svarvurdering",
+    "date": "2025-01-03",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Starter",
+        "slug": "starter"
+      },
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-ki-svarvurdering.png",
+    "excerpt": "Elevene forsøker å finne feil i et KI-generert svar, med en ferdig ledetekst du kan bruke.",
+    "en_translated": true
+  },
+  {
+    "slug": "cc-tenkemotoren",
+    "title": "Nettside: CC Tenkemotoren",
+    "date": "2025-01-07",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Nettside",
+        "slug": "nettside"
+      }
+    ],
+    "image": "/media/tile-cc-tenkemotoren.png",
+    "excerpt": "Side med mange eksempler på prateroboter til ulike formål, utviklet av Odin Nøsen.",
+    "en_translated": true
+  },
+  {
+    "slug": "video-3blue1browns-serie-om-sprakmodeller",
+    "title": "Video: 3Blue1Browns serie om språkmodeller",
+    "date": "2025-01-09",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Video",
+        "slug": "video"
+      }
+    ],
+    "image": "/media/tile-video-3blue1browns-serie-om-sprakmodeller.png",
+    "excerpt": "En videoserie som viser hvordan nevrale nettverk, læring og språkmodeller fungerer, med et kapittel for hver video.",
+    "en_translated": true
+  },
+  {
+    "slug": "nettside-kurt-om-ki",
+    "title": "Nettside: KURT om KI",
+    "date": "2025-01-09",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Nettside",
+        "slug": "nettside"
+      }
+    ],
+    "image": "/media/tile-nettside-kurt-om-ki.jpg",
+    "excerpt": "KURT-senterets sider om kunstig intelligens i undervisningen ved Universitetet i Oslo.",
+    "en_translated": true
+  },
+  {
+    "slug": "forklaringskonkurranse",
+    "title": "Forklaringskonkurranse",
+    "date": "2025-01-09",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
+    "image": "/media/tile-forklaringskonkurranse.png",
+    "excerpt": "Grupper konkurrerer om å lage den beste faglige forklaringen, én med hjelp fra KI og resten uten.",
+    "en_translated": true
+  },
+  {
+    "slug": "soke-i-tekst",
+    "title": "Søke i tekst",
+    "date": "2025-01-10",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-soke-i-tekst.png",
+    "excerpt": "Bruk KI til å søke etter mindre definerte konsepter i en tekst, ikke bare enkeltord.",
+    "en_translated": true
+  },
+  {
+    "slug": "kode-assistenter",
+    "title": "Kode-assistenter",
+    "date": "2024-12-19",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-kode-assistenter.png",
+    "excerpt": "Oversikt over KI-verktøy som kan integreres i kodeeditoren for autofullføring og samtalebasert kodehjelp.",
+    "en_translated": true
+  },
+  {
+    "slug": "debugging-av-kode",
+    "title": "Debugging av kode",
+    "date": "2024-12-19",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-debugging-av-kode.png",
+    "excerpt": "Triks for å lime inn feilmeldinger og be språkmodellen bruke enklere funksjoner når du feilsøker kode med KI.",
+    "en_translated": true
+  },
+  {
+    "slug": "unioslo-unnga-fusk-med-ki",
+    "title": "@unioslo: Unngå fusk med KI",
+    "date": "2024-04-30",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Presse",
+        "slug": "presse"
+      }
+    ],
+    "image": "/media/tile-unioslo-unnga-fusk-med-ki.png",
+    "excerpt": "En Instagrampost fra Universitetet i Oslo med mine råd om hvordan man unngår fusk med KI.",
+    "en_translated": true
+  },
+  {
+    "slug": "uio-no-ville-gpt-uio-matte-ga-av-som-utdanningsminister",
+    "title": "Ville GPT UiO måtte gå av som utdanningsminister?",
+    "date": "2024-01-24",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-uio-no-ville-gpt-uio-matte-ga-av-som-utdanningsminister.png",
+    "excerpt": "En enkel test av om chatGPT UiO ukritisk klipper inn andres arbeid, slik enkelte statsråder har gjort.",
+    "en_translated": true
+  },
+  {
+    "slug": "servering-av-analogier",
+    "title": "Servering av analogier",
+    "date": "2025-01-07",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-servering-av-analogier.png",
+    "excerpt": "En ledetekst som ber språkmodellen gi en kort analogi til hvert svar den gir.",
+    "en_translated": true
+  },
+  {
+    "slug": "test-ditt-budskap",
+    "title": "Test ditt budskap",
+    "date": "2024-12-19",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-test-ditt-budskap.png",
+    "excerpt": "Bruk KI til å teste om budskapet ditt kommer tydelig fram, med eksempler fra formulering av begreper og en doktorgradstekst.",
+    "en_translated": true
+  },
+  {
+    "slug": "lese-artikler-med-ki",
+    "title": "Lese artikkel med KI",
+    "date": "2024-12-28",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-lese-artikler-med-ki.png",
+    "excerpt": "Kopier artikkelteksten inn i en språkmodell og bruk den som samtalepartner mens du leser.",
+    "en_translated": true
+  },
+  {
+    "slug": "podcast-real-laering",
+    "title": "Podcast: REAL læring",
+    "date": "2025-01-03",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Podcast",
+        "slug": "podcast"
+      }
+    ],
+    "image": "/media/tile-podcast-real-laering.jpg",
+    "excerpt": "Månedlig podcast om læring i høyere utdanning fra Universitetet i Oslo; sesong 1 diskuterer chatGPTs rolle i undervisning.",
+    "en_translated": true
+  },
+  {
+    "slug": "hot-keys",
+    "title": "Hot Keys",
+    "date": "2025-01-17",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-hot-keys.png",
+    "excerpt": "Legg inn hotkeys i en ledetekst for å utløse konkrete oppfølgingsoppgaver som quiz, oppsummering eller tidslinje.",
+    "en_translated": true
+  },
+  {
+    "slug": "laeringsassistent",
+    "title": "Læringsassistent",
+    "date": "2025-01-17",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-laeringsassistent.png",
+    "excerpt": "En ledetekst utarbeidet av Andreas Haraldsrud som får KI-en til å opptre som en sokratisk, pedagogisk læringsassistent.",
+    "en_translated": true
+  },
+  {
+    "slug": "tabellmakern",
+    "title": "Tabellmaker'n",
+    "date": "2025-01-17",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-tabellmakern.png",
+    "excerpt": "En ledetekst som får KI-en til å strukturere en tekst som en oversiktlig tabell med begreper, definisjoner og eksempler.",
+    "en_translated": true
+  },
+  {
+    "slug": "instruksjoner-prateroboter",
+    "title": "Instruksjoner/prateroboter",
+    "date": "2025-01-17",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-instruksjoner-prateroboter.png",
+    "excerpt": "En oversikt over hvordan man oppretter egendefinerte instruksjoner/prateroboter i ChatGPT, GPT UiO, Gemini og Osloskolen.",
+    "en_translated": true
+  },
+  {
+    "slug": "spraksjekker",
+    "title": "Språksjekker",
+    "date": "2025-01-17",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-spraksjekker.png",
+    "excerpt": "En ledetekst som får KI-en til å gi konkret tilbakemelding på skrivefeil, grammatikk og uklare formuleringer i egen tekst.",
+    "en_translated": true
+  },
+  {
+    "slug": "ki-verktoy-chatgpt",
+    "title": "KI-verktøy: ChatGPT",
+    "date": "2025-01-17",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "KI-verktøy",
+        "slug": "ki-verktoy"
+      }
+    ],
+    "image": "/media/tile-ki-verktoy-chatgpt.png",
+    "excerpt": "Lenkekort til ChatGPT, tjenesten som gjorde språkmodeller verdensberømte.",
+    "en_translated": true
+  },
+  {
+    "slug": "ki-verktoy-veed-io",
+    "title": "KI-verktøy: veed.io",
+    "date": "2025-01-17",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "KI-verktøy",
+        "slug": "ki-verktoy"
+      }
+    ],
+    "image": "/media/tile-ki-verktoy-veed-io.jpeg",
+    "excerpt": "Lenkekort til veed.io, et verktøy som lager KI-genererte videoer.",
+    "en_translated": true
+  },
+  {
+    "slug": "ki-verktoy-udio-com",
+    "title": "KI-verktøy: udio.com",
+    "date": "2025-01-17",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "KI-verktøy",
+        "slug": "ki-verktoy"
+      }
+    ],
+    "image": "/media/tile-ki-verktoy-udio-com.jpg",
+    "excerpt": "Lenke til udio.com, et verktøy som lager KI-generert musikk.",
+    "en_translated": true
+  },
+  {
+    "slug": "studenten-har-brukt-ki-hva-na",
+    "title": "Eleven har brukt KI - hva nå?",
+    "date": "2025-01-21",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-studenten-har-brukt-ki-hva-na.jpg",
+    "excerpt": "Om hvordan man kan avsløre KI-bruk hos elever, gi tilbakemelding på mistenkt KI-tekst, og alternative vurderingsformer.",
+    "en_translated": true
+  },
+  {
+    "slug": "refleksjonsnotat",
+    "title": "Refleksjonsnotat",
+    "date": "2025-01-23",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Skriving",
+        "slug": "skriving"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-refleksjonsnotat.png",
+    "excerpt": "Forslag til spørsmål elevene kan bruke i et refleksjonsnotat om hvordan de har jobbet med en oppgave og brukt KI underveis.",
+    "en_translated": true
+  },
+  {
+    "slug": "om-praterobotene-pa-denne-siden",
+    "title": "Om praterobotene på LæreMedKi.no",
+    "date": "2025-02-04",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Om kunstig intelligens",
+        "slug": "om-kunstig-intelligens"
+      }
+    ],
+    "image": "/media/tile-om-praterobotene-pa-denne-siden.png",
+    "excerpt": "En forklaring på hva som skjer med meldingene dine når du bruker en av nettsidens innebygde prateroboter.",
+    "en_translated": true
+  },
+  {
+    "slug": "arbeidsark-om-sprakmodell",
+    "title": "Arbeidsark om språkmodell",
+    "date": "2025-01-25",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
+    "image": "/media/tile-arbeidsark-om-sprakmodell.png",
+    "excerpt": "Elevene regner på en forenklet mini-språkmodell for å forstå nevrale nettverk, meningsrom og hvordan språkmodeller forutsier neste ord.",
+    "en_translated": true
+  },
+  {
+    "slug": "latintekst",
+    "title": "Latintekst",
+    "date": "2025-01-26",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-latintekst.png",
+    "excerpt": "En KI-generert latinsk gåte om Pytagoras' setning.",
+    "en_translated": true
+  },
+  {
+    "slug": "finn-feilene",
+    "title": "Finn feilene!",
+    "date": "2025-01-31",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Starter",
+        "slug": "starter"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "KIOSK-episode",
+        "slug": "kiosk-episode"
+      }
+    ],
+    "image": "/media/tile-finn-feilene.png",
+    "excerpt": "En KI-generert tekst med tre bevisste feil som elevene skal klare å finne.",
+    "en_translated": true
+  },
+  {
+    "slug": "starter-lag-quizlet-med-ki",
+    "title": "Lag Quizlet med KI",
+    "date": "2025-01-31",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Starter",
+        "slug": "starter"
+      },
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-starter-lag-quizlet-med-ki.png",
+    "excerpt": "En steg-for-steg-guide til å lage et Quizlet-sett på to minutter ved hjelp av KI-genererte definisjoner.",
+    "en_translated": true
+  },
+  {
+    "slug": "nettside-quizlet",
+    "title": "Nettside: Quizlet",
+    "date": "2025-01-31",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Nettside",
+        "slug": "nettside"
+      }
+    ],
+    "image": "/media/tile-nettside-quizlet.png",
+    "excerpt": "Quizlet er en tjeneste for begrepstrening, godt egnet til å kombineres med KI-genererte definisjoner.",
+    "en_translated": true
+  },
+  {
+    "slug": "varseltrekanten-for-ki-personvern-miljo-etikk",
+    "title": "Varseltrekanten for KI: Personvern, miljø, etikk",
+    "date": "2025-02-07",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Om kunstig intelligens",
+        "slug": "om-kunstig-intelligens"
+      }
+    ],
+    "image": "/media/tile-varseltrekanten-for-ki-personvern-miljo-etikk.png",
+    "excerpt": "En gruppeaktivitet der elevene fordyper seg i personvern, miljø og etikk knyttet til KI-bruk.",
+    "en_translated": true
+  },
+  {
+    "slug": "4-tips-til-forenkling-av-laererhverdagen-med-ki",
+    "title": "4 tips til forenkling av lærerhverdagen med KI",
+    "date": "2025-02-18",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-4-tips-til-forenkling-av-laererhverdagen-med-ki.png",
+    "excerpt": "En oversikt over favoritt-tips for å bruke KI til undervisningsaktiviteter, oppgaver, undervisningsmateriale og vurdering.",
+    "en_translated": true
+  },
+  {
+    "slug": "artikkel",
+    "title": "Artikkel",
+    "date": "2025-02-17",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/logo.png",
+    "excerpt": "En nedlastbar vitenskapelig artikkel Vidar har vært medforfatter av, delt som PDF.",
+    "en_translated": true
+  },
+  {
+    "slug": "forelesningspause-oppgaver",
+    "title": "Forelesningspause-oppgaver",
+    "date": "2025-02-18",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-forelesningspause-oppgaver.png",
+    "excerpt": "Bruk KI til å generere pauseoppgaver som gir elevene et avbrekk midt i en forelesning.",
+    "en_translated": true
+  },
+  {
+    "slug": "lage-formativ-prove-med-ki",
+    "title": "Lage formativ prøve med KI",
+    "date": "2025-02-18",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-lage-formativ-prove-med-ki.png",
+    "excerpt": "Be KI lage en 30-minutters formativ prøve som elevene retter for hverandre og diskuterer i klassen.",
+    "en_translated": true
+  },
+  {
+    "slug": "laer-elevene-a-vurdere-seg-selv-med-ki",
+    "title": "Selv-vurdering med KI",
+    "date": "2025-02-18",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Skriving",
+        "slug": "skriving"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-laer-elevene-a-vurdere-seg-selv-med-ki.png",
+    "excerpt": "Ledetekster elevene kan bruke til å få KI-tilbakemelding på eget arbeid før de leverer til læreren.",
+    "en_translated": true
+  },
+  {
+    "slug": "ta-opp-transkriber-oppsummer",
+    "title": "Ta opp -> transkribér -> oppsummér",
+    "date": "2025-02-18",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-ta-opp-transkriber-oppsummer.png",
+    "excerpt": "Ta opp muntlige tilbakemeldinger på telefonen, transkribér dem og la KI lage en oppsummering.",
+    "en_translated": true
+  },
+  {
+    "slug": "naturfagpodden-ki-i-skolen",
+    "title": "Naturfagpodden: KI i skolen",
+    "date": "2025-02-24",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Presse",
+        "slug": "presse"
+      }
+    ],
+    "image": "/media/tile-naturfagpodden-ki-i-skolen.jpg",
+    "excerpt": "Vidar gjestet Naturfagpodden for å snakke om bruk av kunstig intelligens i skolen.",
+    "en_translated": true
+  },
+  {
+    "slug": "skrive-avlastning",
+    "title": "Skrive-avlastning",
+    "date": "2025-04-08",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      },
+      {
+        "name": "Skriving",
+        "slug": "skriving"
+      }
+    ],
+    "image": "/media/tile-skrive-avlastning.png",
+    "excerpt": "Tre ferdige ledetekster elevene kan bruke for å få hjelp av KI til å skrive åpning, slutt eller disposisjon i en historie.",
+    "en_translated": true
+  },
+  {
+    "slug": "konkurranse-ki-essay",
+    "title": "Konkurranse: KI-essay",
+    "date": "2025-04-08",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      },
+      {
+        "name": "Skriving",
+        "slug": "skriving"
+      }
+    ],
+    "image": "/media/tile-konkurranse-ki-essay.png",
+    "excerpt": "En klassekonkurranse om hvem som klarer å få KI til å skrive det beste essayet med kun én ledetekst.",
+    "en_translated": true
+  },
+  {
+    "slug": "prosessbaserte-innleveringer",
+    "title": "Prosessbaserte innleveringer",
+    "date": "2025-04-08",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      },
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Skriving",
+        "slug": "skriving"
+      }
+    ],
+    "image": "/media/tile-prosessbaserte-innleveringer.png",
+    "excerpt": "Tre eksempler på flerstegs innleveringer der elevene må levere en konkret leveranse i hvert steg, slik at hele KI-prosessen kan vurderes.",
+    "en_translated": true
+  },
+  {
+    "slug": "snakk-spansk-med-ki",
+    "title": "Snakk spansk med KI",
+    "date": "2025-04-08",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      }
+    ],
+    "image": "/media/tile-snakk-spansk-med-ki.png",
+    "excerpt": "En ledetekst for enkel spansk-samtaletrening med KI, pluss sju forslag til interaktive oppdrag som gjør øvelsen mer spennende.",
+    "en_translated": true
+  },
+  {
+    "slug": "tren-gloser-med-ki",
+    "title": "Tren gloser med KI",
+    "date": "2025-04-08",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      }
+    ],
+    "image": "/media/tile-tren-gloser-med-ki.png",
+    "excerpt": "En ledetekst elevene kan bruke til å la KI teste dem i gloser, med franskvokabular om kjøkkenet som eksempel.",
+    "en_translated": true
+  },
+  {
+    "slug": "diagnostiser-pasienten",
+    "title": "Diagnostiser pasienten",
+    "date": "2025-04-08",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      }
+    ],
+    "image": "/media/tile-diagnostiser-pasienten.png",
+    "excerpt": "En rollespill-ledetekst hvor KI spiller en liksompasient med influensasymptomer som elevene skal prøve å diagnostisere.",
+    "en_translated": true
+  },
+  {
+    "slug": "forandre-sjanger",
+    "title": "Forandre sjanger",
+    "date": "2025-04-09",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-forandre-sjanger.png",
+    "excerpt": "Hvordan bruke KI til å omforme en nyhetssak til et dikt, med et konkret diktresultat og forslag til hvordan man kan gjøre det til en oppgave.",
+    "en_translated": true
+  },
+  {
+    "slug": "hvilken-sangnyhet",
+    "title": "Hvilken sangnyhet?",
+    "date": "2025-04-09",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Starter",
+        "slug": "starter"
+      }
+    ],
+    "image": "/media/tile-hvilken-sangnyhet.png",
+    "excerpt": "En starteroppgave der KI kombinerer teksten til tre kjente popsanger til én nyhetssak, og elevene skal gjette hvilke sanger som er brukt.",
+    "en_translated": true
+  },
+  {
+    "slug": "prompte-pa-norsk-framsporre",
+    "title": "Prompte på norsk? Framspørre!",
+    "date": "2025-01-10",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-prompte-pa-norsk-framsporre.png",
+    "excerpt": "Et forslag til norske ord for prompt-relaterte begreper, utviklet sammen med Andreas Haraldsrud.",
+    "en_translated": true
+  },
+  {
+    "slug": "bildegenerering",
+    "title": "Bildegenerering",
+    "date": "2025-01-10",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-bildegenerering.png",
+    "excerpt": "En gjennomgang av hvordan man kan generere og redigere KI-bilder med en fast mal, med eksempler fra MidJourney.",
+    "en_translated": true
+  },
+  {
+    "slug": "ki-verktoy-midjourney",
+    "title": "KI-verktøy: MidJourney",
+    "date": "2025-01-10",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "KI-verktøy",
+        "slug": "ki-verktoy"
+      }
+    ],
+    "image": "/media/tile-ki-verktoy-midjourney.png",
+    "excerpt": "MidJourney er et KI-verktøy for å generere bilder basert på tekstprompter.",
+    "en_translated": true
+  },
+  {
+    "slug": "nettside-ikke-slutt-a-skrive",
+    "title": "Nettside: Ikke slutt å skrive!",
+    "date": "2025-01-15",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Nettside",
+        "slug": "nettside"
+      }
+    ],
+    "image": "/media/tile-nettside-ikke-slutt-a-skrive.png",
+    "excerpt": "The Most Dangerous Writing App er en nettside som sletter teksten din dersom du slutter å skrive.",
+    "en_translated": true
+  },
+  {
+    "slug": "nettside-genai-teachable-machine",
+    "title": "Nettside: GenAI Teachable Machine",
+    "date": "2025-01-15",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Nettside",
+        "slug": "nettside"
+      }
+    ],
+    "image": "/media/tile-nettside-genai-teachable-machine.png",
+    "excerpt": "GenAI Teachable Machine lar deg trene og visualisere en bildeklassifiserer live i klasserommet.",
+    "en_translated": true
+  },
+  {
+    "slug": "video-mine-fem-triks-for-a-laere-med-ki",
+    "title": "Video: Mine fem triks for å lære med KI",
+    "date": "2025-01-15",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Video",
+        "slug": "video"
+      }
+    ],
+    "image": "/media/tile-video-mine-fem-triks-for-a-laere-med-ki.png",
+    "excerpt": "Et foredrag på YouTube om fem konkrete triks for å lære med kunstig intelligens.",
+    "en_translated": true
+  },
+  {
+    "slug": "miljo",
+    "title": "Miljø",
+    "date": "2025-01-16",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Om kunstig intelligens",
+        "slug": "om-kunstig-intelligens"
+      }
+    ],
+    "image": "/media/tile-miljo.png",
+    "excerpt": "En gjennomgang av kunstig intelligens sin påvirkning på strøm- og vannforbruk, og hvordan KI også kan bidra til klimaløsninger.",
+    "en_translated": true
+  },
+  {
+    "slug": "etikk",
+    "title": "Etikk",
+    "date": "2025-01-16",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Om kunstig intelligens",
+        "slug": "om-kunstig-intelligens"
+      }
+    ],
+    "image": "/media/tile-etikk.png",
+    "excerpt": "En gjennomgang av etiske spørsmål ved kunstig intelligens, som bias, kunstnerskap og opphavsrett.",
+    "en_translated": true
+  },
+  {
+    "slug": "gjett-historiediktet",
+    "title": "Gjett historiediktet",
+    "date": "2025-04-09",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Starter",
+        "slug": "starter"
+      }
+    ],
+    "image": "/media/tile-gjett-historiediktet.png",
+    "excerpt": "Bruk KI til å skrive om en historisk hendelse til et dikt, og la elevene gjette hvilken hendelse det er snakk om.",
+    "en_translated": true
+  },
+  {
+    "slug": "program-puslespill",
+    "title": "Program-puslespill",
+    "date": "2025-04-10",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      }
+    ],
+    "image": "/media/tile-program-puslespill.png",
+    "excerpt": "La KI generere et program som elevene klipper opp og pusler sammen igjen, som en måte å lære programmering på.",
+    "en_translated": true
+  },
+  {
+    "slug": "finn-feilen-i-programmet",
+    "title": "Finn feilen i programmet",
+    "date": "2025-04-10",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      }
+    ],
+    "image": "/media/tile-finn-feilen-i-programmet.png",
+    "excerpt": "Få KI til å lage et program med en bevisst feil, og la elevene finne den – gjerne en faglig feil for tverrfaglig trening.",
+    "en_translated": true
+  },
+  {
+    "slug": "kildesammenligning",
+    "title": "Kildesammenligning",
+    "date": "2025-05-28",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      }
+    ],
+    "image": "/media/tile-kildesammenligning.png",
+    "excerpt": "Elevene sammenligner svar fra en autoritativ kilde med svar fra ulike KI-tjenester, med et konkret historieopplegg til nedlasting.",
+    "en_translated": true
+  },
+  {
+    "slug": "ki-tilpasset-tekst",
+    "title": "KI-tilpasset tekst",
+    "date": "2025-08-28",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-ki-tilpasset-tekst.png",
+    "excerpt": "Steg-for-steg-metode for å bruke KI til å lage nivåtilpassede versjoner av en grunntekst i språkundervisningen.",
+    "en_translated": true
+  },
+  {
+    "slug": "lage-prover-med-ki",
+    "title": "Lage prøver med KI",
+    "date": "2025-08-28",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-lage-prover-med-ki.png",
+    "excerpt": "Bruk KI til å lage et utkast til en flervalgsprøve fra en liste med fagbegreper, og kvalitetssikre resultatet selv.",
+    "en_translated": true
+  },
+  {
+    "slug": "assistent",
+    "title": "Personlig læringsassistent",
+    "date": "2025-09-08",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      },
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-assistent.png",
+    "excerpt": "En ledetekstmal for å bygge en personlig læringsassistent tilpasset én elevs interesser, mål og faglige styrker/svakheter.",
+    "en_translated": true
+  },
+  {
+    "slug": "begrepsark",
+    "title": "Begrepsark om KI",
+    "date": "2025-09-16",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-begrepsark.png",
+    "excerpt": "To nedlastbare PDF-ark med oversikt over sentrale KI-begreper – ett til gjennomgang og ett til repetisjon/gjenhenting.",
+    "en_translated": true
+  },
+  {
+    "slug": "instruer-hverandre",
+    "title": "Instruer hverandre",
+    "date": "2025-09-19",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-instruer-hverandre.png",
+    "excerpt": "En oppgave hvor elever instruerer hverandre gjennom fysiske og digitale handlinger, som trening i å gi presise, gode instruksjoner.",
+    "en_translated": true
+  },
+  {
+    "slug": "3x3x3-trening-i-relasjonell-forstaelse",
+    "title": "3x3x3 - Trening i relasjonell forståelse",
+    "date": "2025-10-01",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
+    "image": "/media/tile-3x3x3-trening-i-relasjonell-forstaelse.png",
+    "excerpt": "Elever i grupper på tre forklarer samme begrep på ulike måter, med hjelp fra KI, for å trene relasjonell forståelse.",
+    "en_translated": true
+  },
+  {
+    "slug": "symbiotisk-tilbakemelding",
+    "title": "Symbiotisk tilbakemelding",
+    "date": "2025-10-09",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      },
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
+    "image": "/media/tile-symbiotisk-tilbakemelding.png",
+    "excerpt": "Studenter gir hverandre tilbakemelding på presentasjoner, som KI deretter sammenfatter ut fra en ledetekst forankret i forskningslitteratur.",
+    "en_translated": true
+  },
+  {
+    "slug": "matteformattering",
+    "title": "Matteformattering",
+    "date": "2025-10-10",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-matteformattering.jpg",
+    "excerpt": "En ferdig ledetekst som fikser matte- og kjemiformatering når en KI-tjeneste ikke rendrer LaTeX riktig.",
+    "en_translated": true
+  },
+  {
+    "slug": "prove-prep",
+    "title": "Prøve-prep med KI",
+    "date": "2025-10-17",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
+    "image": "/media/tile-prove-prep.png",
+    "excerpt": "En to-delt økt hvor elevene først forbereder seg til en prøve sammen med KI, og deretter tar prøven uten hjelpemidler.",
+    "en_translated": true
+  },
+  {
+    "slug": "mattetrenern",
+    "title": "Mattetrenern",
+    "date": "2025-10-27",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      },
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      }
+    ],
+    "image": "/media/tile-mattetrenern.png",
+    "excerpt": "En pre-instruks elever kan bruke for å trene matematikk trinnvis sammen med KI, med tilpasset vanskelighetsgrad underveis.",
+    "en_translated": true
+  },
+  {
+    "slug": "generere-oppgaver-med-ki",
+    "title": "Generere oppgaver med KI",
+    "date": "2025-10-30",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      },
+      {
+        "name": "Fremmedspråk",
+        "slug": "fremmedsprak"
+      },
+      {
+        "name": "KIOSK-episode",
+        "slug": "kiosk-episode"
+      }
+    ],
+    "image": "/media/tile-generere-oppgaver-med-ki.png",
+    "excerpt": "Bruk KI til å generere flere øvingsoppgaver av samme type og vanskelighetsgrad når elevene trenger mer mengdetrening.",
+    "en_translated": true
+  },
+  {
+    "slug": "trene-instruksdesign-morsinstruksen",
+    "title": "Trene instruksdesign (morsinstruksen)",
+    "date": "2025-10-30",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      },
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      },
+      {
+        "name": "KIOSK-episode",
+        "slug": "kiosk-episode"
+      }
+    ],
+    "image": "/media/tile-trene-instruksdesign-morsinstruksen.png",
+    "excerpt": "Elevene bruker en engelskspråklig \"mother prompt\" til å bygge sin egen presise KI-instruks trinnvis, gjennom forberedelse, gjennomføring og refleksjon.",
+    "en_translated": true
+  },
+  {
+    "slug": "laeremetode-x-tripp-trapp-metoden-i-matematikk",
+    "title": "Læremetode X: Tripp-trapp metoden",
+    "date": "2025-03-10",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Matematikk",
+        "slug": "matematikk"
+      }
+    ],
+    "image": "/media/tile-laeremetode-x-tripp-trapp-metoden-i-matematikk.png",
+    "excerpt": "En trinnvis fremspørringsmetode i matematikk, illustrert med figurer for hvert steg.",
+    "en_translated": true
+  },
+  {
+    "slug": "laerestrategi-1",
+    "title": "Lærestrategi 1",
+    "date": "2025-03-10",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/logo.png",
+    "excerpt": "En ledetekst for å lage en detaljert tidsplan og læringsmål når du skal lære deg programmering på egen hånd.",
+    "en_translated": true
+  },
+  {
+    "slug": "trafikklyset",
+    "title": "Trafikklyset: retningslinjer for bruk av KI",
+    "date": "2025-03-31",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-trafikklyset.png",
+    "excerpt": "En visuell rødt/gult/grønt-modell for å kommunisere til elever når og hvordan KI kan brukes i en oppgave.",
+    "en_translated": true
+  },
+  {
+    "slug": "gronnsakssuppe",
+    "title": "Grønnsakssuppen ChatGPT",
+    "date": "2025-03-31",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-gronnsakssuppe.png",
+    "excerpt": "En analogi der en språkmodell sammenlignes med en grønnsakssuppe, for å forklare ledetekster og temperatur.",
+    "en_translated": true
+  },
+  {
+    "slug": "programmerern",
+    "title": "Programmerer'n",
+    "date": "2025-03-24",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-programmerern.png",
+    "excerpt": "En ledetekst for å utforske naturfag gjennom programmering, med en tilhørende elevinstruksjon.",
+    "en_translated": true
+  },
+  {
+    "slug": "quizzern",
+    "title": "Quizzer'n",
+    "date": "2025-03-24",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-quizzern.png",
+    "excerpt": "En ledetekst for å lære gjennom å bli utspurt av språkmodellen, med en tilhørende elevinstruksjon.",
+    "en_translated": true
+  },
+  {
+    "slug": "skriv-som-erlend-loe",
+    "title": "Skriv som Erlend Loe",
+    "date": "2025-04-07",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      }
+    ],
+    "image": "/media/tile-skriv-som-erlend-loe.png",
+    "excerpt": "En konkurranse der elevene prøver å få en KI-modell til å skrive som Erlend Loe uten å nevne forfatteren ved navn.",
+    "en_translated": true
+  },
+  {
+    "slug": "gjett-den-historiske-personen",
+    "title": "Gjett den historiske personen",
+    "date": "2025-04-07",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Norsk",
+        "slug": "norsk"
+      },
+      {
+        "name": "Samfunnsfag",
+        "slug": "samfunnsfag"
+      }
+    ],
+    "image": "/media/tile-gjett-den-historiske-personen.png",
+    "excerpt": "Elevene samtaler med en KI som er instruert til å være en historisk person, og skal gjette hvem det er.",
+    "en_translated": true
+  },
+  {
+    "slug": "lag-kompetansemal-med-ki",
+    "title": "Lag kompetansemål med KI",
+    "date": "2026-01-09",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      },
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      },
+      {
+        "name": "KIOSK-episode",
+        "slug": "kiosk-episode"
+      }
+    ],
+    "image": "/media/tile-lag-kompetansemal-med-ki.png",
+    "excerpt": "Bruk KI til å generere en positivt formulert vurderingsmatrise ut fra en oppgavebeskrivelse, med Yngves erfaring fra KIOSK-podden.",
+    "en_translated": true
+  },
+  {
+    "slug": "skrive-naturfagsrapport-med-ki",
+    "title": "Skrive naturfagsrapport med KI",
+    "date": "2026-01-09",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "KIOSK-episode",
+        "slug": "kiosk-episode"
+      }
+    ],
+    "image": "/media/tile-skrive-naturfagsrapport-med-ki.png",
+    "excerpt": "En metode der elever bruker KI til å utforske et tema, gjennomfører et ekte forsøk, og deretter kritisk kvalitetssikrer en KI-generert labrapport.",
+    "en_translated": true
+  },
+  {
+    "slug": "differensiering-med-ki",
+    "title": "Differensiering med KI",
+    "date": "2026-01-09",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      },
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      },
+      {
+        "name": "KIOSK-episode",
+        "slug": "kiosk-episode"
+      }
+    ],
+    "image": "/media/tile-differensiering-med-ki.png",
+    "excerpt": "Skreddersy oppgaver til elevers faglige nivå og interesser ved å la KI generere differensierte oppgaver ut fra elevens egen informasjon.",
+    "en_translated": true
+  },
+  {
+    "slug": "lage-html-simuleringer",
+    "title": "Lage HTML-simuleringer",
+    "date": "2026-01-09",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      },
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      },
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      },
+      {
+        "name": "KIOSK-episode",
+        "slug": "kiosk-episode"
+      }
+    ],
+    "image": "/media/tile-lage-html-simuleringer.png",
+    "excerpt": "Bruk KI til å lage interaktive HTML-simuleringer med sliders og knapper som elevene kan utforske i nettleseren.",
+    "en_translated": true
+  },
+  {
+    "slug": "barton",
+    "title": "Barton",
+    "date": "2026-02-10",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/logo.png",
+    "excerpt": "Tre ledetekster for drilloppgaver: systematisk minimal variasjon, begrepseksempler med grensetilfeller, og drilling med tydelig formål.",
+    "en_translated": true
+  },
+  {
+    "slug": "ki-og-vurdering",
+    "title": "KI og vurdering",
+    "date": "2026-04-14",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/logo.png",
+    "excerpt": "En samling ledetekster for å generere læringsmål, oppgaver, prøver og vurderingsrubrikker basert på SOLO-taksonomien, samt et vurderingsskjema til nedlasting.",
+    "en_translated": true
+  },
+  {
+    "slug": "vibbkoding",
+    "title": "Vibbkoding",
+    "date": "2026-04-16",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      }
+    ],
+    "image": "/media/logo.png",
+    "excerpt": "En vibbekoding-workshop der elevene bruker KI til å bygge et eget programmeringsprosjekt, med ledetekster for idémyldring og rapportskriving.",
+    "en_translated": true
+  },
+  {
+    "slug": "fysikk2608",
+    "title": "Instrukser til fysikkundervisning",
+    "date": "2026-08-07",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      }
+    ],
+    "subcategories": [],
+    "image": "/media/tile-fysikk2608.png",
+    "excerpt": "Seks ledetekster for fysikkundervisning på vgs: en sokratisk læringsassistent, begrepseksempler, diagnostiske spørsmål, feilslutningsøvelser, sensemaking-caser og HTML-simuleringer.",
+    "en_translated": true
+  },
+  {
+    "slug": "komme-i-gang-med-ki",
+    "title": "Komme i gang med KI",
+    "date": "2025-10-30",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "KIOSK-episode",
+        "slug": "kiosk-episode"
+      }
+    ],
+    "image": "/media/tile-komme-i-gang-med-ki.png",
+    "excerpt": "En metode for å bruke KI til å hjelpe elever i gang med faglige oppgaver, med Tor Arnes erfaringer fra klasserommet.",
+    "en_translated": true
+  },
+  {
+    "slug": "turing-testen",
+    "title": "Turing-testen",
+    "date": "2025-10-30",
+    "categories": [
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      },
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      },
+      {
+        "name": "KIOSK-episode",
+        "slug": "kiosk-episode"
+      }
+    ],
+    "image": "/media/tile-turing-testen.png",
+    "excerpt": "En klasseromsaktivitet der elevene gjenskaper Turing-testen ved å gjette hvem som er menneske og hvem som er KI.",
+    "en_translated": true
+  },
+  {
+    "slug": "python",
+    "title": "Rammeverk for grunnleggende python",
+    "date": "2025-11-03",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      },
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Programmering",
+        "slug": "programmering"
+      }
+    ],
+    "image": "/media/tile-python.png",
+    "excerpt": "Et læringsmål-rammeverk i tre nivåer (begynner, middels, avansert) for grunnleggende python-ferdigheter, med tre KI-treningsinstrukser elever kan lime inn.",
+    "en_translated": true
+  },
+  {
+    "slug": "lag-interaktive-simuleringer",
+    "title": "Lag interaktive simuleringer",
+    "date": "2025-11-13",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      },
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
+    "image": "/media/tile-lag-interaktive-simuleringer.png",
+    "excerpt": "En steg-for-steg-guide og ledetekst for å bruke KI til å lage kjørbare, interaktive HTML-simuleringer, med en levende bølgedemonstrasjon som eksempel.",
+    "en_translated": true
+  },
+  {
+    "slug": "stoffer",
+    "title": "Næringsstoffer",
+    "date": "2025-11-18",
+    "categories": [
+      {
+        "name": "Instrukser",
+        "slug": "instrukser"
+      },
+      {
+        "name": "Undervisningsaktiviteter",
+        "slug": "undervisningsaktiviteter"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Naturfag",
+        "slug": "naturfag"
+      }
+    ],
+    "image": "/media/logo.png",
+    "excerpt": "Kompetansemål om næringsstoffer, energiinnhold og kjemiske bindinger i mat, klare til å limes inn i en KI-samtale.",
+    "en_translated": true
+  },
+  {
+    "slug": "poeng",
+    "title": "Poengoversikt",
+    "date": "2025-12-02",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Om kunstig intelligens",
+        "slug": "om-kunstig-intelligens"
+      }
+    ],
+    "image": "/media/logo.png",
+    "excerpt": "Et interaktivt diagram som sammenligner poengsummer fra menneske- og KI-rettede prøver.",
+    "en_translated": true
+  },
+  {
+    "slug": "avgrens-pc-tilgang-under-vurdering",
+    "title": "Avgrens PC tilgang under vurdering",
+    "date": "2025-12-15",
+    "categories": [
+      {
+        "name": "Blogg",
+        "slug": "blogg"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Tips og triks",
+        "slug": "tips-og-triks"
+      }
+    ],
+    "image": "/media/tile-avgrens-pc-tilgang-under-vurdering.png",
+    "excerpt": "Hvordan bruke Microsoft Forms' låsemodus til å begrense hva elevenes skole-PC kan gjøre under en prøve.",
+    "en_translated": true
+  },
+  {
+    "slug": "botlab-no",
+    "title": "Botlab.no",
+    "date": "2025-12-15",
+    "categories": [
+      {
+        "name": "Andre ressurser",
+        "slug": "andre-ressurser"
+      }
+    ],
+    "subcategories": [
+      {
+        "name": "Nettside",
+        "slug": "nettside"
+      }
+    ],
+    "image": "/media/tile-botlab-no.png",
+    "excerpt": "En ressursside med nyttige instrukser for ulike typer læring, utviklet av lærere og elever ved Glemmen skole.",
+    "en_translated": true
   }
 ]

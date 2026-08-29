@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symbiotisk tilbakemelding – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "nav-instrukser": {"no": "Instrukser", "en": "Instructions"},
+    "nav-blogg": {"no": "Blogg", "en": "Blog"},
+    "nav-andre-ressurser": {"no": "Andre ressurser", "en": "Other resources"},
+    "nav-toggle-aria": {"no": "Åpne meny", "en": "Open menu"},
+    "article-date": {"no": "Publisert 9. oktober 2025", "en": "Published October 9, 2025"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges">
+        <a class="badge" href="/alle-innlegg/?kategori=instrukser">Instrukser</a>
+        <a class="badge" href="/alle-innlegg/?kategori=undervisningsaktiviteter">Undervisningsaktiviteter</a>
+        <a class="badge" href="/alle-innlegg/?under=samfunnsfag">Samfunnsfag</a>
+        <a class="badge" href="/alle-innlegg/?under=fremmedsprak">Fremmedspråk</a>
+        <a class="badge" href="/alle-innlegg/?under=naturfag">Naturfag</a>
+      </div>
+      <h1 class="article-title">Symbiotisk tilbakemelding</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 9. oktober 2025</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang-block="no">
+        <p>Dette går ut på å gi tilbakemelding basert på menneskelige vurderinger og bruke KI til å sammenfatte dette. Du kan gjennomføre dette ved å be studentene om å gi tilbakemelding til en elev på hans presentasjon, og deretter be KI om å sammenfatte det elevene har skrevet. Det gir en mulighet til å styre hvordan tilbakemeldingen skal se ut og kanskje filtrere ut unkonstruktive tilbakemeldinger. Under kan du lese et eksempel fra min undervisning.</p>
+
+        <h2 class="wp-block-heading">Eksempel fra min undervisning</h2>
+
+        <p>Jeg hadde en økt med studenter på Universitetet i Oslo hvor vi skulle jobbe med presentasjonsteknikk. Dette opplegget bygger på en artikkel av Estrada et al. (2005), hvor de går gjennom hva som gir en god presentasjon. Anbefaler den artikkelen.</p>
+
+        <p>I opplegget skulle alle studentene framføre en del av en presentasjon, 3 minutter, enten et helt opplegg eller bare introduksjonen. 3 minutter er veldig kort og ideelt skulle jeg gitt mer tid, men denne gangen hadde jeg bare denne ene økten med alle studentene og ville gi alle en sjanse.</p>
+
+        <p>En etter en gikk studentene opp og presenterte sitt. Deretter ba jeg de gi tilbakemelding i et nettskjema (innfyllingskjema på nett) som jeg hadde opprettet på hver student. Her ba jeg de om å skrive hva som var bra for hver enkelt student og hva hen kunne gjøre bedre. Deretter tok de samlede svarene fra studentene og fikk KI til å generer tilbakemelding.</p>
+
+        <p>Jeg skrev følgende ledetekst og lastet opp artikkelen av Estrada et al.</p>
+
+        <hr>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Ledetekst</p>
+          <pre class="copy-block-content">Du skal hjelpe meg å gi tilbakemelding til en rekke studenter som har hatt foredrag for hverandre. I forkant av presentasjonen har vi jobbet med en artikkel som jeg har lastet opp her av Estrada et al. (2005) hvor de kategoriserer tre aspekter ved en god muntlig presentasjon og hvordan man kan gjøre sin bedre. For å generere tilbakemeldingen til hver student, ønsker jeg at du gir en detaljert og utfyllende tilbakemelding på hver av områdene separat - først det som har med content å gjøre, deretter slides og til slutt presentation. Ha fokus på den positive tilbakemeldingen - hva som var bra, men trekk også frem hva tilhørerne mente at kunne bli bedre. Prøv å knytt tilbakemeldingen til det som Estrada et al. diskuterer i sin artikkel. Dersom det var uenighet i tilbakemeldingene, kommenter dette og illustrer gjerne med direkte sitater fra tilbakemeldingene. Ikke ta med useriøs tilbakemelding som går på person eller som er ukonstruktiv. Øverst i tilbakemeldingen skal du skrive "Tilbakemelding [NAVN]. Denne tilbakemeldingen lener seg på artikkelen The 10-Minute Oral Presentation: What Should I Focus on? av Estrada et al. (2005)." Dette er en preinstruks og jeg skal gi deg tilbakemeldingene fra studentene en etter en. Svar med "Takk for info, jeg er klar for å generere første tilbakemelding."</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Kopier
+          </button>
+        </div>
+
+        <hr>
+
+        <p>Jeg brukte GPT UiO med modellen GPT-4 Omni.</p>
+
+        <figure class="wp-block-image size-large"><img src="/media/symbiotisk-gpt-uio-skjermbilde-1.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/symbiotisk-gpt-uio-skjermbilde-2.png" alt=""></figure>
+
+        <p>Her er den "rå" tilbakemeldingen en av studentene fikk på sin presentasjon (jeg har fått tillatelse til å dele).</p>
+
+        <p><strong>Innhold (content)</strong></p>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-innhold-1.png" alt=""></figure></div>
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-innhold-2.png" alt=""></figure></div>
+        </div>
+
+        <p><strong>Lysbilder (slides)</strong></p>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-slides-1.png" alt=""></figure></div>
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-slides-2.png" alt=""></figure></div>
+        </div>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-slides-3.png" alt=""></figure></div>
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-slides-4.png" alt=""></figure></div>
+        </div>
+
+        <p>Jeg matet så alt dette inn i GPT UiO, sammen med artikkelen og ledeteksten, og fikk følgende tilbake.</p>
+
+        <hr>
+
+        <p><em>Denne tilbakemeldingen lener seg på artikkelen <em>The 10-Minute Oral Presentation: What Should I Focus on?</em> av Estrada et al. (2005).</em></p>
+
+        <p><strong><em>Content - Positive tilbakemeldinger:</em></strong></p>
+
+        <p><em>Studentene fremhever at presentasjonen inneholdt relevante bilder og informasjon som var lett å forstå. Dette går hånd i hånd med Estrada et al.'s anbefaling om å ha klare konsepter og relevans for publikum. De sa at informasjonen var tydelig og målrettet mot gruppa, noe som gjør det enkelt for de som ikke har bakgrunn i farmasi å følge med. Dette samsvarer med anbefalingen om å tydelig definere viktige konsepter og å gjøre dem relevante.</em></p>
+
+        <p><strong><em>Content - Forbedringsområder:</em></strong></p>
+
+        <p><em>Det er nevnt at det kunne vært en klarere forklaring på forskjellen mellom virkestoff og hjelpestoff. Selv om noen ikke har noe konkret å påpeke, er dette et punkt for potensielle forbedringer ved å sikre at essensielle konsepter er klart definert, slik Estrada et al. foreslår. Uenigheter i tilbakemeldingene er ikke tydelige, men den generelle oppfatningen synes å være positive.</em></p>
+
+        <p><strong><em>Slides - Positive tilbakemeldinger:</em></strong></p>
+
+        <p><em>Studentene roser klare og oversiktlige bilder, relevant tekst, og enkle diagrammer som ikke er overveldende. Dette er i tråd med Estrada et al.'s anbefaling om å bruke forståelige og klare slides med enkelt layout relevante bilder.</em></p>
+
+        <p><strong><em>Slides - Forbedringsområder:</em></strong></p>
+
+        <p><em>Det ble foreslått å inkludere flere bilder og redusere mengden tekst på noen slides. Estrada et al. anbefaler å bruke korte setninger og begrense antallet ord per slide, noe som kan implementeres for å forbedre slides ytterligere.</em></p>
+
+        <p><strong><em>Presentation - Positive tilbakemeldinger:</em></strong></p>
+
+        <p><em>Presentasjonen ble utført med fri form fra manus og med en klar og tydelig stemme. Studentene merker også at tempoet var godt, og det var opprettholdt god øyekontakt med publikum. Disse kvalitetene er lik Estrada et al.'s anbefalinger for å bruke en tydelig stemme, variere tonen, og opprettholde øyekontakt som viktige aspekter ved presentasjonsstilen.</em></p>
+
+        <p><strong><em>Presentation - Forbedringsområder:</em></strong></p>
+
+        <p><em>Det ble anbefalt å redusere fokus på skjermen og å minimer "um"-lyder. Å unngå å se for mye på slides kan forbedres ved å praktisere mer og være mer engasjerende med publikum, som foreslått i artikkelen. Kommentarer tyder også på at det var litt avhengighet av slides, hvilket kan håndteres med mer frihet fra manus.</em></p>
+
+        <p><em>Samlet sett viser tilbakemeldingene en positiv opplevelse av presentasjonen, med noen mindre forbedringsområder som tydelig kan adresseres for å sikre en enda mer effektiv muntlig fremføring.</em></p>
+
+        <hr>
+
+        <h2 class="wp-block-heading">Er dette nyttig?</h2>
+
+        <p>Jeg tror dette kan være en nyttig måte å gi tilbakemelding på av flere grunner.</p>
+
+        <ul class="wp-block-list">
+          <li>KI som et filter som kan filtrere bort useriøse tilbakemeldinger</li>
+          <li>Ved å skrive en god preinstruks kan du velge hva tilbakemeldingen skal fokusere på og forankre det i relevant litteratur slik jeg har gjort overfor.</li>
+          <li>Du kan også velge hvordan KI skal gi tilbakemelding - fokusere på det positive osv. Det er mye forskning som viser at positiv tilbakemelding mer effektiv enn negativ.</li>
+          <li>Du kan sørge for at tilbakemeldingen er på oppgave- og prosessnivå istedet for på personnivå. (Hattie, J., &amp; Timperley, H., 2007).</li>
+        </ul>
+
+        <h2 class="wp-block-heading">Andre erfaringer</h2>
+
+        <ul class="wp-block-list">
+          <li>Noen ganger klarte ikke KI å lese riktig kjønn basert på navnet alene, så dette måtte jeg klargjøre.</li>
+          <li>Jeg ga også studentene de "rå" tilbakemeldingene siden alle var konstruktive med hverandre. Jeg kan se for meg at dersom det hadde vært flere (jeg hadde en 12-13 stykker) så hadde det tatt for lang tid å skumme gjennom alle.</li>
+          <li>Jeg spurte studentene om de syntes det var interessant å få tilbakemelding fra KI, men de tilbakemeldingene jeg fikk sa at de syntes det var mer spennende å lese de "rå" tilbakemeldingene.</li>
+        </ul>
+
+        <h2 class="wp-block-heading">Forbedringer neste gang</h2>
+
+        <p>Studentene hadde litt dårlig tid til å gi tilbakemelding og se hverandres presetnasjoner. 3 minutter er forlite. Dessuten vil jeg neste gang instruere dem om å ta notater for hånd underveis slik at de har noe å referere til når de skriver inn på PC etterpå. Det fungerer veldig godt å ha en konkret artikkel å lene seg på.</p>
+
+        <h2 class="wp-block-heading">Referanser</h2>
+
+        <p>Estrada, C. A., Patel, S. R., Talente, G., &amp; Kraemer, S. (2005). The 10-Minute Oral Presentation: What Should I Focus on? <em>The American Journal of the Medical Sciences</em>, <em>329</em>(6), 306–309. <a href="https://doi.org/10.1097/00000441-200506000-00010">https://doi.org/10.1097/00000441-200506000-00010</a></p>
+
+        <p>Hattie, J., &amp; Timperley, H. (2007). The Power of Feedback. <em>Review of Educational Research</em>, <em>77</em>(1), 81–112. <a href="https://doi.org/10.3102/003465430298487">https://doi.org/10.3102/003465430298487</a></p>
+      </div>
+
+      <div data-lang-block="en">
+        <p>This is about giving feedback based on human judgments and using AI to summarize it. You can carry this out by asking students to give feedback to a fellow student on their presentation, and then asking AI to summarize what the students have written. This gives you a way to steer what the feedback looks like, and perhaps filter out unconstructive comments. Below you can read an example from my own teaching.</p>
+
+        <h2 class="wp-block-heading">Example from my teaching</h2>
+
+        <p>I ran a session with students at the University of Oslo where we were working on presentation technique. This activity builds on an article by Estrada et al. (2005), who go through what makes a good presentation. I recommend that article.</p>
+
+        <p>In the session, every student had to deliver part of a presentation, 3 minutes, either a full talk or just the introduction. 3 minutes is very short, and ideally I would have given more time, but this time I only had this one session with all the students and wanted to give everyone a chance.</p>
+
+        <p>One by one, the students went up and presented. I then asked them to give feedback in an online form I had created for each student. Here I asked them to write what was good about each individual student's presentation and what they could do better. I then took the combined responses from the students and had AI generate feedback.</p>
+
+        <p>I wrote the following prompt and uploaded the article by Estrada et al.</p>
+
+        <hr>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Prompt</p>
+          <pre class="copy-block-content">You're going to help me give feedback to a number of students who have given presentations to each other. Ahead of the presentations we worked on an article I've uploaded here by Estrada et al. (2005), where they categorize three aspects of a good oral presentation and how to improve each one. To generate the feedback for each student, I want you to give detailed, thorough feedback on each of the areas separately - first content, then slides, and finally presentation. Focus on the positive feedback - what was good - but also bring out what the audience felt could be improved. Try to tie the feedback back to what Estrada et al. discuss in their article. If there was disagreement in the feedback, note this and feel free to illustrate it with direct quotes from the feedback. Don't include unserious feedback that targets the person or is unconstructive. At the top of the feedback, write "Feedback for [NAME]. This feedback draws on the article The 10-Minute Oral Presentation: What Should I Focus on? by Estrada et al. (2005)." This is a pre-instruction, and I'll give you the feedback from the students one at a time. Reply with "Thanks for the info, I'm ready to generate the first piece of feedback."</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy
+          </button>
+        </div>
+
+        <hr>
+
+        <p>I used GPT UiO with the GPT-4 Omni model.</p>
+
+        <figure class="wp-block-image size-large"><img src="/media/symbiotisk-gpt-uio-skjermbilde-1.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/symbiotisk-gpt-uio-skjermbilde-2.png" alt=""></figure>
+
+        <p>Here is the "raw" feedback one of the students got on their presentation (I've been given permission to share it).</p>
+
+        <p><strong>Content</strong></p>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-innhold-1.png" alt=""></figure></div>
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-innhold-2.png" alt=""></figure></div>
+        </div>
+
+        <p><strong>Slides</strong></p>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-slides-1.png" alt=""></figure></div>
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-slides-2.png" alt=""></figure></div>
+        </div>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-slides-3.png" alt=""></figure></div>
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/symbiotisk-tilbakemelding-slides-4.png" alt=""></figure></div>
+        </div>
+
+        <p>I fed all of this into GPT UiO, together with the article and the prompt, and got the following back.</p>
+
+        <hr>
+
+        <p><em>This feedback draws on the article <em>The 10-Minute Oral Presentation: What Should I Focus on?</em> by Estrada et al. (2005).</em></p>
+
+        <p><strong><em>Content - Positive feedback:</em></strong></p>
+
+        <p><em>The students highlight that the presentation contained relevant images and information that was easy to understand. This goes hand in hand with Estrada et al.'s recommendation to have clear concepts and relevance for the audience. They said the information was clear and targeted at the group, making it easy for those without a pharmacy background to follow along. This matches the recommendation to clearly define key concepts and make them relevant.</em></p>
+
+        <p><strong><em>Content - Areas for improvement:</em></strong></p>
+
+        <p><em>It was mentioned that the difference between active ingredient and excipient could have been explained more clearly. Even though some had nothing concrete to point to, this is a point for potential improvement by ensuring essential concepts are clearly defined, as Estrada et al. suggest. Disagreements in the feedback aren't obvious, but the general impression seems to be positive.</em></p>
+
+        <p><strong><em>Slides - Positive feedback:</em></strong></p>
+
+        <p><em>The students praise clear and well-organized images, relevant text, and simple diagrams that aren't overwhelming. This is in line with Estrada et al.'s recommendation to use understandable, clear slides with a simple layout and relevant images.</em></p>
+
+        <p><strong><em>Slides - Areas for improvement:</em></strong></p>
+
+        <p><em>It was suggested that more images be included and the amount of text on some slides be reduced. Estrada et al. recommend using short sentences and limiting the number of words per slide, which could be implemented to further improve the slides.</em></p>
+
+        <p><strong><em>Presentation - Positive feedback:</em></strong></p>
+
+        <p><em>The presentation was delivered freely from the script, with a clear, confident voice. The students also note that the pace was good, and good eye contact with the audience was maintained. These qualities match Estrada et al.'s recommendations to use a clear voice, vary tone, and maintain eye contact as important aspects of presentation style.</em></p>
+
+        <p><strong><em>Presentation - Areas for improvement:</em></strong></p>
+
+        <p><em>It was recommended to reduce focus on the screen and minimize "um" sounds. Avoiding looking too much at the slides could be improved by practicing more and being more engaging with the audience, as suggested in the article. Comments also indicate some reliance on the slides, which could be addressed with more freedom from the script.</em></p>
+
+        <p><em>Overall, the feedback shows a positive experience of the presentation, with a few minor areas for improvement that can clearly be addressed to ensure an even more effective oral delivery.</em></p>
+
+        <hr>
+
+        <h2 class="wp-block-heading">Is this useful?</h2>
+
+        <p>I think this can be a useful way of giving feedback for several reasons.</p>
+
+        <ul class="wp-block-list">
+          <li>AI acts as a filter that can filter out unserious feedback</li>
+          <li>By writing a good pre-instruction, you can choose what the feedback should focus on and ground it in relevant literature, as I've done above.</li>
+          <li>You can also choose how the AI should give feedback - focusing on the positive, etc. There's a lot of research showing positive feedback is more effective than negative feedback.</li>
+          <li>You can make sure the feedback stays at the task and process level rather than the personal level. (Hattie, J., &amp; Timperley, H., 2007).</li>
+        </ul>
+
+        <h2 class="wp-block-heading">Other experiences</h2>
+
+        <ul class="wp-block-list">
+          <li>Sometimes the AI couldn't correctly infer gender from the name alone, so I had to clarify this.</li>
+          <li>I also gave the students the "raw" feedback, since everyone had been constructive with each other. I can imagine that with a bigger group (I had 12-13 students) it would have taken too long to skim through all of it.</li>
+          <li>I asked the students whether they found it interesting to get feedback from AI, but the feedback I got back said they found it more exciting to read the "raw" feedback.</li>
+        </ul>
+
+        <h2 class="wp-block-heading">Improvements for next time</h2>
+
+        <p>The students had too little time to give feedback and watch each other's presentations. 3 minutes is too little. Also, next time I'll instruct them to take notes by hand as they go, so they have something to refer back to when typing it up on the computer afterwards. Having a concrete article to lean on works really well.</p>
+
+        <h2 class="wp-block-heading">References</h2>
+
+        <p>Estrada, C. A., Patel, S. R., Talente, G., &amp; Kraemer, S. (2005). The 10-Minute Oral Presentation: What Should I Focus on? <em>The American Journal of the Medical Sciences</em>, <em>329</em>(6), 306–309. <a href="https://doi.org/10.1097/00000441-200506000-00010">https://doi.org/10.1097/00000441-200506000-00010</a></p>
+
+        <p>Hattie, J., &amp; Timperley, H. (2007). The Power of Feedback. <em>Review of Educational Research</em>, <em>77</em>(1), 81–112. <a href="https://doi.org/10.3102/003465430298487">https://doi.org/10.3102/003465430298487</a></p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/partials.js" defer></script>
+  <script src="/js/nav.js" defer></script>
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+  <script src="/js/copy-block.js" defer></script>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

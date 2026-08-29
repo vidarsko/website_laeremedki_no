@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mattetrenern – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "nav-instrukser": {"no": "Instrukser", "en": "Instructions"},
+    "nav-blogg": {"no": "Blogg", "en": "Blog"},
+    "nav-andre-ressurser": {"no": "Andre ressurser", "en": "Other resources"},
+    "nav-toggle-aria": {"no": "Åpne meny", "en": "Open menu"},
+    "article-date": {"no": "Publisert 27. oktober 2025", "en": "Published October 27, 2025"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges"><a class="badge" href="/alle-innlegg/?kategori=instrukser">Instrukser</a><a class="badge" href="/alle-innlegg/?kategori=undervisningsaktiviteter">Undervisningsaktiviteter</a><a class="badge" href="/alle-innlegg/?under=matematikk">Matematikk</a></div>
+      <h1 class="article-title">Mattetrenern</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 27. oktober 2025</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang-block="no">
+        <p>Mattetreneren er en pre-instruks som elever kan bruke for å trene matematikk med KI.</p>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Ledetekst</p>
+          <pre class="copy-block-content">Jeg skal lære meg om et matematikk-tema. Spør meg først hvilket tema jeg skal lære om. Deretter skal du trene meg ved å gi meg ett og ett eksempel som jeg skal forsøke å løse. Start med et kjempeenkelt, helt fullstendig banalt, eksempel og forklar meg hvordan man løser det. Nå skal du spørre om oppgaven var for vanskelig og om jeg ønsker et enklere eksempel - hvis jeg gjør det, så senk vanskelighetsgraden. Hvis ikke, så gir du meg en tilsvarende enkel oppgave som jeg skal prøve å løse. Jeg gir så svaret mitt tilbake til deg. Da skal du si "La oss se om du har løst riktig:" også løse oppgaven selv og sammenlikne med mitt svar. Deretter skal du gi meg to nummererte valg: 1) Om jeg ønsker å få en helt lik oppgave, eller 2) om jeg ønsker at du skal øke vanskelighetsgraden ØRLITE grann. Isåfall skal du øke vanskelighetsgraden litt. Det du da skal gjøre, er å først gi meg et eksempel på en slik ny oppgave og forklare meg hvordan man løser den. Så skal du gi meg tre nummererte valg 1) Det var noe jeg ikke forstod og jeg ønsker at du forklarer bedre? 2) Det jeg synes den nye oppgaven var for vanskelig og at vi skal gjøre en oppgave som er litt enklere (men fortsatt vanskeligere enn nivået vi kom fra), eller 3) om jeg forstod det og ønsker å gå videre. Deretter går vi tilbake til oppgave-og-svar-modusen vi hadde til å begynne med. Og slik skal vi bare fortsette.</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Kopier
+          </button>
+        </div>
+      </div>
+
+      <div data-lang-block="en">
+        <p>The math trainer is a pre-instruction that students can use to practice math with AI.</p>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Prompt</p>
+          <pre class="copy-block-content">I'm going to learn about a math topic. First ask me which topic I'm going to learn about. Then train me by giving me one example at a time that I'll try to solve. Start with a super-simple, completely trivial example and explain to me how to solve it. Now ask whether the problem was too hard and whether I want an easier example - if I say yes, lower the difficulty. If not, give me a similarly easy problem for me to try to solve. I'll then give you my answer. When I do, say "Let's see if you solved it correctly:", then solve the problem yourself and compare it with my answer. Next, give me two numbered choices: 1) whether I want another problem at exactly the same difficulty, or 2) whether I want you to raise the difficulty by a TINY bit. If I choose that, raise the difficulty slightly. What you should then do is first give me an example of such a new problem and explain how to solve it. Then give me three numbered choices: 1) there was something I didn't understand and I want you to explain it better, 2) I thought the new problem was too hard and want a problem that's a bit easier (but still harder than the level we came from), or 3) I understood it and want to move on. We then go back to the problem-and-answer mode we had at the start. And we just keep going like that.</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/partials.js" defer></script>
+  <script src="/js/nav.js" defer></script>
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+  <script src="/js/copy-block.js" defer></script>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

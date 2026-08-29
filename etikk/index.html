@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etikk – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "nav-instrukser": {"no": "Instrukser", "en": "Instructions"},
+    "nav-blogg": {"no": "Blogg", "en": "Blog"},
+    "nav-andre-ressurser": {"no": "Andre ressurser", "en": "Other resources"},
+    "nav-toggle-aria": {"no": "Åpne meny", "en": "Open menu"},
+    "article-date": {"no": "Publisert 16. januar 2025", "en": "Published January 16, 2025"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges"><a class="badge" href="/alle-innlegg/?kategori=blogg">Blogg</a><a class="badge" href="/alle-innlegg/?under=om-kunstig-intelligens">Om kunstig intelligens</a></div>
+      <h1 class="article-title">Etikk</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 16. januar 2025</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang-block="no">
+        <p>Kunstig intelligens medfører også mange spørsmål som har med etikk og moral å gjøre. I denne bloggposten belyser jeg noen av disse sidene.</p>
+
+        <p><em>Dersom du har kommentarer, innspill eller kritikk til denne bloggposten, setter jeg stor pris på om du <a href="https://www.mn.uio.no/personer/adm/fak/studieseksjonen/vidarsko/index.html">kontakter meg</a>.</em></p>
+
+        <h2 class="wp-block-heading">Bias</h2>
+
+        <p>Når fanger skal prøveløslates fra fengsel er et av de sentrale spørsmålene man stiller seg hva faren for gjentakelse er. Dommeren bruker ofte data som tidligere mønstre av kriminalitet og oppførsel i fengsel når de vurderer denne risikoen. Men dette er et komplekst spørsmål med mange faktorer.</p>
+
+        <p>Se nå for deg at en dommer ønsker å få hjelp fra et KI-system. Hun samler inn data om personer som tidligere har sittet i fengsel for lovbrudd, og hvorvidt de ble tatt for samme kriminalitet når de kom ut. Resultatet blir en KI-modell som gir dommeren en risikoscore for hver person.</p>
+
+        <p>Men hva hvis dataene som modellen er trent på kommer fra et sterkt segregert samfunn, hvor f.eks. innvandrere lever i fattige strøk med mye kriminalitet? I strøk med mye kriminalitet vil det oftere være høyere tilstedeværelse av politi og dermed høyere sjanse for å bli tatt for kriminalitet slik som besittelse av narkotika, noe en ressurssterk person sannsynligvis kan få holde på med i fred og ro i familiens villa. Siden KI-modellene kun lærer seg å se etter korrelasjoner i data, vil den på bakgrunn av treningen hevde at det er større sjanse for gentakelse av kriminalitet dersom personen har innvandrerbakgrunn. Denne <em>skjevheten</em> i datamaterialet kalles bias, og kan føre til urettferdige beslutninger dersom de overlates til KI-modeller.</p>
+
+        <p>Dette tankeeksperimentet er ikke bare oppspinn. I mange amerikanske delstater så benyttes en algoritme som heter COMPAS, som basert på alder, kriminalitet, bosted osv. gir et tall for risikoen at en tiltalt skal begå nye lovbrudd. I 2016 publiserte journalister fra ProPublica en artikkel hvor de hevdet at COMPAS hadde rasistiske bias (Larson et al., 2016). Northpointe (de som har laget COMPAS) svarte på ProPublicas kritikk og la fram flere argumenter for å begrunne algoritmens design, og mente at algoritmen ikke var rasistisk (Northpointe, 2016). Temaet er komplekst og kommer innom flere filosofiske spørsmål som "Hva er egentlig rettferdighet?", men viser i det minste at tankeløs bruk av KI-verktøy ikke er lurt.</p>
+
+        <p>Bias kan også komme til syne i mindre dramatiske situasjoner. For eksempel er ChatGPT trent på store mengder engelsk tekst. Dette fører til et bias hvor teksten ChatGPT kan være preget av vestlig, og spesielt amerikansk, tankegang. Et annet eksempel, er i bildegenerering. hvor skjevhetene komme godt til uttrykk (Baum og Villasenor, 2024). Jeg ba ChatGPT om å lage et bilde av rike mennesker.</p>
+
+        <figure class="wp-block-image size-full is-resized"><img src="/media/etikk-rike-mennesker.webp" alt=""><figcaption class="wp-element-caption">ChatGPT. Ledetekst: Make an image of rich people.</figcaption></figure>
+
+        <p>Som vi ser av bildet over er alle hvite mennesker. Det er ikke så rart da troligvis et flertall av bildene som KI-modellen er trent på har rike mennesker avbildet som hvite.</p>
+
+        <h2 class="wp-block-heading">Verdier, politikk og definisjonen av sannhet</h2>
+
+        <p>Etterhvert som folk blir mer vant til å bruke språkmodeller for svar på ting, gir det mye makt til de som utvikler dem. Som et eksempel spurte jeg ChatGPT (utviklet av amerikanere) og DeepSeek (utviklet av kinesere) det samme spørsmålet (28.01.25): "Is China a democracy?"</p>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column">
+            <p>ChatGPT</p>
+            <figure class="wp-block-image size-full"><img src="/media/etikk-chatgpt-kina-demokrati.png" alt=""></figure>
+          </div>
+          <div class="wp-block-column">
+            <p>DeepSeek</p>
+            <figure class="wp-block-image size-full"><img src="/media/etikk-deepseek-kina-demokrati.png" alt=""></figure>
+          </div>
+        </div>
+
+        <p>Dette viser helt tydelig hvordan de som lager KI-modeller kan inkorporere sine verdier og syn på verden. I tillegg til at språkmodeller kan hallusinere, vil de også gi svar som reflekterer synet til de som har trent språkmodellen.</p>
+
+        <h2 class="wp-block-heading">Hvem er kunstner?</h2>
+
+        <p>I 2022 deltok Jason M. Allen i Colorados delstatsmesses (Colorado state fair) kunstkonkurranse. Han sendte inn 3 bilder til konkurransen, hvorav det mest kjente, <em>Théâtre D'opéra Spatial</em>, så slik ut.</p>
+
+        <figure class="wp-block-image size-large"><img src="/media/etikk-theatre-dopera-spatial.png" alt=""></figure>
+
+        <p><em>Théâtre D'opéra Spatial</em>. Copyright? Jason M. Allen.</p>
+
+        <p>Bildet vant førsteplassen i kategorien "digital arts/digitally-manipulated photography"-kategorien og Jason kunne tusle hjem med 300 dollar.</p>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/etikk-kunstmesse.png" alt=""></figure></div>
+          <div class="wp-block-column">
+            <p>Det gikk rolig for seg på messen, men når brukere på twitter fikk tak i nyheten spredde det seg raskt og ble gjenstand for stor debatt. Det viste seg nemlig at verktøyet Jason hadde brukt for å produsere bildet var MidJourney - et KI-verktøy for å generere bilder. Det må nevnes at Jason selv ikke gjorde noe forsøk på å skjule dette - han deklarerte det da han la fra bildene sine.</p>
+            <p>Mange mener at å bruke KI til å generere bilder eller tekst ikke er det samme som å faktisk være en kunstner og eie verket som kommer ut.</p>
+          </div>
+        </div>
+
+        <p>Det kan være lett å si seg enig i det. Men samtidig - hvor går grensen?</p>
+
+        <h2 class="wp-block-heading">Har man opphavsrett på inspirasjon?</h2>
+
+        <p>Ingen er oppvokst i et vakuum. Fra dagen vi blir født bombarderes vi av inntrykk - språk, tekster, bilder, videoer, historier og opplevelser. Når vi som mennesker produserer ny kunst eller innhold, så låner vi fra det vi har sett og erfart, og legger kanskje en liten bit av sjela vår i det slik at det blir nytt. Sålenge vi ikke direkte kopierer det vi har blitt inspirert av, er de fleste enige i at resultatet tilhører oss.</p>
+
+        <p>Hvor forskjellig er det fra det kunstig intelligens produserer?</p>
+
+        <p>Noen av de som trener KI-modeller på opphavsbeskyttet data hevder nettopp dette - at å trene en KI-modell er analogt til å la seg inspirere av andres verker for å produsere sitt eget.</p>
+
+        <h2 class="wp-block-heading">Referanser</h2>
+
+        <p>Larson, J., Mattu, S., Kirchner, L., &amp; Angwin, J. (2016). <em>How We Analyzed the COMPAS Recidivism Algorithm</em>. ProPublica. <a href="https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm">https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm</a></p>
+
+        <p>Northpointe Inc. Research department. (2016). <em>COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity</em>. <a href="https://www.documentcloud.org/documents/2998391-ProPublica-Commentary-Final-070616/?embed=1&amp;mode=document">https://www.documentcloud.org/documents/2998391-ProPublica-Commentary-Final-070616/?embed=1&amp;mode=document</a></p>
+
+        <p>Baum, J., &amp; Villasenor, J. (2024). <em>Rendering misrepresentation: Diversity failures in AI image generation</em>. <a href="https://www.brookings.edu/articles/rendering-misrepresentation-diversity-failures-in-ai-image-generation/">https://www.brookings.edu/articles/rendering-misrepresentation-diversity-failures-in-ai-image-generation/</a></p>
+      </div>
+
+      <div data-lang-block="en">
+        <p>Artificial intelligence also raises many questions related to ethics and morality. In this blog post I shed light on some of these aspects.</p>
+
+        <p><em>If you have comments, input, or criticism regarding this blog post, I'd greatly appreciate it if you <a href="https://www.mn.uio.no/personer/adm/fak/studieseksjonen/vidarsko/index.html">contacted me</a>.</em></p>
+
+        <h2 class="wp-block-heading">Bias</h2>
+
+        <p>When prisoners are up for parole, one of the central questions asked is what the risk of reoffending is. Judges often use data such as past patterns of crime and behavior in prison when assessing this risk. But this is a complex question with many factors.</p>
+
+        <p>Now imagine a judge wants help from an AI system. She collects data on people who have previously been imprisoned for crimes, and whether they were caught for the same type of crime after being released. The result is an AI model that gives the judge a risk score for each person.</p>
+
+        <p>But what if the data the model is trained on comes from a strongly segregated society, where, say, immigrants live in poor neighborhoods with high crime rates? In high-crime neighborhoods there tends to be a greater police presence, and thus a higher chance of being caught for crimes like drug possession — something a wealthy person could probably get away with undisturbed in the family villa. Since AI models only learn to look for correlations in data, based on its training it will claim there's a greater chance of reoffending if the person has an immigrant background. This <em>skew</em> in the data material is called bias, and can lead to unfair decisions if they're left to AI models.</p>
+
+        <p>This thought experiment isn't just speculation. Many American states use an algorithm called COMPAS, which, based on age, criminal history, place of residence, and so on, produces a score for the risk that a defendant will commit new crimes. In 2016, journalists from ProPublica published an article claiming that COMPAS had racial bias (Larson et al., 2016). Northpointe (the company behind COMPAS) responded to ProPublica's criticism and presented several arguments defending the algorithm's design, arguing that the algorithm was not racist (Northpointe, 2016). The topic is complex and touches on several philosophical questions like "What is fairness, really?" — but it at least shows that thoughtless use of AI tools isn't wise.</p>
+
+        <p>Bias can also show up in less dramatic situations. For example, ChatGPT is trained on huge amounts of English text. This creates a bias where ChatGPT's output can be colored by Western, and especially American, ways of thinking. Another example is image generation, where such biases become clearly visible (Baum and Villasenor, 2024). I asked ChatGPT to make an image of rich people.</p>
+
+        <figure class="wp-block-image size-full is-resized"><img src="/media/etikk-rike-mennesker.webp" alt=""><figcaption class="wp-element-caption">ChatGPT. Prompt: Make an image of rich people.</figcaption></figure>
+
+        <p>As we can see from the image above, everyone is white. That's not so surprising, since a majority of the images the AI model is trained on probably depict rich people as white.</p>
+
+        <h2 class="wp-block-heading">Values, politics, and the definition of truth</h2>
+
+        <p>As people get more used to using language models for answers, this gives a lot of power to those who develop them. As an example, I asked ChatGPT (developed by Americans) and DeepSeek (developed by Chinese) the same question (28.01.25): "Is China a democracy?"</p>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column">
+            <p>ChatGPT</p>
+            <figure class="wp-block-image size-full"><img src="/media/etikk-chatgpt-kina-demokrati.png" alt=""></figure>
+          </div>
+          <div class="wp-block-column">
+            <p>DeepSeek</p>
+            <figure class="wp-block-image size-full"><img src="/media/etikk-deepseek-kina-demokrati.png" alt=""></figure>
+          </div>
+        </div>
+
+        <p>This clearly shows how the people who build AI models can bake their own values and worldview into them. In addition to language models being able to hallucinate, they'll also give answers that reflect the views of whoever trained them.</p>
+
+        <h2 class="wp-block-heading">Who is the artist?</h2>
+
+        <p>In 2022, Jason M. Allen entered the Colorado State Fair's art competition. He submitted 3 images to the competition, the most famous of which, <em>Théâtre D'opéra Spatial</em>, looked like this.</p>
+
+        <figure class="wp-block-image size-large"><img src="/media/etikk-theatre-dopera-spatial.png" alt=""></figure>
+
+        <p><em>Théâtre D'opéra Spatial</em>. Copyright? Jason M. Allen.</p>
+
+        <p>The image won first place in the "digital arts/digitally-manipulated photography" category, and Jason walked away with 300 dollars.</p>
+
+        <div class="wp-block-columns">
+          <div class="wp-block-column"><figure class="wp-block-image size-full"><img src="/media/etikk-kunstmesse.png" alt=""></figure></div>
+          <div class="wp-block-column">
+            <p>Things stayed calm at the fair itself, but once users on Twitter got hold of the story it spread quickly and became the subject of major debate. It turned out that the tool Jason had used to produce the image was MidJourney — an AI tool for generating images. It should be noted that Jason himself made no attempt to hide this — he declared it when he submitted his images.</p>
+            <p>Many argue that using AI to generate images or text isn't the same as actually being an artist and owning the resulting work.</p>
+          </div>
+        </div>
+
+        <p>It can be easy to agree with that. But at the same time — where's the line?</p>
+
+        <h2 class="wp-block-heading">Do you own the copyright to inspiration?</h2>
+
+        <p>No one grows up in a vacuum. From the day we're born we're bombarded with impressions — language, texts, images, videos, stories, and experiences. When we as humans produce new art or content, we borrow from what we've seen and experienced, and perhaps put a small piece of our soul into it so that it becomes something new. As long as we don't directly copy what inspired us, most people agree the result belongs to us.</p>
+
+        <p>How different is that from what artificial intelligence produces?</p>
+
+        <p>Some of those who train AI models on copyrighted data argue exactly this — that training an AI model is analogous to being inspired by others' work in order to produce your own.</p>
+
+        <h2 class="wp-block-heading">References</h2>
+
+        <p>Larson, J., Mattu, S., Kirchner, L., &amp; Angwin, J. (2016). <em>How We Analyzed the COMPAS Recidivism Algorithm</em>. ProPublica. <a href="https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm">https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm</a></p>
+
+        <p>Northpointe Inc. Research department. (2016). <em>COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity</em>. <a href="https://www.documentcloud.org/documents/2998391-ProPublica-Commentary-Final-070616/?embed=1&amp;mode=document">https://www.documentcloud.org/documents/2998391-ProPublica-Commentary-Final-070616/?embed=1&amp;mode=document</a></p>
+
+        <p>Baum, J., &amp; Villasenor, J. (2024). <em>Rendering misrepresentation: Diversity failures in AI image generation</em>. <a href="https://www.brookings.edu/articles/rendering-misrepresentation-diversity-failures-in-ai-image-generation/">https://www.brookings.edu/articles/rendering-misrepresentation-diversity-failures-in-ai-image-generation/</a></p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/partials.js" defer></script>
+  <script src="/js/nav.js" defer></script>
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

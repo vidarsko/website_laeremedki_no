@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gjett den historiske personen – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "nav-instrukser": {"no": "Instrukser", "en": "Instructions"},
+    "nav-blogg": {"no": "Blogg", "en": "Blog"},
+    "nav-andre-ressurser": {"no": "Andre ressurser", "en": "Other resources"},
+    "nav-toggle-aria": {"no": "Åpne meny", "en": "Open menu"},
+    "article-date": {"no": "Publisert 7. april 2025", "en": "Published April 7, 2025"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges">
+        <a class="badge" href="/alle-innlegg/?kategori=undervisningsaktiviteter">Undervisningsaktiviteter</a>
+        <a class="badge" href="/alle-innlegg/?under=norsk">Norsk</a>
+        <a class="badge" href="/alle-innlegg/?under=samfunnsfag">Samfunnsfag</a>
+      </div>
+      <h1 class="article-title">Gjett den historiske personen</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 7. april 2025</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang-block="no">
+        <p>I denne aktiviteten skal man elevene snakke med en språkmodell som har litt instruert i å være en historisk karakter. Denne aktiviteten forutsetter at du kan lage en chatbot som du kan dele og bruke med elevene. Det kan du f.eks. gjøre i KI-osloskolen eller med GPT UiO. Andre løsninger har også muligheten til dette.</p>
+
+        <ul class="wp-block-list">
+          <li>Det kan lønne seg å ikke fortelle språkmodellen hvilken karakter den skal være, bare gi opplysninger om personens liv og synspunkter.</li>
+          <li>Du kan godt bruke KI for å lage beskrivelsen av personen, se under for et eksempel.</li>
+        </ul>
+
+        <h2 class="wp-block-heading">Eksempel: Henrik Ibsen</h2>
+
+        <p>Jeg tok wikipediasiden til Henrik Ibsen og limte den inn i GPT UiO med følgende ledetekst:</p>
+
+        <pre class="wp-block-code"><code>Ta utgangspunkt i denne teksten om Henrik Ibsen og lag en punktliste over følgende: Fakta om Henrik Ibsens liv, Hans synspunkter og meninger, Hans relasjoner, Hans skrivestil, Annet. Teksten skal IKKE INNEHOLDE NOEN REFERANSE TIL IBSENS NAVN eller andre personers navn.
+
+[Wikipedia-tekst om Henrik Ibsen]</code></pre>
+
+        <p>Jeg fikk en tekst som tross instruksjonen inneholdt noen navn. Jeg ga den ytterligere enn instruksjon:</p>
+
+        <pre class="wp-block-code"><code>Fjern alle navn fra beskrivelsen</code></pre>
+
+        <p>Det ga følgende</p>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-liste-1.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-liste-2.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-liste-3.png" alt=""></figure>
+
+        <p>Deretter lagde jeg en instruksjon hvor jeg la inn følgende ledetekst:</p>
+
+        <pre class="wp-block-code"><code>Du er personen som jeg beskriver under og skal konversere med en elev som skal prøve å finne ut av hvem du er. Dersom eleven spør deg direkte hvem du er, skal du svare: "Jeg har ikke lyst til å fortelle deg hvem jeg er, men jeg forteller deg gjerne mer om livet mitt og hva jeg har gjort."
+
+[Faktaliste om Ibsen]</code></pre>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-samtale-1.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-samtale-2.png" alt=""></figure>
+      </div>
+
+      <div data-lang-block="en">
+        <p>In this activity, students talk with a language model that has been briefly instructed to be a historical character. This activity assumes you can create a chatbot that you can share and use with your students — for example in KI-osloskolen or with GPT UiO. Other solutions offer this option too.</p>
+
+        <ul class="wp-block-list">
+          <li>It can pay off not to tell the language model which character it is playing, and instead just give it information about the person's life and views.</li>
+          <li>You can happily use AI to create the description of the person — see below for an example.</li>
+        </ul>
+
+        <h2 class="wp-block-heading">Example: Henrik Ibsen</h2>
+
+        <p>I took the Wikipedia page for Henrik Ibsen and pasted it into GPT UiO with the following prompt:</p>
+
+        <pre class="wp-block-code"><code>Base your answer on this text about Henrik Ibsen and create a bullet-point list covering the following: Facts about Henrik Ibsen's life, His views and opinions, His relationships, His writing style, Other. The text must NOT CONTAIN ANY REFERENCE TO IBSEN'S NAME or the names of other people.
+
+[Wikipedia text about Henrik Ibsen]</code></pre>
+
+        <p>I got a text that, despite the instruction, still contained a few names. So I gave it an additional instruction:</p>
+
+        <pre class="wp-block-code"><code>Remove all names from the description</code></pre>
+
+        <p>That produced the following</p>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-liste-1.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-liste-2.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-liste-3.png" alt=""></figure>
+
+        <p>Next, I created an instruction where I inserted the following prompt:</p>
+
+        <pre class="wp-block-code"><code>You are the person I describe below, and you're going to converse with a student trying to figure out who you are. If the student asks you directly who you are, you should answer: "I don't want to tell you who I am, but I'm happy to tell you more about my life and what I've done."
+
+[Fact list about Ibsen]</code></pre>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-samtale-1.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/gjett-person-samtale-2.png" alt=""></figure>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/partials.js" defer></script>
+  <script src="/js/nav.js" defer></script>
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

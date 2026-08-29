@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lag interaktive simuleringer – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "nav-instrukser": {"no": "Instrukser", "en": "Instructions"},
+    "nav-blogg": {"no": "Blogg", "en": "Blog"},
+    "nav-andre-ressurser": {"no": "Andre ressurser", "en": "Other resources"},
+    "nav-toggle-aria": {"no": "Åpne meny", "en": "Open menu"},
+    "article-date": {"no": "Publisert 13. november 2025", "en": "Published November 13, 2025"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges">
+        <a class="badge" href="/alle-innlegg/?kategori=instrukser">Instrukser</a>
+        <a class="badge" href="/alle-innlegg/?kategori=undervisningsaktiviteter">Undervisningsaktiviteter</a>
+        <a class="badge" href="/alle-innlegg/?under=naturfag">Naturfag</a>
+      </div>
+      <h1 class="article-title">Lag interaktive simuleringer</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 13. november 2025</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang-block="no">
+        <p><em>For å kunne samle på gode simuleringer har jeg laget en egen side hvor dere kan sende meg egne simuleringer dere har lagd eller prøve noen av mine.</em></p>
+
+        <a class="wp-block-visual-link-preview-link" href="https://skolesim.no/" target="_blank" rel="noopener nofollow">
+          <img class="vlp-image" src="https://skolesim.no/wp-content/uploads/2025/11/Untitledvideo-MadewithClipchamp1-ezgif.com-crop-2.gif" alt="">
+          <h3>Skolesim.no</h3>
+          <div class="summary">Denne siden er opprettet for å samle og dele nyttige interaktive simuleringer laget med KI.</div>
+        </a>
+
+        <p>Nå som KI har blitt ekstremt god til å kode, åpner det helt nye muligheter for å lage interaktive simuleringer. Herunder ser du et eksempel:</p>
+
+        <iframe src="/media/bolgedemonstrasjon.html" title="Bølgedemonstrasjon" style="width:100%;height:900px;border:1px solid var(--border);"></iframe>
+
+        <p>Her lønner det seg å bruke en god språkmodell, da de enkleste ikke er så gode på å kode sammensatte objekter. GPT 5 pleier å gjøre det godt, Gemini pro også. I noen KI-tjenester, slik som Google Gemini Pro, kan du også kjøre html-simuleringen direkte i "canvas" mode, slik det ser ut under.</p>
+
+        <figure class="wp-block-image size-large"><img src="/media/simulering-gemini-canvas-modus.png" alt=""></figure>
+
+        <p>Dersom du ikke har google gemini, kan du allikevel lage og kjøre dine egne simuleringer. Slik gjør du det:</p>
+
+        <h2 class="wp-block-heading">1. Generer koden</h2>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg1-generer-koden.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg1b-generer-koden.png" alt=""></figure>
+
+        <p>For å lage en slik, bruk en språkmodell og lim inn instruksen under, etterfulgt av en beskrivelse for hva du vil simulere.</p>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Instruks</p>
+          <pre class="copy-block-content">Lag en interaktiv simulering i html for å hjelpe å forstå et tema. Simuleringen skal ha elementer som brukeren kan endre på, f.eks. glidere eller knapper.
+[SKRIV INN HVA DU ØNSKER Å LAGE EN SIMULERING OM].</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Kopier
+          </button>
+        </div>
+
+        <h2 class="wp-block-heading">2. Kopier koden og lim den inn i et teksbehandlingsprogram, f.eks. notepad</h2>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg2-lim-inn-notepad.png" alt=""></figure>
+
+        <h2 class="wp-block-heading">3. Lagre som en html-fil</h2>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg3-lagre-som-html.png" alt=""></figure>
+
+        <h2 class="wp-block-heading">4. Dobbeltklikk på filen for å åpne i f.eks. edge</h2>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg4-apne-i-nettleser.png" alt=""></figure>
+
+        <p>(Du kan prøve denne <a href="https://skolesim.no/mendelsk-genetikk">nedarvingssimulatoren på skolesim.no</a>).</p>
+
+        <p>Her er en artikkel som går gjennom noe av dette fra et teoretisk perspektiv</p>
+
+        <p>Ben-Zion, Y., Zarzecki, R. E., Glazer, J., &amp; Finkelstein, N. D. (2025). Leveraging AI for Rapid Generation of Physics Simulations in Education: Building Your Own Virtual Lab. <em>The Physics Teacher</em>, <em>63</em>(6), 424–427. <a href="https://doi.org/10.1119/5.0252343">https://doi.org/10.1119/5.0252343</a></p>
+      </div>
+
+      <div data-lang-block="en">
+        <p><em>To be able to collect good simulations, I've made a dedicated page where you can send me simulations you've made yourself, or try some of mine.</em></p>
+
+        <a class="wp-block-visual-link-preview-link" href="https://skolesim.no/" target="_blank" rel="noopener nofollow">
+          <img class="vlp-image" src="https://skolesim.no/wp-content/uploads/2025/11/Untitledvideo-MadewithClipchamp1-ezgif.com-crop-2.gif" alt="">
+          <h3>Skolesim.no</h3>
+          <div class="summary">This site was created to collect and share useful interactive simulations made with AI.</div>
+        </a>
+
+        <p>Now that AI has become extremely good at coding, it opens up entirely new possibilities for building interactive simulations. Below you can see an example:</p>
+
+        <iframe src="/media/bolgedemonstrasjon.html" title="Wave demonstration" style="width:100%;height:900px;border:1px solid var(--border);"></iframe>
+
+        <p><em>The demo above is a live simulation whose interface text is in Norwegian, since it was originally generated for a Norwegian classroom — kept as-is rather than rebuilt in English, since it's meant as a demonstration of what the AI produced, not a template to translate.</em></p>
+
+        <p>Here it pays off to use a good language model, since the simplest ones aren't very good at coding composite objects. GPT-5 tends to do well, Gemini Pro too. In some AI services, such as Google Gemini Pro, you can also run the html simulation directly in "canvas" mode, as shown below.</p>
+
+        <figure class="wp-block-image size-large"><img src="/media/simulering-gemini-canvas-modus.png" alt=""></figure>
+
+        <p>If you don't have Google Gemini, you can still create and run your own simulations. Here's how:</p>
+
+        <h2 class="wp-block-heading">1. Generate the code</h2>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg1-generer-koden.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg1b-generer-koden.png" alt=""></figure>
+
+        <p>To make one, use a language model and paste in the prompt below, followed by a description of what you want to simulate.</p>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Prompt</p>
+          <pre class="copy-block-content">Create an interactive simulation in HTML to help explain a topic. The simulation should have elements the user can change, e.g. sliders or buttons.
+[DESCRIBE WHAT YOU WANT TO SIMULATE].</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy
+          </button>
+        </div>
+
+        <h2 class="wp-block-heading">2. Copy the code and paste it into a text editor, e.g. Notepad</h2>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg2-lim-inn-notepad.png" alt=""></figure>
+
+        <h2 class="wp-block-heading">3. Save it as an html file</h2>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg3-lagre-som-html.png" alt=""></figure>
+
+        <h2 class="wp-block-heading">4. Double-click the file to open it in, e.g., Edge</h2>
+
+        <figure class="wp-block-image size-full"><img src="/media/simulering-steg4-apne-i-nettleser.png" alt=""></figure>
+
+        <p>(You can try this <a href="https://skolesim.no/mendelsk-genetikk">inheritance simulator on skolesim.no</a>).</p>
+
+        <p>Here is an article that covers some of this from a theoretical perspective</p>
+
+        <p>Ben-Zion, Y., Zarzecki, R. E., Glazer, J., &amp; Finkelstein, N. D. (2025). Leveraging AI for Rapid Generation of Physics Simulations in Education: Building Your Own Virtual Lab. <em>The Physics Teacher</em>, <em>63</em>(6), 424–427. <a href="https://doi.org/10.1119/5.0252343">https://doi.org/10.1119/5.0252343</a></p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/partials.js" defer></script>
+  <script src="/js/nav.js" defer></script>
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+  <script src="/js/copy-block.js" defer></script>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

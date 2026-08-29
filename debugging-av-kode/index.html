@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debugging av kode – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "nav-instrukser": {"no": "Instrukser", "en": "Instructions"},
+    "nav-blogg": {"no": "Blogg", "en": "Blog"},
+    "nav-andre-ressurser": {"no": "Andre ressurser", "en": "Other resources"},
+    "nav-toggle-aria": {"no": "Åpne meny", "en": "Open menu"},
+    "article-date": {"no": "Publisert 19. desember 2024", "en": "Published December 19, 2024"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges"><a class="badge" href="/alle-innlegg/?kategori=blogg">Blogg</a><a class="badge" href="/alle-innlegg/?under=tips-og-triks">Tips og triks</a></div>
+      <h1 class="article-title">Debugging av kode</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 19. desember 2024</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang-block="no">
+        <p>Triks for å bruke KI til å finne feil i koden din når den ikke gjør som den skal.</p>
+
+        <h2 class="wp-block-heading">Lim inn feilmeldingen</h2>
+
+        <p>Feilmeldinger kan være kryptiske. Ved å lime de inn i en språkmodell kan du få forklart feilene i klarspråk.</p>
+
+        <pre class="wp-block-code"><code>I get this error:
+"""
+Traceback (most recent call last):
+  File packages\cupy\fft\_fft.py", line 785, in fftn
+    from cupy.cuda import cufft
+ImportError: DLL load failed while importing cufft: The specified module could not be found.
+"""
+Can you tell me what is wrong and suggest some alternatives for how to fix it?</code></pre>
+
+        <p>Svar:</p>
+
+        <figure class="wp-block-image size-full"><img src="/media/debugging-av-kode-svar.png" alt=""></figure>
+
+        <h2 class="wp-block-heading">Be den bruke enklere funksjoner</h2>
+
+        <p>Når du bruker språkmodeller til å skrive kode, hender det at den bruker funksjoner og teknikker som er langt mer avanserte enn du forstår og ønsker. Be den derfor holde seg unna ulike typer funksjoner og pakker.</p>
+
+        <pre class="wp-block-code"><code>Jeg ønsker at du kun bruker numpy i dette programmet.</code></pre>
+
+        <pre class="wp-block-code"><code>Jeg forstår ikke hva disse "def"-kommandoene betyr. Kan du skrive et nytt program hvor du ikke bruker disse?</code></pre>
+      </div>
+
+      <div data-lang-block="en">
+        <p>Tricks for using AI to find bugs in your code when it isn't doing what it's supposed to.</p>
+
+        <h2 class="wp-block-heading">Paste in the error message</h2>
+
+        <p>Error messages can be cryptic. By pasting them into a language model, you can get the errors explained in plain language.</p>
+
+        <pre class="wp-block-code"><code>I get this error:
+"""
+Traceback (most recent call last):
+  File packages\cupy\fft\_fft.py", line 785, in fftn
+    from cupy.cuda import cufft
+ImportError: DLL load failed while importing cufft: The specified module could not be found.
+"""
+Can you tell me what is wrong and suggest some alternatives for how to fix it?</code></pre>
+
+        <p>Answer:</p>
+
+        <figure class="wp-block-image size-full"><img src="/media/debugging-av-kode-svar.png" alt=""></figure>
+
+        <h2 class="wp-block-heading">Ask it to use simpler functions</h2>
+
+        <p>When you use language models to write code, it sometimes uses functions and techniques that are far more advanced than you understand or want. So ask it to avoid certain kinds of functions and packages.</p>
+
+        <pre class="wp-block-code"><code>I want you to only use numpy in this program.</code></pre>
+
+        <pre class="wp-block-code"><code>I don't understand what these "def" commands mean. Can you write a new program where you don't use them?</code></pre>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/partials.js" defer></script>
+  <script src="/js/nav.js" defer></script>
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

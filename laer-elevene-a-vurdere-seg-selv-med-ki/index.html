@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selv-vurdering med KI – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "nav-instrukser": {"no": "Instrukser", "en": "Instructions"},
+    "nav-blogg": {"no": "Blogg", "en": "Blog"},
+    "nav-andre-ressurser": {"no": "Andre ressurser", "en": "Other resources"},
+    "nav-toggle-aria": {"no": "Åpne meny", "en": "Open menu"},
+    "article-date": {"no": "Publisert 18. februar 2025", "en": "Published February 18, 2025"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges">
+        <a class="badge" href="/alle-innlegg/?kategori=undervisningsaktiviteter">Undervisningsaktiviteter</a>
+        <a class="badge" href="/alle-innlegg/?under=samfunnsfag">Samfunnsfag</a>
+        <a class="badge" href="/alle-innlegg/?under=fremmedsprak">Fremmedspråk</a>
+        <a class="badge" href="/alle-innlegg/?under=skriving">Skriving</a>
+        <a class="badge" href="/alle-innlegg/?under=naturfag">Naturfag</a>
+        <a class="badge" href="/alle-innlegg/?under=norsk">Norsk</a>
+      </div>
+      <h1 class="article-title">Selv-vurdering med KI</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 18. februar 2025</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang-block="no">
+        <p>Mange drømmer kanskje om en verden hvor vi ikke trenger å bruke like mye tid på vurdering. Jeg tror kanskje at vurdering er en av de siste tingene vi vil komme til å delegere til KI, rett og slett fordi jeg tror at det menneskelige elementet i vurderingsprosessen er riktig. Allikevel er det mye hente i å la elevene vurdere seg selv før de kommer til deg.</p>
+
+        <p>Ved å bruke gode ledetekster, kan elevene bruke KI til å få en grov tilbakemelding først, slik at du slipper å bruke tid på å rette småfeil. Her er noen forslag:</p>
+
+        <h3 class="wp-block-heading">Språksjekker</h3>
+
+        <p>På siden <a href="/spraksjekker/">Språksjekker</a> finner du en preledetekst som elevene kan bruke for å sjekke språket sitt.</p>
+
+        <h3 class="wp-block-heading">Tilbakemelding etter vurderingskriterier</h3>
+
+        <p>Gi elevene en liste over vurderingskriteriene for et arbeid, f.eks.:</p>
+
+        <pre class="wp-block-code"><code>Rapporten skal inneholde:
+- Introduksjon hvor du gir en bred og generell innføring i emnet
+- Metodedel hvor du forklarer hvilke metoder som har blitt brukt på en ryddig, presis og konsis måte.
+- Resultatdel hvor du forteller hvilke resultater fikk, uten å diskutere resultatene.
+- Diskusjonsdel hvor du diskuterer resultatene.
+- Figurer med figurtekst hvor du forklarer hva figuren viser og noe av det man kan tolke fra den.
+- Tabeller med tabelltekst hvor du forklarer hva tabellen viser.</code></pre>
+
+        <p>Så gir du elevene i oppgave å få tilbakemelding fra KI før de får tilbakemelding fra deg ved å bruke ledeteksten.</p>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Ledetekst</p>
+          <pre class="copy-block-content">Jeg skal levere denne oppgaven i faget [FAG]. Jeg går på [SKOLETRINN].
+"""
+[LIM INN OPPGAVE ELLER LAST OPP FIL]
+"""
+Her er vurderingskriteriene som læreren har gitt meg:
+"""
+[LIM INN VURDERINGSKRITERIER]
+"""
+Gi meg en punktvis tilbakemelding på hvilken grad jeg har oppnådd disse kriteriene. Gi meg bare tilbakemelding, ikke skriv oppgaven for meg.</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Kopier
+          </button>
+        </div>
+
+        <h2 class="wp-block-heading">Snakk med elevene om bruk av KI til skriving</h2>
+
+        <p>Man må snakke med elevene om at det er fort gjort å gjøre seg avhengig av KI for å skrive (Darvishi et al., 2024). Poenget med skriveoppgaver er alltid at man skal lære seg å skrive <em>selv.</em> Derfor må man bruke tilbakemeldingen fra KI med omhu.</p>
+
+        <h2 class="wp-block-heading">Referanser</h2>
+
+        <p>Darvishi, A., Khosravi, H., Sadiq, S., Gašević, D., &amp; Siemens, G. (2024). Impact of AI assistance on student agency. <em>Computers &amp; Education</em>, <em>210</em>, 104967. <a href="https://doi.org/10.1016/j.compedu.2023.104967">https://doi.org/10.1016/j.compedu.2023.104967</a></p>
+      </div>
+
+      <div data-lang-block="en">
+        <p>Many people probably dream of a world where we don't have to spend as much time on assessment. I suspect assessment is one of the last things we'll end up delegating to AI, simply because I believe the human element in the assessment process matters. Still, there's a lot to gain from letting students assess themselves before they come to you.</p>
+
+        <p>By using good prompts, students can use AI to get rough feedback first, so you don't have to spend time correcting small mistakes. Here are some suggestions:</p>
+
+        <h3 class="wp-block-heading">Language checkers</h3>
+
+        <p>On the page <a href="/spraksjekker/">Språksjekker</a> (in Norwegian) you'll find a pre-prompt students can use to check their language.</p>
+
+        <h3 class="wp-block-heading">Feedback against assessment criteria</h3>
+
+        <p>Give the students a list of the assessment criteria for an assignment, e.g.:</p>
+
+        <pre class="wp-block-code"><code>The report should include:
+- An introduction giving a broad, general overview of the topic
+- A method section explaining which methods were used, in a clear, precise, and concise way.
+- A results section stating which results were obtained, without discussing the results.
+- A discussion section discussing the results.
+- Figures with captions explaining what the figure shows and something of what can be interpreted from it.
+- Tables with captions explaining what the table shows.</code></pre>
+
+        <p>Then have the students get feedback from AI before they get feedback from you, using this prompt.</p>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Prompt</p>
+          <pre class="copy-block-content">I'm submitting this assignment for the subject [SUBJECT]. I'm in [GRADE LEVEL].
+"""
+[PASTE ASSIGNMENT OR UPLOAD FILE]
+"""
+Here are the assessment criteria my teacher gave me:
+"""
+[PASTE ASSESSMENT CRITERIA]
+"""
+Give me point-by-point feedback on the extent to which I've met these criteria. Only give me feedback, don't write the assignment for me.</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy
+          </button>
+        </div>
+
+        <h2 class="wp-block-heading">Talk to students about using AI for writing</h2>
+
+        <p>You need to talk to students about how easy it is to become dependent on AI for writing (Darvishi et al., 2024). The point of writing assignments is always that you learn to write <em>yourself.</em> So the feedback from AI needs to be used with care.</p>
+
+        <h2 class="wp-block-heading">References</h2>
+
+        <p>Darvishi, A., Khosravi, H., Sadiq, S., Gašević, D., &amp; Siemens, G. (2024). Impact of AI assistance on student agency. <em>Computers &amp; Education</em>, <em>210</em>, 104967. <a href="https://doi.org/10.1016/j.compedu.2023.104967">https://doi.org/10.1016/j.compedu.2023.104967</a></p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/partials.js" defer></script>
+  <script src="/js/nav.js" defer></script>
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+  <script src="/js/copy-block.js" defer></script>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

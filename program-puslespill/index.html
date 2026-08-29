@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program-puslespill – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "nav-instrukser": {"no": "Instrukser", "en": "Instructions"},
+    "nav-blogg": {"no": "Blogg", "en": "Blog"},
+    "nav-andre-ressurser": {"no": "Andre ressurser", "en": "Other resources"},
+    "nav-toggle-aria": {"no": "Åpne meny", "en": "Open menu"},
+    "article-date": {"no": "Publisert 10. april 2025", "en": "Published April 10, 2025"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges"><a class="badge" href="/alle-innlegg/?kategori=undervisningsaktiviteter">Undervisningsaktiviteter</a><a class="badge" href="/alle-innlegg/?under=programmering">Programmering</a></div>
+      <h1 class="article-title">Program-puslespill</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 10. april 2025</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang-block="no">
+        <p>Lær elevene programmering gjennom å pusle sammen biter. Du kan generere et program som elevene skal pusle ved hjelp av KI, f.eks. gjennom å bruke denne ledeteksten.</p>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Ledetekst</p>
+          <pre class="copy-block-content">Lag tre pythonprogrammer i stigende vanskelighetsgrad fra veldig enkelt til litt komplisert. Hensikten med programmene er at de skal klippes opp og deles ut til elever som skal forsøke å klippe dem sammen. La det derfor være litt mellomrom mellom linjene. Unngå også for mange funksjonskall. I det enkle tilfellet kan koden inneholde litt dokumentasjon.
+
+Bruk temaet [TEMA] fra [FAG] som inspirasjon for oppgavene.</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Kopier
+          </button>
+        </div>
+
+        <p>Jeg brukte temaet geometri fra matematikk:</p>
+
+        <figure class="wp-block-image size-full"><img src="/media/program-puslespill-eksempel-1.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/program-puslespill-eksempel-2.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/program-puslespill-eksempel-3.png" alt=""></figure>
+
+        <p>Ofte er det ikke bare én måte å løse oppgaven på. </p>
+
+        <h2 class="wp-block-heading">Varianter</h2>
+
+        <ul class="wp-block-list">
+          <li>La elevene kjøre programmet etter å puslet det sammen</li>
+        </ul>
+
+        <h2 class="wp-block-heading">Eksempel</h2>
+
+        <p><em>Dette eksempelet var opprinnelig et interaktivt dra-og-slipp-verktøy (bygget med Tailwind CSS og Sortable.js) hvor man kunne lime inn kode og øve på å sette linjene i riktig rekkefølge. Verktøyet lot seg ikke gjenskape som en statisk side her, men viser godt hva KI kan generere av interaktive læringsverktøy på egen hånd.</em></p>
+      </div>
+
+      <div data-lang-block="en">
+        <p>Teach your students programming by having them piece code back together. You can generate a program for the students to reassemble using AI, for example with this prompt.</p>
+
+        <div class="copy-block">
+          <p class="copy-block-label">Prompt</p>
+          <pre class="copy-block-content">Create three Python programs of increasing difficulty, from very simple to somewhat complex. The purpose of the programs is that they will be cut into pieces and handed out to students, who will try to piece them back together. Leave some space between the lines to make this possible. Also avoid too many function calls. In the simple case, the code can include some documentation.
+
+Use the theme [TOPIC] from [SUBJECT] as inspiration for the tasks.</pre>
+          <button class="copy-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy
+          </button>
+        </div>
+
+        <p>I used the theme of geometry from mathematics:</p>
+
+        <figure class="wp-block-image size-full"><img src="/media/program-puslespill-eksempel-1.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/program-puslespill-eksempel-2.png" alt=""></figure>
+
+        <figure class="wp-block-image size-full"><img src="/media/program-puslespill-eksempel-3.png" alt=""></figure>
+
+        <p>Often there's more than one way to solve the task. </p>
+
+        <h2 class="wp-block-heading">Variations</h2>
+
+        <ul class="wp-block-list">
+          <li>Let the students run the program after piecing it together</li>
+        </ul>
+
+        <h2 class="wp-block-heading">Example</h2>
+
+        <p><em>This example was originally an interactive drag-and-drop tool (built with Tailwind CSS and Sortable.js) where you could paste in code and practice putting the lines back in the right order. The tool couldn't be recreated as a static page here, but it's a good illustration of the kind of interactive learning tools AI can generate on its own.</em></p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/partials.js" defer></script>
+  <script src="/js/nav.js" defer></script>
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+  <script src="/js/copy-block.js" defer></script>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

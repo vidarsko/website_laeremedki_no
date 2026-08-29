@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Om praterobotene på LæreMedKi.no – Lære med KI</title>
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script id="i18n-dict" type="application/json">
+  {
+    "nav-undervisningsaktiviteter": {"no": "Undervisningsaktiviteter", "en": "Teaching activities"},
+    "nav-alle-innlegg": {"no": "Alle innlegg", "en": "All posts"},
+    "nav-om-meg": {"no": "Om meg", "en": "About"},
+    "nav-instrukser": {"no": "Instrukser", "en": "Instructions"},
+    "nav-blogg": {"no": "Blogg", "en": "Blog"},
+    "nav-andre-ressurser": {"no": "Andre ressurser", "en": "Other resources"},
+    "nav-toggle-aria": {"no": "Åpne meny", "en": "Open menu"},
+    "article-date": {"no": "Publisert 4. februar 2025", "en": "Published February 4, 2025"},
+    "not-translated-body": {"no": "", "en": "This article hasn't been translated into English yet. Switch to NO above to read it in Norwegian."},
+    "footer-copyright": {"no": "Copyright 2026 – Lære med KI", "en": "Copyright 2026 – Lære med KI"},
+    "footer-personvern": {"no": "Personvernerklæring", "en": "Privacy policy"},
+    "footer-kontakt": {"no": "Kontakt", "en": "Contact"},
+    "theme-toggle-aria": {"no": "Bytt fargetema", "en": "Toggle color theme"}
+  }
+  </script>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <div class="article-header">
+    <div class="narrow">
+      <div class="post-badges">
+        <a class="badge" href="/alle-innlegg/?kategori=blogg">Blogg</a>
+        <a class="badge" href="/alle-innlegg/?under=om-kunstig-intelligens">Om kunstig intelligens</a>
+      </div>
+      <h1 class="article-title">Om praterobotene på LæreMedKi.no</h1>
+      <p class="article-meta" data-i18n="article-date">Publisert 4. februar 2025</p>
+    </div>
+  </div>
+
+  <div class="post-body">
+    <div class="narrow">
+
+      <div data-lang-block="no">
+        <p>Flere steder på denne siden finner du prateroboter for å teste noen av tipsene og preledetekstene. Slik jeg har skrevet om på siden om <a href="/personvern/">personvern</a>, er det viktig å vite hva som skjer med dataene sine når man bruker KI-tjenester. Det gjelder også når du bruker KI-tjenestene på denne siden.</p>
+
+        <p>Dette er det som skjer når du bruker en av KI-modellene på denne siden:</p>
+
+        <ol class="wp-block-list">
+          <li>Meldingen din sendes til serveren som hoster denne nettsiden hos Domeneshop.</li>
+          <li>Deretter sendes meldingen til API-en som er i drift. Per dags dato er det OpenAI, men det kan hende at dette endres i fremtiden.</li>
+          <li>Denne meldingen lagres i OpenAIs API i en kort periode (typisk 30 dager) før den slettes. OpenAI får ingen informasjon om deg som du ikke selv skriver inn i ledeteksten.</li>
+          <li>Deretter sendes meldingen tilbake til serveren hos Domeneshop, som sender den tilbake til deg. Domeneshop lagrer ikke det du har skrevet, og bruker det kun til å svare på din henvendelse. Din lokale nettleser kan lagre samtalen, som er grunnen til at du ser den igjen når du går inn på samme praterobot som du har vært tidligere.</li>
+        </ol>
+      </div>
+
+      <div data-lang-block="en">
+        <p>In several places on this site you'll find chatbots for testing some of the tips and prompts. As I've written on the <a href="/personvern/">privacy page</a>, it's important to know what happens to your data when you use AI services. That also applies when you use the AI services on this site.</p>
+
+        <p>Here's what happens when you use one of the AI models on this site:</p>
+
+        <ol class="wp-block-list">
+          <li>Your message is sent to the server hosting this website at Domeneshop.</li>
+          <li>The message is then sent to whichever API is in use. As of now that's OpenAI, but this may change in the future.</li>
+          <li>The message is stored in OpenAI's API for a short period (typically 30 days) before being deleted. OpenAI receives no information about you beyond what you type into the prompt yourself.</li>
+          <li>The message is then sent back to the server at Domeneshop, which sends it back to you. Domeneshop doesn't store what you've written, and only uses it to respond to your request. Your local browser may store the conversation, which is why you see it again when you return to the same chatbot you've visited before.</li>
+        </ol>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/partials.js" defer></script>
+  <script src="/js/nav.js" defer></script>
+  <script src="/js/theme.js" defer></script>
+  <script src="/js/i18n.js" defer></script>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

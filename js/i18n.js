@@ -48,12 +48,15 @@
     // Full-article dual-language blocks: both <no> and <en> versions of a post body live in the
     // same document at once (see CLAUDE.md, "Oversettelse"), toggled by visibility rather than
     // the textContent-swap dict above (which can't carry rich HTML — paragraphs, lists, images).
-    // Inline style (not a CSS class) so this works regardless of the CSS default — see
-    // css/style.css, which shows [data-lang="no"] by default so there's no flash-of-blank-content
-    // before this deferred script runs.
-    var langBlocks = document.querySelectorAll('[data-lang]');
+    // Deliberately a separate attribute from the .lang-btn buttons' own [data-lang] — both used
+    // "data-lang" originally, so this selector also matched the buttons themselves and force-hid
+    // whichever one didn't match the current language (found 2026-08-29). Inline style (not a CSS
+    // class) so this works regardless of the CSS default — see css/style.css, which shows
+    // [data-lang-block="no"] by default so there's no flash-of-blank-content before this deferred
+    // script runs.
+    var langBlocks = document.querySelectorAll('[data-lang-block]');
     for (var b = 0; b < langBlocks.length; b++) {
-      langBlocks[b].style.display = langBlocks[b].getAttribute('data-lang') === lang ? '' : 'none';
+      langBlocks[b].style.display = langBlocks[b].getAttribute('data-lang-block') === lang ? '' : 'none';
     }
 
     var buttons = document.querySelectorAll('.lang-btn');
@@ -68,18 +71,25 @@
 
   var dict = loadDict();
   var current = detectLang();
-  apply(current, dict);
+  apply(current, dict); // first pass: body content, present at normal defer-time
 
-  var switchEl = document.querySelector('.lang-switch');
-  if (switchEl) {
-    switchEl.addEventListener('click', function (event) {
-      var btn = event.target.closest('.lang-btn');
-      if (!btn) return;
-      var lang = btn.getAttribute('data-lang');
-      if (!lang || lang === current) return;
-      current = lang;
-      try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
-      apply(current, dict);
-    });
-  }
+  // .lang-switch and the header/footer's own [data-i18n] nodes live in the header/footer
+  // partials, injected async by partials.js — bind the switch and re-apply once they exist,
+  // reusing the same `current`/`dict` closure so language state carries over cleanly.
+  document.addEventListener('partialsloaded', function () {
+    apply(current, dict);
+
+    var switchEl = document.querySelector('.lang-switch');
+    if (switchEl) {
+      switchEl.addEventListener('click', function (event) {
+        var btn = event.target.closest('.lang-btn');
+        if (!btn) return;
+        var lang = btn.getAttribute('data-lang');
+        if (!lang || lang === current) return;
+        current = lang;
+        try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+        apply(current, dict);
+      });
+    }
+  });
 })();

@@ -1,0 +1,833 @@
+<!-- Importerer nødvendige biblioteker og fonter -->
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Geologica:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    :root {
+        /* Hovedfarger */
+        --raft-bg: #EBE8E6;        /* Hovedbakgrunn (lys grå/beige) */
+        --raft-fg: #1D1F25;        /* Hovedtekstfarge (mørk grå) */
+        --raft-accent: #C26148;   /* Aksentfarge (rustrød) */
+        --raft-accent-dark: #AC5039; /* Mørkere aksent for hover */
+        --raft-bg-alt: rgba(255, 255, 255, 0.6); /* Gjennomsiktig hvit for container */
+        --raft-bg-controls: rgba(255, 255, 255, 0.8); /* Litt mindre gjennomsiktig for kontroller */
+        --raft-bg-box: #ffffff;    /* Ren hvit for innhold-bokser */
+
+        /* Skrifttyper */
+        --raft-font: "Figtree", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --raft-font-heading: "Geologica", var(--raft-font);
+    }
+
+    body {
+        background-color: var(--raft-bg);
+        color: var(--raft-fg);
+        font-family: var(--raft-font);
+        margin: 0;
+        padding: 20px;
+    }
+
+    .container {
+        background: var(--raft-bg-alt);
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+        font-family: var(--raft-font-heading);
+        color: var(--raft-fg);
+        border-bottom: 2px solid var(--raft-accent);
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: var(--raft-font-heading);
+        color: var(--raft-accent);
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    .subtitle {
+        text-align: center;
+        color: #555;
+        margin-bottom: 30px;
+        font-style: italic;
+    }
+
+    /* Kontrollpanel styling */
+    .controls {
+        background-color: var(--raft-bg-controls);
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid rgba(0,0,0,0.05);
+        margin-bottom: 20px;
+        display: grid;
+        gap: 20px;
+    }
+
+    .control-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .control-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .control-group label {
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--raft-fg);
+    }
+
+    /* Checkboxes styling */
+    .checkbox-group {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        background: var(--raft-bg-box);
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+    }
+
+    .checkbox-label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        font-size: 0.9rem;
+    }
+
+    input[type="checkbox"] {
+        accent-color: var(--raft-accent);
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Input styling */
+    input[type="date"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: var(--raft-font);
+        background: var(--raft-bg-box);
+    }
+
+    /* Knapper */
+    button {
+        background-color: var(--raft-accent);
+        color: white;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: var(--raft-font);
+        font-weight: 600;
+        transition: background-color 0.2s;
+    }
+
+    button:hover {
+        background-color: var(--raft-accent-dark);
+    }
+
+    /* Metric Buttons specific styling */
+    .button-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .metric-btn {
+        background-color: #fff;
+        color: var(--raft-fg);
+        border: 1px solid #ccc;
+    }
+
+    .metric-btn:hover {
+        background-color: #f0f0f0;
+        color: var(--raft-fg); /* Keep text dark on hover unless active */
+    }
+
+    .metric-btn.active {
+        background-color: var(--raft-accent);
+        color: white;
+        border-color: var(--raft-accent);
+    }
+
+    .download-csv-btn {
+        background-color: #555; /* Neutral grey for secondary action */
+        font-size: 0.85rem;
+    }
+
+    .download-csv-btn:hover {
+        background-color: #333;
+    }
+
+    /* Kart/Graf boks */
+    #chart {
+        width: 100%;
+        height: 500px;
+        background: var(--raft-bg-box);
+        border-radius: 8px;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: inset 0 0 10px rgba(0,0,0,0.02);
+    }
+
+    .footer {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+    /* Statusmeldinger */
+    #status-box {
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        display: none;
+        text-align: center;
+        font-weight: 500;
+    }
+    .status-loading { background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
+    .status-error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+    .status-success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+
+    /* Responsivitet */
+    @media (max-width: 768px) {
+        .control-row {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .metric-btn {
+            flex: 1;
+            text-align: center;
+        }
+    }
+
+    /* Download Simulation Button Container */
+    .sim-download-container {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        text-align: center;
+    }
+
+    #downloadButton {
+        background-color: var(--raft-fg);
+        font-size: 0.9rem;
+    }
+
+    #downloadButton:hover {
+        background-color: #000;
+    }
+</style>
+
+<div class="container">
+    <h1>Poengoversikt: Menneske vs KI</h1>
+    <div id="count-display" class="subtitle">Laster data...</div>
+
+    <div id="status-box">Initialiserer...</div>
+
+    <!-- Controls -->
+    <div class="controls">
+
+        <div class="control-row">
+            <!-- Visibility Toggles -->
+            <div class="control-group">
+                <label>Visning:</label>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="show-human" checked onchange="updateChart()">
+                        <span style="color: #3498db; font-weight: bold;">●</span> Mennesker
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="show-ai" checked onchange="updateChart()">
+                        <span style="color: #C26148; font-weight: bold;">●</span> KI
+                    </label>
+                </div>
+            </div>
+
+            <!-- Stats Toggle -->
+            <div class="control-group">
+                <label>Statistikk:</label>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="show-stats" onchange="updateChart()">
+                        Vis snitt & std.avvik
+                    </label>
+                </div>
+            </div>
+
+            <!-- Date Filter -->
+            <div class="control-group">
+                <label>Filtrer på dato:</label>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <input type="date" id="start-date">
+                    <span>-</span>
+                    <input type="date" id="end-date">
+                </div>
+            </div>
+
+            <!-- CSV Download (Data specific) -->
+            <div class="control-group">
+                 <label>&nbsp;</label>
+                 <button class="download-csv-btn" onclick="downloadDataCSV()">Last ned CSV-data</button>
+            </div>
+        </div>
+
+        <!-- Metric Selection -->
+        <div class="control-group">
+            <label>Velg data å vise:</label>
+            <div class="button-group" id="metric-buttons">
+                <!-- Buttons will be injected here via JS -->
+                <button class="metric-btn active" onclick="setMetric('Sum')">Laster...</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="chart"></div>
+    <div class="footer">
+        Hvert punkt er én retting. "Jitter" (tilfeldig spredning) brukes for å synliggjøre overlappende punkter.
+    </div>
+
+    <!-- Obligatorisk Last Ned knapp for hele simuleringen -->
+    <div class="sim-download-container">
+        <button id="downloadButton">Last ned denne filen</button>
+    </div>
+</div>
+
+<script>
+    // ---------------------------------------------------------
+    // STATIC FALLBACK DATA
+    // ---------------------------------------------------------
+    const staticHumanCsv = `Timestamp,Hvem sin prøve har du rettet?,Oppgave 1 - Bohr (2p),Oppgave 2 - Spekter (2p),Sum
+01/12/2025 10:48:21,Astrid,1,0,3
+01/12/2025 10:49:01,Astrid,1,0,4
+01/12/2025 11:00:15,Erik,0,1,9
+01/12/2025 11:02:40,Ingrid,1,1,11
+01/12/2025 11:04:54,Hanne,2,2,20
+01/12/2025 11:06:33,Magnus,2,2,19
+01/12/2025 11:08:14,Olav,2,1,18`;
+
+    const staticAiCsv = `Timestamp,Hvem sin prøve har du rettet?,Oppgave 1 - Bohr (2p),Oppgave 2 - Spekter (2p),Sum
+01/12/2025 10:32:26,Solveig,0,0,1
+01/12/2025 10:39:36,Astrid,0,0,2
+01/12/2025 10:44:44,Erik,0,1,8
+01/12/2025 10:45:00,Ingrid,1,1,10`;
+
+    // ---------------------------------------------------------
+    // CONFIGURATION
+    // ---------------------------------------------------------
+    const studentOrder = ["Solveig", "Astrid", "Kristian", "Erik", "Ingrid", "Hanne", "Olav", "Magnus"];
+
+    const humanSheetUrl = "https://docs.google.com/spreadsheets/d/1J8rTuixllWeCB2fvvEjQfDvanfZIRJ-Z4A4HbEmg3mg/gviz/tq?tqx=out:csv&sheet=Menneskerettet%20oppsummert";
+    const aiSheetUrl = "https://docs.google.com/spreadsheets/d/1J8rTuixllWeCB2fvvEjQfDvanfZIRJ-Z4A4HbEmg3mg/gviz/tq?tqx=out:csv&sheet=KI-rettet%20oppsummert";
+
+    // Global State
+    let globalData = { human: [], ai: [], headers: [] };
+    let currentMetricKey = "Sum";
+
+    // ---------------------------------------------------------
+    // INITIALIZATION
+    // ---------------------------------------------------------
+    function init() {
+        showStatus("Laster data...", "loading");
+
+        Promise.all([
+            fetchData(humanSheetUrl, staticHumanCsv, "Menneske"),
+            fetchData(aiSheetUrl, staticAiCsv, "KI")
+        ]).then(results => {
+            const humanRaw = results[0];
+            const aiRaw = results[1];
+
+            // 1. Process Metadata (Headers)
+            let headers = [];
+            if (humanRaw.meta && humanRaw.meta.fields && humanRaw.meta.fields.length > 2) {
+                headers = humanRaw.meta.fields;
+            } else if (aiRaw.meta && aiRaw.meta.fields) {
+                headers = aiRaw.meta.fields;
+            }
+
+            if (headers.length > 0) {
+                globalData.headers = headers;
+                setupButtons(globalData.headers);
+            } else {
+                showStatus("Kunne ikke finne overskrifter.", "error");
+            }
+
+            // 2. Process Rows
+            globalData.human = processRawData(humanRaw.data, globalData.headers);
+            globalData.ai = processRawData(aiRaw.data, globalData.headers);
+
+            // 3. Setup Date Pickers
+            setupDateRange();
+
+            // 4. Update Status and Render
+            const totalCount = globalData.human.length + globalData.ai.length;
+            if (totalCount > 0) {
+                showStatus(`Lastet ${globalData.human.length} menneske-punkter og ${globalData.ai.length} KI-punkter.`, "success");
+            } else {
+                showStatus("Ingen gyldige data funnet i perioden.", "error");
+            }
+
+            updateChart();
+
+        }).catch(err => {
+            console.error(err);
+            showStatus("Feil ved lasting av data.", "error");
+        });
+    }
+
+    // ---------------------------------------------------------
+    // LOGIC: Data Processing
+    // ---------------------------------------------------------
+    function fetchData(url, staticFallback, label) {
+        return new Promise((resolve) => {
+            Papa.parse(url, {
+                download: true,
+                header: true,
+                skipEmptyLines: true,
+                transformHeader: h => h.trim(),
+                complete: (results) => {
+                    if (results.meta && results.meta.aborted) {
+                        resolve(Papa.parse(staticFallback, { header: true, skipEmptyLines: true }));
+                        return;
+                    }
+                    if (!results.data || results.data.length === 0 || (results.meta.fields && results.meta.fields[0].includes("<!DOCTYPE"))) {
+                        resolve(Papa.parse(staticFallback, { header: true, skipEmptyLines: true }));
+                        return;
+                    }
+                    resolve(results);
+                },
+                error: (err) => {
+                    console.warn(label + " network error", err);
+                    resolve(Papa.parse(staticFallback, { header: true, skipEmptyLines: true }));
+                }
+            });
+        });
+    }
+
+    function processRawData(data, fields) {
+        const nameCol = findCol(fields, "hvem") || "Hvem sin prøve har du rettet?";
+        const timestampCol = findCol(fields, "time") || "Timestamp";
+
+        return data.map(row => {
+            const rawTime = row[timestampCol];
+            let dateObj = null;
+
+            if (rawTime) {
+                const parts = rawTime.split(' ');
+                if (parts.length >= 1) {
+                    const dateParts = parts[0].split('/');
+                    if (dateParts.length === 3) {
+                        const d = parseInt(dateParts[0], 10);
+                        const m = parseInt(dateParts[1], 10) - 1;
+                        const y = parseInt(dateParts[2], 10);
+                        dateObj = new Date(y, m, d);
+                    }
+                }
+            }
+
+            return {
+                name: row[nameCol],
+                date: dateObj,
+                raw: row
+            };
+        }).filter(d => d.name);
+    }
+
+    function findCol(fields, keyword) {
+        if(!fields) return null;
+        return fields.find(f => f.toLowerCase().includes(keyword.toLowerCase()));
+    }
+
+    // ---------------------------------------------------------
+    // LOGIC: UI & Buttons
+    // ---------------------------------------------------------
+    function setupButtons(headers) {
+        const container = document.getElementById('metric-buttons');
+        container.innerHTML = '';
+
+        const sumCol = findCol(headers, "Sum");
+        if(sumCol) {
+            createButton(container, "Sum", sumCol, true);
+            currentMetricKey = sumCol;
+        } else {
+            createButton(container, "Sum", "Sum", true);
+        }
+
+        const taskCols = headers.filter(h => h.toLowerCase().startsWith("oppgave"));
+        taskCols.forEach(col => {
+            let label = col.split('-')[0].trim();
+            if(label.length > 15) label = col.split(' ').slice(0, 2).join(' ');
+            createButton(container, label, col, false);
+        });
+    }
+
+    function createButton(container, label, fullColumnName, isActive) {
+        const btn = document.createElement('button');
+        btn.className = `metric-btn ${isActive ? 'active' : ''}`;
+        btn.innerText = label;
+
+        btn.onclick = () => {
+            document.querySelectorAll('.metric-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentMetricKey = fullColumnName;
+            updateChart();
+        };
+        container.appendChild(btn);
+    }
+
+    function setupDateRange() {
+        const startInput = document.getElementById('start-date');
+        const endInput = document.getElementById('end-date');
+        startInput.value = "2025-01-01";
+        endInput.value = "2025-12-30";
+        startInput.addEventListener('change', updateChart);
+        endInput.addEventListener('change', updateChart);
+    }
+
+    // ---------------------------------------------------------
+    // LOGIC: Statistics Helper
+    // ---------------------------------------------------------
+    function calculateStats(values) {
+        if (!values || values.length === 0) return { mean: null, std: null, count: 0 };
+
+        const sum = values.reduce((a, b) => a + b, 0);
+        const mean = sum / values.length;
+
+        if (values.length < 2) return { mean: mean, std: 0, count: 1 };
+
+        const variance = values.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / (values.length - 1);
+        const std = Math.sqrt(variance);
+
+        return { mean: mean, std: std, count: values.length };
+    }
+
+    // ---------------------------------------------------------
+    // LOGIC: Chart Rendering & Data Export
+    // ---------------------------------------------------------
+
+    const getVal = (row) => {
+        if(row[currentMetricKey] !== undefined) return row[currentMetricKey];
+        const shortKey = currentMetricKey.substring(0, 9).trim().toLowerCase();
+        const matchingKey = Object.keys(row).find(k => k.toLowerCase().startsWith(shortKey));
+        return matchingKey ? row[matchingKey] : null;
+    };
+
+    function updateChart() {
+        const showHuman = document.getElementById('show-human').checked;
+        const showAI = document.getElementById('show-ai').checked;
+        const showStats = document.getElementById('show-stats').checked;
+
+        const startInput = document.getElementById('start-date');
+        const endInput = document.getElementById('end-date');
+        const startDate = startInput.value ? new Date(startInput.value) : new Date('2025-01-01');
+        const endDate = endInput.value ? new Date(endInput.value) : new Date('2025-12-30');
+        startDate.setHours(0,0,0,0);
+        endDate.setHours(23, 59, 59, 999);
+
+        let visiblePoints = 0;
+        let axisLabels = [...studentOrder]; // Default labels
+
+        const getTraceData = (dataset) => {
+            const x = [];
+            const y = [];
+
+            dataset.forEach(item => {
+                if (item.date) {
+                    if(item.date < startDate || item.date > endDate) return;
+                }
+
+                const rawVal = getVal(item.raw);
+                if (rawVal !== undefined && rawVal !== null && rawVal !== "") {
+                    const numVal = parseFloat(rawVal);
+                    if(!isNaN(numVal)) {
+                        x.push(item.name);
+                        y.push(numVal);
+                    }
+                }
+            });
+            return { x, y };
+        };
+
+        // --- Data Collection for Stats (CLEAN DATA) ---
+        const humanData = getTraceData(globalData.human);
+        const aiData = getTraceData(globalData.ai);
+
+        // Storage for in-chart text annotations and mean points
+        const humanMeans = { x: [], y: [] };
+        const aiMeans = { x: [], y: [] };
+
+        // --- Calculate Stats and Update Labels if Requested ---
+        if (showStats) {
+            axisLabels = studentOrder.map(studentName => {
+                let label = `<b>${studentName}</b>`;
+
+                // Filter values for this student
+                const humanVals = [];
+                for(let i=0; i<humanData.x.length; i++) {
+                    if(humanData.x[i] === studentName) humanVals.push(humanData.y[i]);
+                }
+                const aiVals = [];
+                for(let i=0; i<aiData.x.length; i++) {
+                    if(aiData.x[i] === studentName) aiVals.push(aiData.y[i]);
+                }
+
+                // Add formatted stats to label AND prepare chart text
+                if (showHuman && humanVals.length > 0) {
+                    const stats = calculateStats(humanVals);
+                    label += `<br><span style="color:#3498db; font-size:11px;">M: ${stats.mean.toFixed(1)} ±${stats.std.toFixed(1)}</span>`;
+
+                    // Chart annotation data (Points only)
+                    humanMeans.x.push(studentName);
+                    humanMeans.y.push(stats.mean);
+                }
+                if (showAI && aiVals.length > 0) {
+                    const stats = calculateStats(aiVals);
+                    label += `<br><span style="color:#C26148; font-size:11px;">KI: ${stats.mean.toFixed(1)} ±${stats.std.toFixed(1)}</span>`;
+
+                    // Chart annotation data (Points only)
+                    aiMeans.x.push(studentName);
+                    aiMeans.y.push(stats.mean);
+                }
+                return label;
+            });
+        }
+
+        const traces = [];
+        // Determine plot type and point config
+        const plotType = showStats ? 'violin' : 'box';
+        // 'box' uses 'boxpoints', 'violin' uses 'points'
+        const pointSettings = showStats ? { points: 'all', pointpos: 0, width: 0.8 } : { boxpoints: 'all', pointpos: 0 };
+
+        // Dynamic fill colors: Visible for violin, Transparent for box (points only)
+        const humanFill = showStats ? 'rgba(52, 152, 219, 0.2)' : 'rgba(0,0,0,0)';
+        const aiFill = showStats ? 'rgba(194, 97, 72, 0.2)' : 'rgba(0,0,0,0)';
+
+        // --- APPLY Y-JITTER FOR VISUALIZATION ONLY ---
+        // We do this here so the 'humanData' used for stats remains clean
+        const humanYVisual = humanData.y.map(y => y + (Math.random() - 0.5) * 0.4);
+        const aiYVisual = aiData.y.map(y => y + (Math.random() - 0.5) * 0.4);
+
+        // Trace 1: Human Plot
+        if (showHuman) {
+            visiblePoints += humanData.x.length;
+
+            traces.push({
+                x: humanData.x,
+                y: humanYVisual, // Use jittered Y for drawing
+                customdata: humanData.y, // Keep original Y for tooltip
+                mode: 'markers',
+                type: plotType,
+                ...pointSettings,
+                jitter: 0.5, // X-jitter
+                fillcolor: humanFill,
+                line: { color: '#3498db', width: showStats ? 1 : 0 },
+                marker: {
+                    color: '#3498db',
+                    size: 8,
+                    opacity: 0.7,
+                    line: { color: 'white', width: 1 }
+                },
+                name: 'Menneske',
+                legendgroup: 'human',
+                hovertemplate: '<b>%{x}</b><br>Poeng: %{customdata}<extra></extra>' // Show real value
+            });
+        }
+
+        // Trace 2: AI Plot
+        if (showAI) {
+            visiblePoints += aiData.x.length;
+
+            traces.push({
+                x: aiData.x,
+                y: aiYVisual, // Use jittered Y for drawing
+                customdata: aiData.y, // Keep original Y for tooltip
+                mode: 'markers',
+                type: plotType,
+                ...pointSettings,
+                jitter: 0.5, // X-jitter
+                fillcolor: aiFill,
+                line: { color: '#C26148', width: showStats ? 1 : 0 },
+                marker: {
+                    color: '#C26148',
+                    size: 8,
+                    opacity: 0.7,
+                    line: { color: 'white', width: 1 }
+                },
+                name: 'KI',
+                legendgroup: 'ai',
+                hovertemplate: '<b>%{x}</b><br>Poeng: %{customdata}<extra></extra>' // Show real value
+            });
+        }
+
+        // Trace 3 & 4: Mean Points (Large Dots)
+        if (showStats) {
+             if (showHuman && humanMeans.x.length > 0) {
+                traces.push({
+                    x: humanMeans.x,
+                    y: humanMeans.y,
+                    mode: 'markers',
+                    marker: {
+                        symbol: 'diamond',
+                        color: '#2980b9',
+                        size: 14,
+                        line: {color: 'white', width: 2}
+                    },
+                    name: 'Menneske Snitt',
+                    hoverinfo: 'y',
+                    legendgroup: 'human'
+                });
+            }
+             if (showAI && aiMeans.x.length > 0) {
+                traces.push({
+                    x: aiMeans.x,
+                    y: aiMeans.y,
+                    mode: 'markers',
+                    marker: {
+                        symbol: 'diamond',
+                        color: '#c0392b',
+                        size: 14,
+                        line: {color: 'white', width: 2}
+                    },
+                    name: 'KI Snitt',
+                    hoverinfo: 'y',
+                    legendgroup: 'ai'
+                });
+            }
+        }
+
+        let displayLabel = currentMetricKey.split('-')[0].trim();
+        if(displayLabel.length > 20) displayLabel = "Valgt Data";
+
+        document.getElementById('count-display').innerText =
+            `Viser: ${displayLabel} (${visiblePoints} punkter)`;
+
+        const layout = {
+            hovermode: 'closest',
+            paper_bgcolor: 'rgba(0,0,0,0)',
+            plot_bgcolor: 'rgba(0,0,0,0)',
+            font: { family: "Figtree, sans-serif" },
+            xaxis: {
+                title: '', // Removing title as labels are complex
+                tickmode: 'array',
+                tickvals: studentOrder,
+                ticktext: axisLabels, // Use our dynamic labels
+                showgrid: false,
+                categoryorder: 'array', // Force order
+                categoryarray: studentOrder // based on this array
+            },
+            yaxis: {
+                title: 'Poeng',
+                zeroline: false,
+                gridcolor: '#eee'
+            },
+            showlegend: false,
+            margin: { t: 40, b: 60, l: 60, r: 20 },
+            // Make violins side-by-side if needed, though grouping usually handles it
+            violinmode: 'group'
+        };
+
+        Plotly.newPlot('chart', traces, layout, {responsive: true});
+    }
+
+    function downloadDataCSV() {
+        const showHuman = document.getElementById('show-human').checked;
+        const showAI = document.getElementById('show-ai').checked;
+        const startInput = document.getElementById('start-date');
+        const endInput = document.getElementById('end-date');
+        const startDate = startInput.value ? new Date(startInput.value) : new Date('2025-01-01');
+        const endDate = endInput.value ? new Date(endInput.value) : new Date('2025-12-30');
+        startDate.setHours(0,0,0,0);
+        endDate.setHours(23, 59, 59, 999);
+
+        let exportData = [];
+
+        const collectData = (dataset, type) => {
+            dataset.forEach(item => {
+                if (item.date && (item.date < startDate || item.date > endDate)) return;
+                const val = getVal(item.raw);
+                if (val !== undefined && val !== null && val !== "") {
+                    let rowObj = {
+                        "Navn": item.name,
+                        "Dato": item.date ? item.date.toISOString().split('T')[0] : "",
+                        "Type": type
+                    };
+                    rowObj[currentMetricKey] = val;
+                    exportData.push(rowObj);
+                }
+            });
+        };
+
+        if (showHuman) collectData(globalData.human, "Menneske");
+        if (showAI) collectData(globalData.ai, "KI");
+
+        if(exportData.length === 0) {
+            alert("Ingen data å laste ned med nåværende filter.");
+            return;
+        }
+
+        const csv = Papa.unparse(exportData);
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = "poengdata.csv";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
+    function showStatus(msg, type) {
+        const el = document.getElementById('status-box');
+        el.style.display = 'block';
+        el.className = 'status-' + type;
+        el.innerText = msg;
+        if(type === 'success') setTimeout(() => el.style.display = 'none', 5000);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        init();
+
+        // --- Hent last ned-knappen og aktiver den ---
+        const downloadButton = document.getElementById('downloadButton');
+        downloadButton.addEventListener('click', () => {
+            try {
+                // Hent hele HTML-innholdet til det nåværende dokumentet
+                const htmlContent = document.documentElement.outerHTML;
+
+                // Lag en Blob (en fil-lignende objekt i minnet)
+                const blob = new Blob(['﻿', htmlContent], { type: 'text/html;charset=utf-8' });
+
+                // Lag en midlertidig lenke for nedlasting
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob);
+                a.download = 'simulering.html';
+
+                // Legg til i DOM, klikk, og fjern
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+
+                // Frigjør minne
+                URL.revokeObjectURL(a.href);
+            } catch (error) {
+                console.error("Feil ved nedlasting av fil:", error);
+            }
+        });
+    });
+</script>

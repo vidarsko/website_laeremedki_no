@@ -1,0 +1,9 @@
+  <footer class="site-footer">
+    <div class="wide">
+      <p data-i18n="footer-copyright">Copyright 2026 – Lære med KI</p>
+      <nav>
+        <a href="/personvernerklaering/" data-i18n="footer-personvern">Personvernerklæring</a>
+        <a href="/kontakt/" data-i18n="footer-kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </footer>
