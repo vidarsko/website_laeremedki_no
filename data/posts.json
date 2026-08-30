@@ -2,6 +2,7 @@
   {
     "slug": "faktaforsoning",
     "title": "Faktaforsoning",
+    "title_en": "Fact Reconciliation",
     "date": "2024-12-18",
     "categories": [
       {
@@ -17,11 +18,13 @@
     ],
     "image": "/media/tile-faktaforsoning.png",
     "excerpt": "Elevene velger to paradoksale fakta og bruker KI for å forstå sammenhengen mellom dem.",
+    "excerpt_en": "Students pick two seemingly contradictory facts and use AI to understand how they fit together.",
     "en_translated": false
   },
   {
     "slug": "titan-no-5-tips-for-a-eie-eksamen-med-ki",
     "title": "Titan: 5 tips for å eie eksamen med KI",
+    "title_en": "Titan: 5 Tips for Acing Your Exams with AI",
     "date": "2024-11-12",
     "categories": [
       {
@@ -37,11 +40,13 @@
     ],
     "image": "/media/tile-titan.jpg",
     "excerpt": "Intervju om mine fem tips om hvordan man kan bruke KI til å lære, fram mot eksamen.",
+    "excerpt_en": "An interview about my five tips for using AI to study for exams.",
     "en_translated": false
   },
   {
     "slug": "uio-no-mestre-gpt-uio-rolle",
     "title": "Mestre GPT - Rolle",
+    "title_en": "Mestre GPT - Role",
     "date": "2024-09-13",
     "categories": [
       {
@@ -52,11 +57,13 @@
     "subcategories": [],
     "image": "/media/tile-mestre-gpt.png",
     "excerpt": "Hvor viktig er det egentlig å gi språkmodellen en \"rolle\"? Det ønsket jeg å teste.",
+    "excerpt_en": "How important is it really to give the language model a \"role\"? I wanted to put that to the test.",
     "en_translated": false
   },
   {
     "slug": "kiosk",
     "title": "Podcast: KIosk",
+    "title_en": "Podcast: KIosk",
     "date": "2025-01-03",
     "categories": [
       {
@@ -72,11 +79,13 @@
     ],
     "image": "/media/tile-kiosk.png",
     "excerpt": "I hver episode snakker jeg med en lærer som har gjennomført et undervisningsopplegg med kunstig intelligens.",
+    "excerpt_en": "In each episode I talk to a teacher who has run a teaching activity using artificial intelligence.",
     "en_translated": false
   },
   {
     "slug": "personvern",
     "title": "Personvern",
+    "title_en": "Privacy",
     "date": "2025-01-16",
     "categories": [
       {
@@ -92,11 +101,13 @@
     ],
     "image": "/media/tile-personvern.png",
     "excerpt": "Når man sender en beskjed til en språkmodell, sendes den til en server som kan befinne seg hvor som helst. Om grønn-gul-rød-svart-modellen for datavern.",
+    "excerpt_en": "When you send a message to a language model, it's sent to a server that could be located anywhere. About the green-yellow-red-black model for data privacy.",
     "en_translated": false
   },
   {
     "slug": "amprimda",
     "title": "AMPRIMDA",
+    "title_en": "AMPRIMDA",
     "date": "2025-03-20",
     "categories": [
       {
@@ -116,11 +127,13 @@
     ],
     "image": "/media/tile-amprimda.png",
     "excerpt": "Et verktøy for å undervise programmering, inspirert av PRIMM-metodikken innen programmeringsdidaktikk.",
+    "excerpt_en": "A tool for teaching programming, inspired by the PRIMM methodology in computer science education.",
     "en_translated": false
   },
   {
     "slug": "bok",
     "title": "Instrukser fra fagboka «Lære med KI»",
+    "title_en": "Instructions from the textbook \"Lære med KI\"",
     "date": "2026-04-21",
     "categories": [
       {
@@ -131,11 +144,13 @@
     "subcategories": [],
     "image": "/media/logo.png",
     "excerpt": "Passordbeskyttet samling av 64 KI-instrukser organisert etter kapittel, hentet fra fagboka. Passord finnes i boka.",
+    "excerpt_en": "A password-protected collection of 64 AI instructions organized by chapter, taken from the textbook. The password is in the book.",
     "en_translated": false
   },
   {
     "slug": "prove-med-ki",
     "title": "Prøve med KI",
+    "title_en": "Testing with AI",
     "date": "2024-12-18",
     "categories": [
       {
@@ -155,11 +170,13 @@
     ],
     "image": "/media/tile-prove-med-ki.png",
     "excerpt": "Elevene gjennomfører en skriftlig prøve med tilgang til en språkmodell, med tips til oppgavetyper som hindrer ren avskrift.",
+    "excerpt_en": "Students take a written test with access to a language model, with tips for task types that discourage straight copying.",
     "en_translated": true
   },
   {
     "slug": "multiple-choice-sporsmal",
     "title": "Multiple choice-spørsmål",
+    "title_en": "Multiple-Choice Questions",
     "date": "2024-12-18",
     "categories": [
       {
@@ -191,11 +208,13 @@
     ],
     "image": "/media/tile-multiple-choice-sporsmal.png",
     "excerpt": "Bruk språkmodellen til å lage riktige og gale svar til multiple choice-prøver.",
+    "excerpt_en": "Use the language model to generate correct and incorrect answers for multiple-choice tests.",
     "en_translated": true
   },
   {
     "slug": "programmering-med-ki",
     "title": "Programmering med KI",
+    "title_en": "Programming with AI",
     "date": "2024-12-18",
     "categories": [
       {
@@ -211,11 +230,13 @@
     ],
     "image": "/media/tile-programmering-med-ki.png",
     "excerpt": "Tips og modeller, som PRIMM og MPRIM, for å undervise programmering med kunstig intelligens som verktøy.",
+    "excerpt_en": "Tips and frameworks, such as PRIMM and MPRIM, for teaching programming using artificial intelligence as a tool.",
     "en_translated": true
   },
   {
     "slug": "metode-sammenlikning",
     "title": "Metode-sammenlikning",
+    "title_en": "Method Comparison",
     "date": "2024-12-18",
     "categories": [
       {
@@ -235,11 +256,13 @@
     ],
     "image": "/media/tile-metode-sammenlikning.png",
     "excerpt": "Elevene lager sin egen metode for å løse et problem og sammenlikner den deretter med KI-ens metode.",
+    "excerpt_en": "Students devise their own method for solving a problem, then compare it with the AI's method.",
     "en_translated": true
   },
   {
     "slug": "flere-mulige-svar",
     "title": "Flere mulige svar",
+    "title_en": "Multiple Possible Answers",
     "date": "2024-12-19",
     "categories": [
       {
@@ -250,11 +273,13 @@
     "subcategories": [],
     "image": "/media/tile-flere-mulige-svar.png",
     "excerpt": "En ledetekst som får språkmodellen til å svare kort på tre ulike måter – enkelt, vanlig og vilt kreativt.",
+    "excerpt_en": "A prompt that gets the language model to answer briefly in three different ways — simple, normal, and wildly creative.",
     "en_translated": true
   },
   {
     "slug": "ledetekstinnvending",
     "title": "Ledetekstinnvending",
+    "title_en": "Prompt Objection",
     "date": "2024-12-19",
     "categories": [
       {
@@ -265,11 +290,13 @@
     "subcategories": [],
     "image": "/media/tile-ledetekstinnvending.png",
     "excerpt": "En ledetekst som får språkmodellen til å stille nødvendige oppfølgingsspørsmål før den svarer.",
+    "excerpt_en": "A prompt that gets the language model to ask necessary follow-up questions before answering.",
     "en_translated": true
   },
   {
     "slug": "bildegenereringsmal",
     "title": "Bildegenereringsmal",
+    "title_en": "Image Generation Template",
     "date": "2024-12-19",
     "categories": [
       {
@@ -280,11 +307,13 @@
     "subcategories": [],
     "image": "/media/tile-bildegenereringsmal.png",
     "excerpt": "En konkret formel og ledetekstmal for å generere bilder med konsistent stil ved hjelp av KI.",
+    "excerpt_en": "A concrete formula and prompt template for generating images with a consistent style using AI.",
     "en_translated": true
   },
   {
     "slug": "punktlister",
     "title": "Punktlister",
+    "title_en": "Bullet-Point Lists",
     "date": "2024-12-19",
     "categories": [
       {
@@ -300,11 +329,13 @@
     ],
     "image": "/media/tile-punktlister.png",
     "excerpt": "Språkmodeller kan generere svært lange punktlister på forespørsel – nyttig for å løsne kreativ tenkning.",
+    "excerpt_en": "Language models can generate very long bullet-point lists on request — useful for unlocking creative thinking.",
     "en_translated": true
   },
   {
     "slug": "podcast-peagogisk-intelligens",
     "title": "Podcast: Pedagogisk intelligens",
+    "title_en": "Podcast: Pedagogical Intelligence",
     "date": "2025-01-03",
     "categories": [
       {
@@ -320,11 +351,13 @@
     ],
     "image": "/media/tile-podcast-peagogisk-intelligens.jpg",
     "excerpt": "Ukentlig norsk podcast om KI i undervisning, produsert av Høgskolen i Østfold.",
+    "excerpt_en": "A weekly Norwegian podcast about AI in education, produced by Østfold University College.",
     "en_translated": true
   },
   {
     "slug": "podcast-the-ai-daily-brief",
     "title": "Podcast: The AI daily brief",
+    "title_en": "Podcast: The AI Daily Brief",
     "date": "2025-01-03",
     "categories": [
       {
@@ -340,11 +373,13 @@
     ],
     "image": "/media/tile-podcast-the-ai-daily-brief.jpg",
     "excerpt": "Daglig engelsk podcast om de seneste utviklingene innen kunstig intelligens.",
+    "excerpt_en": "A daily English-language podcast about the latest developments in artificial intelligence.",
     "en_translated": true
   },
   {
     "slug": "ki-svarvurdering",
     "title": "KI-svarvurdering",
+    "title_en": "AI Answer Assessment",
     "date": "2025-01-03",
     "categories": [
       {
@@ -384,11 +419,13 @@
     ],
     "image": "/media/tile-ki-svarvurdering.png",
     "excerpt": "Elevene forsøker å finne feil i et KI-generert svar, med en ferdig ledetekst du kan bruke.",
+    "excerpt_en": "Students try to spot errors in an AI-generated answer, with a ready-made prompt you can use.",
     "en_translated": true
   },
   {
     "slug": "cc-tenkemotoren",
     "title": "Nettside: CC Tenkemotoren",
+    "title_en": "Website: CC Tenkemotoren",
     "date": "2025-01-07",
     "categories": [
       {
@@ -404,11 +441,13 @@
     ],
     "image": "/media/tile-cc-tenkemotoren.png",
     "excerpt": "Side med mange eksempler på prateroboter til ulike formål, utviklet av Odin Nøsen.",
+    "excerpt_en": "A page with many examples of chatbots for different purposes, developed by Odin Nøsen.",
     "en_translated": true
   },
   {
     "slug": "video-3blue1browns-serie-om-sprakmodeller",
     "title": "Video: 3Blue1Browns serie om språkmodeller",
+    "title_en": "Video: 3Blue1Brown's Series on Language Models",
     "date": "2025-01-09",
     "categories": [
       {
@@ -424,11 +463,13 @@
     ],
     "image": "/media/tile-video-3blue1browns-serie-om-sprakmodeller.png",
     "excerpt": "En videoserie som viser hvordan nevrale nettverk, læring og språkmodeller fungerer, med et kapittel for hver video.",
+    "excerpt_en": "A video series showing how neural networks, learning, and language models work, with a chapter for each video.",
     "en_translated": true
   },
   {
     "slug": "nettside-kurt-om-ki",
     "title": "Nettside: KURT om KI",
+    "title_en": "Website: KURT on AI",
     "date": "2025-01-09",
     "categories": [
       {
@@ -444,11 +485,13 @@
     ],
     "image": "/media/tile-nettside-kurt-om-ki.jpg",
     "excerpt": "KURT-senterets sider om kunstig intelligens i undervisningen ved Universitetet i Oslo.",
+    "excerpt_en": "The KURT centre's pages on artificial intelligence in teaching at the University of Oslo.",
     "en_translated": true
   },
   {
     "slug": "forklaringskonkurranse",
     "title": "Forklaringskonkurranse",
+    "title_en": "Explanation Contest",
     "date": "2025-01-09",
     "categories": [
       {
@@ -464,11 +507,13 @@
     ],
     "image": "/media/tile-forklaringskonkurranse.png",
     "excerpt": "Grupper konkurrerer om å lage den beste faglige forklaringen, én med hjelp fra KI og resten uten.",
+    "excerpt_en": "Groups compete to create the best subject explanation, one with help from AI and the rest without.",
     "en_translated": true
   },
   {
     "slug": "soke-i-tekst",
     "title": "Søke i tekst",
+    "title_en": "Searching Within Text",
     "date": "2025-01-10",
     "categories": [
       {
@@ -484,11 +529,13 @@
     ],
     "image": "/media/tile-soke-i-tekst.png",
     "excerpt": "Bruk KI til å søke etter mindre definerte konsepter i en tekst, ikke bare enkeltord.",
+    "excerpt_en": "Use AI to search for loosely defined concepts within a text, not just single words.",
     "en_translated": true
   },
   {
     "slug": "kode-assistenter",
     "title": "Kode-assistenter",
+    "title_en": "Code Assistants",
     "date": "2024-12-19",
     "categories": [
       {
@@ -504,11 +551,13 @@
     ],
     "image": "/media/tile-kode-assistenter.png",
     "excerpt": "Oversikt over KI-verktøy som kan integreres i kodeeditoren for autofullføring og samtalebasert kodehjelp.",
+    "excerpt_en": "An overview of AI tools that can be integrated into your code editor for autocomplete and chat-based coding help.",
     "en_translated": true
   },
   {
     "slug": "debugging-av-kode",
     "title": "Debugging av kode",
+    "title_en": "Debugging Code",
     "date": "2024-12-19",
     "categories": [
       {
@@ -524,11 +573,13 @@
     ],
     "image": "/media/tile-debugging-av-kode.png",
     "excerpt": "Triks for å lime inn feilmeldinger og be språkmodellen bruke enklere funksjoner når du feilsøker kode med KI.",
+    "excerpt_en": "Tricks for pasting in error messages and asking the language model to use simpler functions when debugging code with AI.",
     "en_translated": true
   },
   {
     "slug": "unioslo-unnga-fusk-med-ki",
     "title": "@unioslo: Unngå fusk med KI",
+    "title_en": "@unioslo: Avoiding Cheating with AI",
     "date": "2024-04-30",
     "categories": [
       {
@@ -544,11 +595,13 @@
     ],
     "image": "/media/tile-unioslo-unnga-fusk-med-ki.png",
     "excerpt": "En Instagrampost fra Universitetet i Oslo med mine råd om hvordan man unngår fusk med KI.",
+    "excerpt_en": "An Instagram post from the University of Oslo with my advice on how to avoid cheating with AI.",
     "en_translated": true
   },
   {
     "slug": "uio-no-ville-gpt-uio-matte-ga-av-som-utdanningsminister",
     "title": "Ville GPT UiO måtte gå av som utdanningsminister?",
+    "title_en": "Would GPT UiO Have Had to Resign as Minister of Education?",
     "date": "2024-01-24",
     "categories": [
       {
@@ -559,11 +612,13 @@
     "subcategories": [],
     "image": "/media/tile-uio-no-ville-gpt-uio-matte-ga-av-som-utdanningsminister.png",
     "excerpt": "En enkel test av om chatGPT UiO ukritisk klipper inn andres arbeid, slik enkelte statsråder har gjort.",
+    "excerpt_en": "A simple test of whether chatGPT UiO uncritically pastes in other people's work, the way some government ministers have done.",
     "en_translated": true
   },
   {
     "slug": "servering-av-analogier",
     "title": "Servering av analogier",
+    "title_en": "Serving Up Analogies",
     "date": "2025-01-07",
     "categories": [
       {
@@ -574,11 +629,13 @@
     "subcategories": [],
     "image": "/media/tile-servering-av-analogier.png",
     "excerpt": "En ledetekst som ber språkmodellen gi en kort analogi til hvert svar den gir.",
+    "excerpt_en": "A prompt that asks the language model to give a short analogy alongside every answer it provides.",
     "en_translated": true
   },
   {
     "slug": "test-ditt-budskap",
     "title": "Test ditt budskap",
+    "title_en": "Test Your Message",
     "date": "2024-12-19",
     "categories": [
       {
@@ -594,11 +651,13 @@
     ],
     "image": "/media/tile-test-ditt-budskap.png",
     "excerpt": "Bruk KI til å teste om budskapet ditt kommer tydelig fram, med eksempler fra formulering av begreper og en doktorgradstekst.",
+    "excerpt_en": "Use AI to test whether your message comes across clearly, with examples from wording definitions and a PhD text.",
     "en_translated": true
   },
   {
     "slug": "lese-artikler-med-ki",
     "title": "Lese artikkel med KI",
+    "title_en": "Reading Articles with AI",
     "date": "2024-12-28",
     "categories": [
       {
@@ -614,11 +673,13 @@
     ],
     "image": "/media/tile-lese-artikler-med-ki.png",
     "excerpt": "Kopier artikkelteksten inn i en språkmodell og bruk den som samtalepartner mens du leser.",
+    "excerpt_en": "Paste the article text into a language model and use it as a conversation partner while you read.",
     "en_translated": true
   },
   {
     "slug": "podcast-real-laering",
     "title": "Podcast: REAL læring",
+    "title_en": "Podcast: REAL Learning",
     "date": "2025-01-03",
     "categories": [
       {
@@ -634,11 +695,13 @@
     ],
     "image": "/media/tile-podcast-real-laering.jpg",
     "excerpt": "Månedlig podcast om læring i høyere utdanning fra Universitetet i Oslo; sesong 1 diskuterer chatGPTs rolle i undervisning.",
+    "excerpt_en": "A monthly podcast about learning in higher education from the University of Oslo; season 1 discusses chatGPT's role in teaching.",
     "en_translated": true
   },
   {
     "slug": "hot-keys",
     "title": "Hot Keys",
+    "title_en": "Hot Keys",
     "date": "2025-01-17",
     "categories": [
       {
@@ -649,11 +712,13 @@
     "subcategories": [],
     "image": "/media/tile-hot-keys.png",
     "excerpt": "Legg inn hotkeys i en ledetekst for å utløse konkrete oppfølgingsoppgaver som quiz, oppsummering eller tidslinje.",
+    "excerpt_en": "Build hotkeys into a prompt to trigger specific follow-up tasks like a quiz, a summary, or a timeline.",
     "en_translated": true
   },
   {
     "slug": "laeringsassistent",
     "title": "Læringsassistent",
+    "title_en": "Learning Assistant",
     "date": "2025-01-17",
     "categories": [
       {
@@ -664,11 +729,13 @@
     "subcategories": [],
     "image": "/media/tile-laeringsassistent.png",
     "excerpt": "En ledetekst utarbeidet av Andreas Haraldsrud som får KI-en til å opptre som en sokratisk, pedagogisk læringsassistent.",
+    "excerpt_en": "A prompt developed by Andreas Haraldsrud that turns the AI into a Socratic, pedagogical learning assistant.",
     "en_translated": true
   },
   {
     "slug": "tabellmakern",
     "title": "Tabellmaker'n",
+    "title_en": "The Table-Maker",
     "date": "2025-01-17",
     "categories": [
       {
@@ -679,11 +746,13 @@
     "subcategories": [],
     "image": "/media/tile-tabellmakern.png",
     "excerpt": "En ledetekst som får KI-en til å strukturere en tekst som en oversiktlig tabell med begreper, definisjoner og eksempler.",
+    "excerpt_en": "A prompt that gets the AI to structure a text as a clear table of terms, definitions, and examples.",
     "en_translated": true
   },
   {
     "slug": "instruksjoner-prateroboter",
     "title": "Instruksjoner/prateroboter",
+    "title_en": "Instructions / Chatbots",
     "date": "2025-01-17",
     "categories": [
       {
@@ -699,11 +768,13 @@
     ],
     "image": "/media/tile-instruksjoner-prateroboter.png",
     "excerpt": "En oversikt over hvordan man oppretter egendefinerte instruksjoner/prateroboter i ChatGPT, GPT UiO, Gemini og Osloskolen.",
+    "excerpt_en": "An overview of how to create custom instructions/chatbots in ChatGPT, GPT UiO, Gemini, and Osloskolen.",
     "en_translated": true
   },
   {
     "slug": "spraksjekker",
     "title": "Språksjekker",
+    "title_en": "Language Checker",
     "date": "2025-01-17",
     "categories": [
       {
@@ -714,11 +785,13 @@
     "subcategories": [],
     "image": "/media/tile-spraksjekker.png",
     "excerpt": "En ledetekst som får KI-en til å gi konkret tilbakemelding på skrivefeil, grammatikk og uklare formuleringer i egen tekst.",
+    "excerpt_en": "A prompt that gets the AI to give concrete feedback on spelling, grammar, and unclear phrasing in your own text.",
     "en_translated": true
   },
   {
     "slug": "ki-verktoy-chatgpt",
     "title": "KI-verktøy: ChatGPT",
+    "title_en": "AI Tool: ChatGPT",
     "date": "2025-01-17",
     "categories": [
       {
@@ -734,11 +807,13 @@
     ],
     "image": "/media/tile-ki-verktoy-chatgpt.png",
     "excerpt": "Lenkekort til ChatGPT, tjenesten som gjorde språkmodeller verdensberømte.",
+    "excerpt_en": "A link card for ChatGPT, the service that made language models world-famous.",
     "en_translated": true
   },
   {
     "slug": "ki-verktoy-veed-io",
     "title": "KI-verktøy: veed.io",
+    "title_en": "AI Tool: veed.io",
     "date": "2025-01-17",
     "categories": [
       {
@@ -754,11 +829,13 @@
     ],
     "image": "/media/tile-ki-verktoy-veed-io.jpeg",
     "excerpt": "Lenkekort til veed.io, et verktøy som lager KI-genererte videoer.",
+    "excerpt_en": "A link card for veed.io, a tool that creates AI-generated videos.",
     "en_translated": true
   },
   {
     "slug": "ki-verktoy-udio-com",
     "title": "KI-verktøy: udio.com",
+    "title_en": "AI Tool: udio.com",
     "date": "2025-01-17",
     "categories": [
       {
@@ -774,11 +851,13 @@
     ],
     "image": "/media/tile-ki-verktoy-udio-com.jpg",
     "excerpt": "Lenke til udio.com, et verktøy som lager KI-generert musikk.",
+    "excerpt_en": "A link to udio.com, a tool that creates AI-generated music.",
     "en_translated": true
   },
   {
     "slug": "studenten-har-brukt-ki-hva-na",
     "title": "Eleven har brukt KI - hva nå?",
+    "title_en": "The Student Used AI — Now What?",
     "date": "2025-01-21",
     "categories": [
       {
@@ -789,11 +868,13 @@
     "subcategories": [],
     "image": "/media/tile-studenten-har-brukt-ki-hva-na.jpg",
     "excerpt": "Om hvordan man kan avsløre KI-bruk hos elever, gi tilbakemelding på mistenkt KI-tekst, og alternative vurderingsformer.",
+    "excerpt_en": "On how to spot AI use among students, give feedback on suspected AI-written text, and alternative forms of assessment.",
     "en_translated": true
   },
   {
     "slug": "refleksjonsnotat",
     "title": "Refleksjonsnotat",
+    "title_en": "Reflection Note",
     "date": "2025-01-23",
     "categories": [
       {
@@ -825,11 +906,13 @@
     ],
     "image": "/media/tile-refleksjonsnotat.png",
     "excerpt": "Forslag til spørsmål elevene kan bruke i et refleksjonsnotat om hvordan de har jobbet med en oppgave og brukt KI underveis.",
+    "excerpt_en": "Suggested questions students can use in a reflection note about how they worked on a task and used AI along the way.",
     "en_translated": true
   },
   {
     "slug": "om-praterobotene-pa-denne-siden",
     "title": "Om praterobotene på LæreMedKi.no",
+    "title_en": "About the Chatbots on LæreMedKi.no",
     "date": "2025-02-04",
     "categories": [
       {
@@ -845,11 +928,13 @@
     ],
     "image": "/media/tile-om-praterobotene-pa-denne-siden.png",
     "excerpt": "En forklaring på hva som skjer med meldingene dine når du bruker en av nettsidens innebygde prateroboter.",
+    "excerpt_en": "An explanation of what happens to your messages when you use one of this site's built-in chatbots.",
     "en_translated": true
   },
   {
     "slug": "arbeidsark-om-sprakmodell",
     "title": "Arbeidsark om språkmodell",
+    "title_en": "Worksheet on Language Models",
     "date": "2025-01-25",
     "categories": [
       {
@@ -873,11 +958,13 @@
     ],
     "image": "/media/tile-arbeidsark-om-sprakmodell.png",
     "excerpt": "Elevene regner på en forenklet mini-språkmodell for å forstå nevrale nettverk, meningsrom og hvordan språkmodeller forutsier neste ord.",
+    "excerpt_en": "Students do calculations on a simplified mini language model to understand neural networks, meaning space, and how language models predict the next word.",
     "en_translated": true
   },
   {
     "slug": "latintekst",
     "title": "Latintekst",
+    "title_en": "Latin Text",
     "date": "2025-01-26",
     "categories": [
       {
@@ -888,11 +975,13 @@
     "subcategories": [],
     "image": "/media/tile-latintekst.png",
     "excerpt": "En KI-generert latinsk gåte om Pytagoras' setning.",
+    "excerpt_en": "An AI-generated Latin riddle about the Pythagorean theorem.",
     "en_translated": true
   },
   {
     "slug": "finn-feilene",
     "title": "Finn feilene!",
+    "title_en": "Find the Errors!",
     "date": "2025-01-31",
     "categories": [
       {
@@ -928,11 +1017,13 @@
     ],
     "image": "/media/tile-finn-feilene.png",
     "excerpt": "En KI-generert tekst med tre bevisste feil som elevene skal klare å finne.",
+    "excerpt_en": "An AI-generated text with three deliberate errors that students have to find.",
     "en_translated": true
   },
   {
     "slug": "starter-lag-quizlet-med-ki",
     "title": "Lag Quizlet med KI",
+    "title_en": "Make a Quizlet with AI",
     "date": "2025-01-31",
     "categories": [
       {
@@ -964,11 +1055,13 @@
     ],
     "image": "/media/tile-starter-lag-quizlet-med-ki.png",
     "excerpt": "En steg-for-steg-guide til å lage et Quizlet-sett på to minutter ved hjelp av KI-genererte definisjoner.",
+    "excerpt_en": "A step-by-step guide to building a Quizlet set in two minutes using AI-generated definitions.",
     "en_translated": true
   },
   {
     "slug": "nettside-quizlet",
     "title": "Nettside: Quizlet",
+    "title_en": "Website: Quizlet",
     "date": "2025-01-31",
     "categories": [
       {
@@ -984,11 +1077,13 @@
     ],
     "image": "/media/tile-nettside-quizlet.png",
     "excerpt": "Quizlet er en tjeneste for begrepstrening, godt egnet til å kombineres med KI-genererte definisjoner.",
+    "excerpt_en": "Quizlet is a flashcard service well suited to combining with AI-generated definitions.",
     "en_translated": true
   },
   {
     "slug": "varseltrekanten-for-ki-personvern-miljo-etikk",
     "title": "Varseltrekanten for KI: Personvern, miljø, etikk",
+    "title_en": "The AI Warning Triangle: Privacy, Environment, Ethics",
     "date": "2025-02-07",
     "categories": [
       {
@@ -1016,11 +1111,13 @@
     ],
     "image": "/media/tile-varseltrekanten-for-ki-personvern-miljo-etikk.png",
     "excerpt": "En gruppeaktivitet der elevene fordyper seg i personvern, miljø og etikk knyttet til KI-bruk.",
+    "excerpt_en": "A group activity where students dig into privacy, environmental impact, and ethics related to AI use.",
     "en_translated": true
   },
   {
     "slug": "4-tips-til-forenkling-av-laererhverdagen-med-ki",
     "title": "4 tips til forenkling av lærerhverdagen med KI",
+    "title_en": "4 Tips for Simplifying Your Teaching Day with AI",
     "date": "2025-02-18",
     "categories": [
       {
@@ -1031,11 +1128,13 @@
     "subcategories": [],
     "image": "/media/tile-4-tips-til-forenkling-av-laererhverdagen-med-ki.png",
     "excerpt": "En oversikt over favoritt-tips for å bruke KI til undervisningsaktiviteter, oppgaver, undervisningsmateriale og vurdering.",
+    "excerpt_en": "An overview of my favorite tips for using AI for teaching activities, assignments, teaching materials, and assessment.",
     "en_translated": true
   },
   {
     "slug": "artikkel",
     "title": "Artikkel",
+    "title_en": "Article",
     "date": "2025-02-17",
     "categories": [
       {
@@ -1046,11 +1145,13 @@
     "subcategories": [],
     "image": "/media/logo.png",
     "excerpt": "En nedlastbar vitenskapelig artikkel Vidar har vært medforfatter av, delt som PDF.",
+    "excerpt_en": "A downloadable academic article Vidar has co-authored, shared as a PDF.",
     "en_translated": true
   },
   {
     "slug": "forelesningspause-oppgaver",
     "title": "Forelesningspause-oppgaver",
+    "title_en": "Lecture-Break Tasks",
     "date": "2025-02-18",
     "categories": [
       {
@@ -1082,11 +1183,13 @@
     ],
     "image": "/media/tile-forelesningspause-oppgaver.png",
     "excerpt": "Bruk KI til å generere pauseoppgaver som gir elevene et avbrekk midt i en forelesning.",
+    "excerpt_en": "Use AI to generate break tasks that give students a breather in the middle of a lecture.",
     "en_translated": true
   },
   {
     "slug": "lage-formativ-prove-med-ki",
     "title": "Lage formativ prøve med KI",
+    "title_en": "Making a Formative Test with AI",
     "date": "2025-02-18",
     "categories": [
       {
@@ -1118,11 +1221,13 @@
     ],
     "image": "/media/tile-lage-formativ-prove-med-ki.png",
     "excerpt": "Be KI lage en 30-minutters formativ prøve som elevene retter for hverandre og diskuterer i klassen.",
+    "excerpt_en": "Ask AI to create a 30-minute formative test that students grade for each other and discuss in class.",
     "en_translated": true
   },
   {
     "slug": "laer-elevene-a-vurdere-seg-selv-med-ki",
     "title": "Selv-vurdering med KI",
+    "title_en": "Self-Assessment with AI",
     "date": "2025-02-18",
     "categories": [
       {
@@ -1154,11 +1259,13 @@
     ],
     "image": "/media/tile-laer-elevene-a-vurdere-seg-selv-med-ki.png",
     "excerpt": "Ledetekster elevene kan bruke til å få KI-tilbakemelding på eget arbeid før de leverer til læreren.",
+    "excerpt_en": "Prompts students can use to get AI feedback on their own work before handing it in to the teacher.",
     "en_translated": true
   },
   {
     "slug": "ta-opp-transkriber-oppsummer",
     "title": "Ta opp -> transkribér -> oppsummér",
+    "title_en": "Record -> Transcribe -> Summarize",
     "date": "2025-02-18",
     "categories": [
       {
@@ -1174,11 +1281,13 @@
     ],
     "image": "/media/tile-ta-opp-transkriber-oppsummer.png",
     "excerpt": "Ta opp muntlige tilbakemeldinger på telefonen, transkribér dem og la KI lage en oppsummering.",
+    "excerpt_en": "Record oral feedback on your phone, transcribe it, and let AI produce a summary.",
     "en_translated": true
   },
   {
     "slug": "naturfagpodden-ki-i-skolen",
     "title": "Naturfagpodden: KI i skolen",
+    "title_en": "Naturfagpodden: AI in Schools",
     "date": "2025-02-24",
     "categories": [
       {
@@ -1194,11 +1303,13 @@
     ],
     "image": "/media/tile-naturfagpodden-ki-i-skolen.jpg",
     "excerpt": "Vidar gjestet Naturfagpodden for å snakke om bruk av kunstig intelligens i skolen.",
+    "excerpt_en": "Vidar joined Naturfagpodden as a guest to talk about using artificial intelligence in schools.",
     "en_translated": true
   },
   {
     "slug": "skrive-avlastning",
     "title": "Skrive-avlastning",
+    "title_en": "Writing Relief",
     "date": "2025-04-08",
     "categories": [
       {
@@ -1218,11 +1329,13 @@
     ],
     "image": "/media/tile-skrive-avlastning.png",
     "excerpt": "Tre ferdige ledetekster elevene kan bruke for å få hjelp av KI til å skrive åpning, slutt eller disposisjon i en historie.",
+    "excerpt_en": "Three ready-made prompts students can use to get AI help writing the opening, ending, or outline of a story.",
     "en_translated": true
   },
   {
     "slug": "konkurranse-ki-essay",
     "title": "Konkurranse: KI-essay",
+    "title_en": "Competition: AI Essay",
     "date": "2025-04-08",
     "categories": [
       {
@@ -1242,11 +1355,13 @@
     ],
     "image": "/media/tile-konkurranse-ki-essay.png",
     "excerpt": "En klassekonkurranse om hvem som klarer å få KI til å skrive det beste essayet med kun én ledetekst.",
+    "excerpt_en": "A class competition to see who can get AI to write the best essay using only a single prompt.",
     "en_translated": true
   },
   {
     "slug": "prosessbaserte-innleveringer",
     "title": "Prosessbaserte innleveringer",
+    "title_en": "Process-Based Submissions",
     "date": "2025-04-08",
     "categories": [
       {
@@ -1270,11 +1385,13 @@
     ],
     "image": "/media/tile-prosessbaserte-innleveringer.png",
     "excerpt": "Tre eksempler på flerstegs innleveringer der elevene må levere en konkret leveranse i hvert steg, slik at hele KI-prosessen kan vurderes.",
+    "excerpt_en": "Three examples of multi-step submissions where students hand in a concrete deliverable at each step, so the whole AI-assisted process can be assessed.",
     "en_translated": true
   },
   {
     "slug": "snakk-spansk-med-ki",
     "title": "Snakk spansk med KI",
+    "title_en": "Speak Spanish with AI",
     "date": "2025-04-08",
     "categories": [
       {
@@ -1290,11 +1407,13 @@
     ],
     "image": "/media/tile-snakk-spansk-med-ki.png",
     "excerpt": "En ledetekst for enkel spansk-samtaletrening med KI, pluss sju forslag til interaktive oppdrag som gjør øvelsen mer spennende.",
+    "excerpt_en": "A prompt for simple Spanish conversation practice with AI, plus seven suggestions for interactive missions to make the exercise more exciting.",
     "en_translated": true
   },
   {
     "slug": "tren-gloser-med-ki",
     "title": "Tren gloser med KI",
+    "title_en": "Practice Vocabulary with AI",
     "date": "2025-04-08",
     "categories": [
       {
@@ -1310,11 +1429,13 @@
     ],
     "image": "/media/tile-tren-gloser-med-ki.png",
     "excerpt": "En ledetekst elevene kan bruke til å la KI teste dem i gloser, med franskvokabular om kjøkkenet som eksempel.",
+    "excerpt_en": "A prompt students can use to have AI quiz them on vocabulary, using French kitchen vocabulary as an example.",
     "en_translated": true
   },
   {
     "slug": "diagnostiser-pasienten",
     "title": "Diagnostiser pasienten",
+    "title_en": "Diagnose the Patient",
     "date": "2025-04-08",
     "categories": [
       {
@@ -1330,11 +1451,13 @@
     ],
     "image": "/media/tile-diagnostiser-pasienten.png",
     "excerpt": "En rollespill-ledetekst hvor KI spiller en liksompasient med influensasymptomer som elevene skal prøve å diagnostisere.",
+    "excerpt_en": "A role-play prompt where AI plays a make-believe patient with flu symptoms that students try to diagnose.",
     "en_translated": true
   },
   {
     "slug": "forandre-sjanger",
     "title": "Forandre sjanger",
+    "title_en": "Change the Genre",
     "date": "2025-04-09",
     "categories": [
       {
@@ -1350,11 +1473,13 @@
     ],
     "image": "/media/tile-forandre-sjanger.png",
     "excerpt": "Hvordan bruke KI til å omforme en nyhetssak til et dikt, med et konkret diktresultat og forslag til hvordan man kan gjøre det til en oppgave.",
+    "excerpt_en": "How to use AI to turn a news story into a poem, with a concrete example poem and suggestions for turning it into an assignment.",
     "en_translated": true
   },
   {
     "slug": "hvilken-sangnyhet",
     "title": "Hvilken sangnyhet?",
+    "title_en": "Which Song Is the News?",
     "date": "2025-04-09",
     "categories": [
       {
@@ -1370,11 +1495,13 @@
     ],
     "image": "/media/tile-hvilken-sangnyhet.png",
     "excerpt": "En starteroppgave der KI kombinerer teksten til tre kjente popsanger til én nyhetssak, og elevene skal gjette hvilke sanger som er brukt.",
+    "excerpt_en": "A warm-up activity where AI combines the lyrics of three well-known pop songs into a single news story, and students guess which songs were used.",
     "en_translated": true
   },
   {
     "slug": "prompte-pa-norsk-framsporre",
     "title": "Prompte på norsk? Framspørre!",
+    "title_en": "Prompt in Norwegian? \"Framspørre\"!",
     "date": "2025-01-10",
     "categories": [
       {
@@ -1385,11 +1512,13 @@
     "subcategories": [],
     "image": "/media/tile-prompte-pa-norsk-framsporre.png",
     "excerpt": "Et forslag til norske ord for prompt-relaterte begreper, utviklet sammen med Andreas Haraldsrud.",
+    "excerpt_en": "A proposal for Norwegian words for prompt-related terms, developed together with Andreas Haraldsrud.",
     "en_translated": true
   },
   {
     "slug": "bildegenerering",
     "title": "Bildegenerering",
+    "title_en": "Image Generation",
     "date": "2025-01-10",
     "categories": [
       {
@@ -1405,11 +1534,13 @@
     ],
     "image": "/media/tile-bildegenerering.png",
     "excerpt": "En gjennomgang av hvordan man kan generere og redigere KI-bilder med en fast mal, med eksempler fra MidJourney.",
+    "excerpt_en": "A walkthrough of how to generate and edit AI images using a fixed template, with examples from MidJourney.",
     "en_translated": true
   },
   {
     "slug": "ki-verktoy-midjourney",
     "title": "KI-verktøy: MidJourney",
+    "title_en": "AI Tool: MidJourney",
     "date": "2025-01-10",
     "categories": [
       {
@@ -1425,11 +1556,13 @@
     ],
     "image": "/media/tile-ki-verktoy-midjourney.png",
     "excerpt": "MidJourney er et KI-verktøy for å generere bilder basert på tekstprompter.",
+    "excerpt_en": "MidJourney is an AI tool for generating images from text prompts.",
     "en_translated": true
   },
   {
     "slug": "nettside-ikke-slutt-a-skrive",
     "title": "Nettside: Ikke slutt å skrive!",
+    "title_en": "Website: Don't Stop Writing!",
     "date": "2025-01-15",
     "categories": [
       {
@@ -1445,11 +1578,13 @@
     ],
     "image": "/media/tile-nettside-ikke-slutt-a-skrive.png",
     "excerpt": "The Most Dangerous Writing App er en nettside som sletter teksten din dersom du slutter å skrive.",
+    "excerpt_en": "The Most Dangerous Writing App is a website that deletes your text if you stop writing.",
     "en_translated": true
   },
   {
     "slug": "nettside-genai-teachable-machine",
     "title": "Nettside: GenAI Teachable Machine",
+    "title_en": "Website: GenAI Teachable Machine",
     "date": "2025-01-15",
     "categories": [
       {
@@ -1465,11 +1600,13 @@
     ],
     "image": "/media/tile-nettside-genai-teachable-machine.png",
     "excerpt": "GenAI Teachable Machine lar deg trene og visualisere en bildeklassifiserer live i klasserommet.",
+    "excerpt_en": "GenAI Teachable Machine lets you train and visualize an image classifier live in the classroom.",
     "en_translated": true
   },
   {
     "slug": "video-mine-fem-triks-for-a-laere-med-ki",
     "title": "Video: Mine fem triks for å lære med KI",
+    "title_en": "Video: My Five Tricks for Learning with AI",
     "date": "2025-01-15",
     "categories": [
       {
@@ -1485,11 +1622,13 @@
     ],
     "image": "/media/tile-video-mine-fem-triks-for-a-laere-med-ki.png",
     "excerpt": "Et foredrag på YouTube om fem konkrete triks for å lære med kunstig intelligens.",
+    "excerpt_en": "A YouTube talk about five concrete tricks for learning with artificial intelligence.",
     "en_translated": true
   },
   {
     "slug": "miljo",
     "title": "Miljø",
+    "title_en": "Environment",
     "date": "2025-01-16",
     "categories": [
       {
@@ -1505,11 +1644,13 @@
     ],
     "image": "/media/tile-miljo.png",
     "excerpt": "En gjennomgang av kunstig intelligens sin påvirkning på strøm- og vannforbruk, og hvordan KI også kan bidra til klimaløsninger.",
+    "excerpt_en": "A look at artificial intelligence's impact on electricity and water consumption, and how AI can also contribute to climate solutions.",
     "en_translated": true
   },
   {
     "slug": "etikk",
     "title": "Etikk",
+    "title_en": "Ethics",
     "date": "2025-01-16",
     "categories": [
       {
@@ -1525,11 +1666,13 @@
     ],
     "image": "/media/tile-etikk.png",
     "excerpt": "En gjennomgang av etiske spørsmål ved kunstig intelligens, som bias, kunstnerskap og opphavsrett.",
+    "excerpt_en": "A look at ethical questions around artificial intelligence, such as bias, authorship, and copyright.",
     "en_translated": true
   },
   {
     "slug": "gjett-historiediktet",
     "title": "Gjett historiediktet",
+    "title_en": "Guess the History Poem",
     "date": "2025-04-09",
     "categories": [
       {
@@ -1549,11 +1692,13 @@
     ],
     "image": "/media/tile-gjett-historiediktet.png",
     "excerpt": "Bruk KI til å skrive om en historisk hendelse til et dikt, og la elevene gjette hvilken hendelse det er snakk om.",
+    "excerpt_en": "Use AI to rewrite a historical event as a poem, and have students guess which event it is.",
     "en_translated": true
   },
   {
     "slug": "program-puslespill",
     "title": "Program-puslespill",
+    "title_en": "Program Puzzle",
     "date": "2025-04-10",
     "categories": [
       {
@@ -1569,11 +1714,13 @@
     ],
     "image": "/media/tile-program-puslespill.png",
     "excerpt": "La KI generere et program som elevene klipper opp og pusler sammen igjen, som en måte å lære programmering på.",
+    "excerpt_en": "Have AI generate a program that students cut up and piece back together, as a way of learning programming.",
     "en_translated": true
   },
   {
     "slug": "finn-feilen-i-programmet",
     "title": "Finn feilen i programmet",
+    "title_en": "Find the Bug in the Program",
     "date": "2025-04-10",
     "categories": [
       {
@@ -1589,11 +1736,13 @@
     ],
     "image": "/media/tile-finn-feilen-i-programmet.png",
     "excerpt": "Få KI til å lage et program med en bevisst feil, og la elevene finne den – gjerne en faglig feil for tverrfaglig trening.",
+    "excerpt_en": "Have AI write a program with a deliberate bug, and let students find it — ideally a subject-matter error for cross-curricular practice.",
     "en_translated": true
   },
   {
     "slug": "kildesammenligning",
     "title": "Kildesammenligning",
+    "title_en": "Source Comparison",
     "date": "2025-05-28",
     "categories": [
       {
@@ -1609,11 +1758,13 @@
     ],
     "image": "/media/tile-kildesammenligning.png",
     "excerpt": "Elevene sammenligner svar fra en autoritativ kilde med svar fra ulike KI-tjenester, med et konkret historieopplegg til nedlasting.",
+    "excerpt_en": "Students compare answers from an authoritative source with answers from various AI services, with a downloadable history activity.",
     "en_translated": true
   },
   {
     "slug": "ki-tilpasset-tekst",
     "title": "KI-tilpasset tekst",
+    "title_en": "AI-Adapted Text",
     "date": "2025-08-28",
     "categories": [
       {
@@ -1633,11 +1784,13 @@
     ],
     "image": "/media/tile-ki-tilpasset-tekst.png",
     "excerpt": "Steg-for-steg-metode for å bruke KI til å lage nivåtilpassede versjoner av en grunntekst i språkundervisningen.",
+    "excerpt_en": "A step-by-step method for using AI to create level-adapted versions of a base text in language teaching.",
     "en_translated": true
   },
   {
     "slug": "lage-prover-med-ki",
     "title": "Lage prøver med KI",
+    "title_en": "Making Tests with AI",
     "date": "2025-08-28",
     "categories": [
       {
@@ -1661,11 +1814,13 @@
     ],
     "image": "/media/tile-lage-prover-med-ki.png",
     "excerpt": "Bruk KI til å lage et utkast til en flervalgsprøve fra en liste med fagbegreper, og kvalitetssikre resultatet selv.",
+    "excerpt_en": "Use AI to draft a multiple-choice test from a list of subject terms, then quality-check the result yourself.",
     "en_translated": true
   },
   {
     "slug": "assistent",
     "title": "Personlig læringsassistent",
+    "title_en": "Personal Learning Assistant",
     "date": "2025-09-08",
     "categories": [
       {
@@ -1680,11 +1835,13 @@
     "subcategories": [],
     "image": "/media/tile-assistent.png",
     "excerpt": "En ledetekstmal for å bygge en personlig læringsassistent tilpasset én elevs interesser, mål og faglige styrker/svakheter.",
+    "excerpt_en": "A prompt template for building a personal learning assistant tailored to one student's interests, goals, and academic strengths/weaknesses.",
     "en_translated": true
   },
   {
     "slug": "begrepsark",
     "title": "Begrepsark om KI",
+    "title_en": "AI Term Sheet",
     "date": "2025-09-16",
     "categories": [
       {
@@ -1695,11 +1852,13 @@
     "subcategories": [],
     "image": "/media/tile-begrepsark.png",
     "excerpt": "To nedlastbare PDF-ark med oversikt over sentrale KI-begreper – ett til gjennomgang og ett til repetisjon/gjenhenting.",
+    "excerpt_en": "Two downloadable PDF sheets covering key AI terms — one for introducing them, one for review/recall.",
     "en_translated": true
   },
   {
     "slug": "instruer-hverandre",
     "title": "Instruer hverandre",
+    "title_en": "Instruct Each Other",
     "date": "2025-09-19",
     "categories": [
       {
@@ -1710,11 +1869,13 @@
     "subcategories": [],
     "image": "/media/tile-instruer-hverandre.png",
     "excerpt": "En oppgave hvor elever instruerer hverandre gjennom fysiske og digitale handlinger, som trening i å gi presise, gode instruksjoner.",
+    "excerpt_en": "A task where students instruct each other through physical and digital actions, as practice in giving precise, good instructions.",
     "en_translated": true
   },
   {
     "slug": "3x3x3-trening-i-relasjonell-forstaelse",
     "title": "3x3x3 - Trening i relasjonell forståelse",
+    "title_en": "3x3x3 — Training Relational Understanding",
     "date": "2025-10-01",
     "categories": [
       {
@@ -1734,11 +1895,13 @@
     ],
     "image": "/media/tile-3x3x3-trening-i-relasjonell-forstaelse.png",
     "excerpt": "Elever i grupper på tre forklarer samme begrep på ulike måter, med hjelp fra KI, for å trene relasjonell forståelse.",
+    "excerpt_en": "Students in groups of three explain the same concept in different ways, with help from AI, to build relational understanding.",
     "en_translated": true
   },
   {
     "slug": "symbiotisk-tilbakemelding",
     "title": "Symbiotisk tilbakemelding",
+    "title_en": "Symbiotic Feedback",
     "date": "2025-10-09",
     "categories": [
       {
@@ -1766,11 +1929,13 @@
     ],
     "image": "/media/tile-symbiotisk-tilbakemelding.png",
     "excerpt": "Studenter gir hverandre tilbakemelding på presentasjoner, som KI deretter sammenfatter ut fra en ledetekst forankret i forskningslitteratur.",
+    "excerpt_en": "Students give each other feedback on presentations, which AI then summarizes using a prompt grounded in research literature.",
     "en_translated": true
   },
   {
     "slug": "matteformattering",
     "title": "Matteformattering",
+    "title_en": "Math Formatting",
     "date": "2025-10-10",
     "categories": [
       {
@@ -1786,11 +1951,13 @@
     ],
     "image": "/media/tile-matteformattering.jpg",
     "excerpt": "En ferdig ledetekst som fikser matte- og kjemiformatering når en KI-tjeneste ikke rendrer LaTeX riktig.",
+    "excerpt_en": "A ready-made prompt that fixes math and chemistry formatting when an AI service doesn't render LaTeX correctly.",
     "en_translated": true
   },
   {
     "slug": "prove-prep",
     "title": "Prøve-prep med KI",
+    "title_en": "Test Prep with AI",
     "date": "2025-10-17",
     "categories": [
       {
@@ -1810,11 +1977,13 @@
     ],
     "image": "/media/tile-prove-prep.png",
     "excerpt": "En to-delt økt hvor elevene først forbereder seg til en prøve sammen med KI, og deretter tar prøven uten hjelpemidler.",
+    "excerpt_en": "A two-part session where students first prepare for a test together with AI, then take the test without aids.",
     "en_translated": true
   },
   {
     "slug": "mattetrenern",
     "title": "Mattetrenern",
+    "title_en": "The Math Trainer",
     "date": "2025-10-27",
     "categories": [
       {
@@ -1834,11 +2003,13 @@
     ],
     "image": "/media/tile-mattetrenern.png",
     "excerpt": "En pre-instruks elever kan bruke for å trene matematikk trinnvis sammen med KI, med tilpasset vanskelighetsgrad underveis.",
+    "excerpt_en": "A pre-built prompt students can use to practice math step by step with AI, with difficulty adjusted along the way.",
     "en_translated": true
   },
   {
     "slug": "generere-oppgaver-med-ki",
     "title": "Generere oppgaver med KI",
+    "title_en": "Generating Tasks with AI",
     "date": "2025-10-30",
     "categories": [
       {
@@ -1870,11 +2041,13 @@
     ],
     "image": "/media/tile-generere-oppgaver-med-ki.png",
     "excerpt": "Bruk KI til å generere flere øvingsoppgaver av samme type og vanskelighetsgrad når elevene trenger mer mengdetrening.",
+    "excerpt_en": "Use AI to generate more practice tasks of the same type and difficulty when students need more repetition.",
     "en_translated": true
   },
   {
     "slug": "trene-instruksdesign-morsinstruksen",
     "title": "Trene instruksdesign (morsinstruksen)",
+    "title_en": "Practicing Prompt Design (the Mother Prompt)",
     "date": "2025-10-30",
     "categories": [
       {
@@ -1902,11 +2075,13 @@
     ],
     "image": "/media/tile-trene-instruksdesign-morsinstruksen.png",
     "excerpt": "Elevene bruker en engelskspråklig \"mother prompt\" til å bygge sin egen presise KI-instruks trinnvis, gjennom forberedelse, gjennomføring og refleksjon.",
+    "excerpt_en": "Students use an English-language \"mother prompt\" to build their own precise AI instruction step by step, through preparation, execution, and reflection.",
     "en_translated": true
   },
   {
     "slug": "laeremetode-x-tripp-trapp-metoden-i-matematikk",
     "title": "Læremetode X: Tripp-trapp metoden",
+    "title_en": "Teaching Method X: The Step-by-Step Method",
     "date": "2025-03-10",
     "categories": [
       {
@@ -1922,11 +2097,13 @@
     ],
     "image": "/media/tile-laeremetode-x-tripp-trapp-metoden-i-matematikk.png",
     "excerpt": "En trinnvis fremspørringsmetode i matematikk, illustrert med figurer for hvert steg.",
+    "excerpt_en": "A step-by-step questioning method in mathematics, illustrated with figures for each step.",
     "en_translated": true
   },
   {
     "slug": "laerestrategi-1",
     "title": "Lærestrategi 1",
+    "title_en": "Learning Strategy 1",
     "date": "2025-03-10",
     "categories": [
       {
@@ -1937,11 +2114,13 @@
     "subcategories": [],
     "image": "/media/logo.png",
     "excerpt": "En ledetekst for å lage en detaljert tidsplan og læringsmål når du skal lære deg programmering på egen hånd.",
+    "excerpt_en": "A prompt for creating a detailed schedule and learning goals when teaching yourself programming on your own.",
     "en_translated": true
   },
   {
     "slug": "trafikklyset",
     "title": "Trafikklyset: retningslinjer for bruk av KI",
+    "title_en": "The Traffic Light: Guidelines for Using AI",
     "date": "2025-03-31",
     "categories": [
       {
@@ -1952,11 +2131,13 @@
     "subcategories": [],
     "image": "/media/tile-trafikklyset.png",
     "excerpt": "En visuell rødt/gult/grønt-modell for å kommunisere til elever når og hvordan KI kan brukes i en oppgave.",
+    "excerpt_en": "A visual red/yellow/green model for communicating to students when and how AI can be used in an assignment.",
     "en_translated": true
   },
   {
     "slug": "gronnsakssuppe",
     "title": "Grønnsakssuppen ChatGPT",
+    "title_en": "ChatGPT the Vegetable Soup",
     "date": "2025-03-31",
     "categories": [
       {
@@ -1967,11 +2148,13 @@
     "subcategories": [],
     "image": "/media/tile-gronnsakssuppe.png",
     "excerpt": "En analogi der en språkmodell sammenlignes med en grønnsakssuppe, for å forklare ledetekster og temperatur.",
+    "excerpt_en": "An analogy comparing a language model to a vegetable soup, to explain prompts and temperature.",
     "en_translated": true
   },
   {
     "slug": "programmerern",
     "title": "Programmerer'n",
+    "title_en": "The Programmer",
     "date": "2025-03-24",
     "categories": [
       {
@@ -1982,11 +2165,13 @@
     "subcategories": [],
     "image": "/media/tile-programmerern.png",
     "excerpt": "En ledetekst for å utforske naturfag gjennom programmering, med en tilhørende elevinstruksjon.",
+    "excerpt_en": "A prompt for exploring science through programming, with an accompanying student handout.",
     "en_translated": true
   },
   {
     "slug": "quizzern",
     "title": "Quizzer'n",
+    "title_en": "The Quizzer",
     "date": "2025-03-24",
     "categories": [
       {
@@ -1997,11 +2182,13 @@
     "subcategories": [],
     "image": "/media/tile-quizzern.png",
     "excerpt": "En ledetekst for å lære gjennom å bli utspurt av språkmodellen, med en tilhørende elevinstruksjon.",
+    "excerpt_en": "A prompt for learning by being quizzed by the language model, with an accompanying student handout.",
     "en_translated": true
   },
   {
     "slug": "skriv-som-erlend-loe",
     "title": "Skriv som Erlend Loe",
+    "title_en": "Write Like Erlend Loe",
     "date": "2025-04-07",
     "categories": [
       {
@@ -2017,11 +2204,13 @@
     ],
     "image": "/media/tile-skriv-som-erlend-loe.png",
     "excerpt": "En konkurranse der elevene prøver å få en KI-modell til å skrive som Erlend Loe uten å nevne forfatteren ved navn.",
+    "excerpt_en": "A competition where students try to get an AI model to write like Erlend Loe without naming the author.",
     "en_translated": true
   },
   {
     "slug": "gjett-den-historiske-personen",
     "title": "Gjett den historiske personen",
+    "title_en": "Guess the Historical Figure",
     "date": "2025-04-07",
     "categories": [
       {
@@ -2041,11 +2230,13 @@
     ],
     "image": "/media/tile-gjett-den-historiske-personen.png",
     "excerpt": "Elevene samtaler med en KI som er instruert til å være en historisk person, og skal gjette hvem det er.",
+    "excerpt_en": "Students chat with an AI instructed to role-play a historical figure, and try to guess who it is.",
     "en_translated": true
   },
   {
     "slug": "lag-kompetansemal-med-ki",
     "title": "Lag kompetansemål med KI",
+    "title_en": "Create Learning Objectives with AI",
     "date": "2026-01-09",
     "categories": [
       {
@@ -2073,11 +2264,13 @@
     ],
     "image": "/media/tile-lag-kompetansemal-med-ki.png",
     "excerpt": "Bruk KI til å generere en positivt formulert vurderingsmatrise ut fra en oppgavebeskrivelse, med Yngves erfaring fra KIOSK-podden.",
+    "excerpt_en": "Use AI to generate a positively worded assessment rubric from a task description, with Yngve's experience from the KIOSK podcast.",
     "en_translated": true
   },
   {
     "slug": "skrive-naturfagsrapport-med-ki",
     "title": "Skrive naturfagsrapport med KI",
+    "title_en": "Writing a Science Report with AI",
     "date": "2026-01-09",
     "categories": [
       {
@@ -2101,11 +2294,13 @@
     ],
     "image": "/media/tile-skrive-naturfagsrapport-med-ki.png",
     "excerpt": "En metode der elever bruker KI til å utforske et tema, gjennomfører et ekte forsøk, og deretter kritisk kvalitetssikrer en KI-generert labrapport.",
+    "excerpt_en": "A method where students use AI to explore a topic, carry out a real experiment, and then critically quality-check an AI-generated lab report.",
     "en_translated": true
   },
   {
     "slug": "differensiering-med-ki",
     "title": "Differensiering med KI",
+    "title_en": "Differentiation with AI",
     "date": "2026-01-09",
     "categories": [
       {
@@ -2133,11 +2328,13 @@
     ],
     "image": "/media/tile-differensiering-med-ki.png",
     "excerpt": "Skreddersy oppgaver til elevers faglige nivå og interesser ved å la KI generere differensierte oppgaver ut fra elevens egen informasjon.",
+    "excerpt_en": "Tailor tasks to students' academic level and interests by having AI generate differentiated tasks based on the student's own information.",
     "en_translated": true
   },
   {
     "slug": "lage-html-simuleringer",
     "title": "Lage HTML-simuleringer",
+    "title_en": "Building HTML Simulations",
     "date": "2026-01-09",
     "categories": [
       {
@@ -2169,11 +2366,13 @@
     ],
     "image": "/media/tile-lage-html-simuleringer.png",
     "excerpt": "Bruk KI til å lage interaktive HTML-simuleringer med sliders og knapper som elevene kan utforske i nettleseren.",
+    "excerpt_en": "Use AI to build interactive HTML simulations with sliders and buttons that students can explore in the browser.",
     "en_translated": true
   },
   {
     "slug": "barton",
     "title": "Barton",
+    "title_en": "Barton",
     "date": "2026-02-10",
     "categories": [
       {
@@ -2184,11 +2383,13 @@
     "subcategories": [],
     "image": "/media/logo.png",
     "excerpt": "Tre ledetekster for drilloppgaver: systematisk minimal variasjon, begrepseksempler med grensetilfeller, og drilling med tydelig formål.",
+    "excerpt_en": "Three prompts for drill exercises: systematic minimal variation, concept examples with edge cases, and drilling with a clear purpose.",
     "en_translated": true
   },
   {
     "slug": "ki-og-vurdering",
     "title": "KI og vurdering",
+    "title_en": "AI and Assessment",
     "date": "2026-04-14",
     "categories": [
       {
@@ -2199,11 +2400,13 @@
     "subcategories": [],
     "image": "/media/logo.png",
     "excerpt": "En samling ledetekster for å generere læringsmål, oppgaver, prøver og vurderingsrubrikker basert på SOLO-taksonomien, samt et vurderingsskjema til nedlasting.",
+    "excerpt_en": "A collection of prompts for generating learning goals, tasks, tests, and assessment rubrics based on the SOLO taxonomy, plus a downloadable assessment form.",
     "en_translated": true
   },
   {
     "slug": "vibbkoding",
     "title": "Vibbkoding",
+    "title_en": "Vibe Coding",
     "date": "2026-04-16",
     "categories": [
       {
@@ -2219,11 +2422,13 @@
     ],
     "image": "/media/logo.png",
     "excerpt": "En vibbekoding-workshop der elevene bruker KI til å bygge et eget programmeringsprosjekt, med ledetekster for idémyldring og rapportskriving.",
+    "excerpt_en": "A vibe-coding workshop where students use AI to build their own programming project, with prompts for brainstorming and report writing.",
     "en_translated": true
   },
   {
     "slug": "fysikk2608",
     "title": "Instrukser til fysikkundervisning",
+    "title_en": "Instructions for Physics Teaching",
     "date": "2026-08-07",
     "categories": [
       {
@@ -2234,11 +2439,13 @@
     "subcategories": [],
     "image": "/media/tile-fysikk2608.png",
     "excerpt": "Seks ledetekster for fysikkundervisning på vgs: en sokratisk læringsassistent, begrepseksempler, diagnostiske spørsmål, feilslutningsøvelser, sensemaking-caser og HTML-simuleringer.",
+    "excerpt_en": "Six prompts for upper-secondary physics teaching: a Socratic learning assistant, concept examples, diagnostic questions, fallacy exercises, sense-making cases, and HTML simulations.",
     "en_translated": true
   },
   {
     "slug": "komme-i-gang-med-ki",
     "title": "Komme i gang med KI",
+    "title_en": "Getting Started with AI",
     "date": "2025-10-30",
     "categories": [
       {
@@ -2258,11 +2465,13 @@
     ],
     "image": "/media/tile-komme-i-gang-med-ki.png",
     "excerpt": "En metode for å bruke KI til å hjelpe elever i gang med faglige oppgaver, med Tor Arnes erfaringer fra klasserommet.",
+    "excerpt_en": "A method for using AI to help students get started on academic tasks, with Tor Arne's experience from the classroom.",
     "en_translated": true
   },
   {
     "slug": "turing-testen",
     "title": "Turing-testen",
+    "title_en": "The Turing Test",
     "date": "2025-10-30",
     "categories": [
       {
@@ -2286,11 +2495,13 @@
     ],
     "image": "/media/tile-turing-testen.png",
     "excerpt": "En klasseromsaktivitet der elevene gjenskaper Turing-testen ved å gjette hvem som er menneske og hvem som er KI.",
+    "excerpt_en": "A classroom activity where students recreate the Turing test by guessing who's human and who's AI.",
     "en_translated": true
   },
   {
     "slug": "python",
     "title": "Rammeverk for grunnleggende python",
+    "title_en": "Framework for Basic Python",
     "date": "2025-11-03",
     "categories": [
       {
@@ -2310,11 +2521,13 @@
     ],
     "image": "/media/tile-python.png",
     "excerpt": "Et læringsmål-rammeverk i tre nivåer (begynner, middels, avansert) for grunnleggende python-ferdigheter, med tre KI-treningsinstrukser elever kan lime inn.",
+    "excerpt_en": "A three-level (beginner, intermediate, advanced) learning-goal framework for basic Python skills, with three AI training prompts students can paste in.",
     "en_translated": true
   },
   {
     "slug": "lag-interaktive-simuleringer",
     "title": "Lag interaktive simuleringer",
+    "title_en": "Build Interactive Simulations",
     "date": "2025-11-13",
     "categories": [
       {
@@ -2334,11 +2547,13 @@
     ],
     "image": "/media/tile-lag-interaktive-simuleringer.png",
     "excerpt": "En steg-for-steg-guide og ledetekst for å bruke KI til å lage kjørbare, interaktive HTML-simuleringer, med en levende bølgedemonstrasjon som eksempel.",
+    "excerpt_en": "A step-by-step guide and prompt for using AI to build runnable, interactive HTML simulations, with a live wave demonstration as an example.",
     "en_translated": true
   },
   {
     "slug": "stoffer",
     "title": "Næringsstoffer",
+    "title_en": "Nutrients",
     "date": "2025-11-18",
     "categories": [
       {
@@ -2358,11 +2573,13 @@
     ],
     "image": "/media/logo.png",
     "excerpt": "Kompetansemål om næringsstoffer, energiinnhold og kjemiske bindinger i mat, klare til å limes inn i en KI-samtale.",
+    "excerpt_en": "Learning objectives on nutrients, energy content, and chemical bonds in food, ready to paste into an AI conversation.",
     "en_translated": true
   },
   {
     "slug": "poeng",
     "title": "Poengoversikt",
+    "title_en": "Score Overview",
     "date": "2025-12-02",
     "categories": [
       {
@@ -2378,11 +2595,13 @@
     ],
     "image": "/media/logo.png",
     "excerpt": "Et interaktivt diagram som sammenligner poengsummer fra menneske- og KI-rettede prøver.",
+    "excerpt_en": "An interactive chart comparing scores from human-graded and AI-graded tests.",
     "en_translated": true
   },
   {
     "slug": "avgrens-pc-tilgang-under-vurdering",
     "title": "Avgrens PC tilgang under vurdering",
+    "title_en": "Restricting PC Access During Assessments",
     "date": "2025-12-15",
     "categories": [
       {
@@ -2398,11 +2617,13 @@
     ],
     "image": "/media/tile-avgrens-pc-tilgang-under-vurdering.png",
     "excerpt": "Hvordan bruke Microsoft Forms' låsemodus til å begrense hva elevenes skole-PC kan gjøre under en prøve.",
+    "excerpt_en": "How to use Microsoft Forms' lockdown mode to restrict what students' school laptops can do during a test.",
     "en_translated": true
   },
   {
     "slug": "botlab-no",
     "title": "Botlab.no",
+    "title_en": "Botlab.no",
     "date": "2025-12-15",
     "categories": [
       {
@@ -2418,6 +2639,7 @@
     ],
     "image": "/media/tile-botlab-no.png",
     "excerpt": "En ressursside med nyttige instrukser for ulike typer læring, utviklet av lærere og elever ved Glemmen skole.",
+    "excerpt_en": "A resource site with useful instructions for different types of learning, developed by teachers and students at Glemmen school.",
     "en_translated": true
   }
 ]

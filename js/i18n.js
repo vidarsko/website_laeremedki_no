@@ -52,11 +52,13 @@
     // "data-lang" originally, so this selector also matched the buttons themselves and force-hid
     // whichever one didn't match the current language (found 2026-08-29). Inline style (not a CSS
     // class) so this works regardless of the CSS default — see css/style.css, which shows
-    // [data-lang-block="no"] by default so there's no flash-of-blank-content before this deferred
-    // script runs.
+    // [data-lang-block="en"] by default so there's no flash-of-blank-content before this deferred
+    // script runs. Must be an explicit 'block', not '' — clearing the inline style just falls back
+    // to that same stylesheet rule, which still says display:none for the en block even once it's
+    // the active language, so the switch silently showed nothing at all (found 2026-08-30).
     var langBlocks = document.querySelectorAll('[data-lang-block]');
     for (var b = 0; b < langBlocks.length; b++) {
-      langBlocks[b].style.display = langBlocks[b].getAttribute('data-lang-block') === lang ? '' : 'none';
+      langBlocks[b].style.display = langBlocks[b].getAttribute('data-lang-block') === lang ? 'block' : 'none';
     }
 
     var buttons = document.querySelectorAll('.lang-btn');
