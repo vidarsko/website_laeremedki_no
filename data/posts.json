@@ -145,7 +145,8 @@
     "image": "/media/logo.png",
     "excerpt": "Passordbeskyttet samling av 64 KI-instrukser organisert etter kapittel, hentet fra fagboka. Passord finnes i boka.",
     "excerpt_en": "A password-protected collection of 64 AI instructions organized by chapter, taken from the textbook. The password is in the book.",
-    "en_translated": false
+    "en_translated": false,
+    "listed": false
   },
   {
     "slug": "prove-med-ki",
@@ -976,7 +977,8 @@
     "image": "/media/tile-latintekst.png",
     "excerpt": "En KI-generert latinsk gåte om Pytagoras' setning.",
     "excerpt_en": "An AI-generated Latin riddle about the Pythagorean theorem.",
-    "en_translated": true
+    "en_translated": true,
+    "listed": false
   },
   {
     "slug": "finn-feilene",
@@ -1129,23 +1131,6 @@
     "image": "/media/tile-4-tips-til-forenkling-av-laererhverdagen-med-ki.png",
     "excerpt": "En oversikt over favoritt-tips for å bruke KI til undervisningsaktiviteter, oppgaver, undervisningsmateriale og vurdering.",
     "excerpt_en": "An overview of my favorite tips for using AI for teaching activities, assignments, teaching materials, and assessment.",
-    "en_translated": true
-  },
-  {
-    "slug": "artikkel",
-    "title": "Artikkel",
-    "title_en": "Article",
-    "date": "2025-02-17",
-    "categories": [
-      {
-        "name": "Andre ressurser",
-        "slug": "andre-ressurser"
-      }
-    ],
-    "subcategories": [],
-    "image": "/media/logo.png",
-    "excerpt": "En nedlastbar vitenskapelig artikkel Vidar har vært medforfatter av, delt som PDF.",
-    "excerpt_en": "A downloadable academic article Vidar has co-authored, shared as a PDF.",
     "en_translated": true
   },
   {
@@ -2115,7 +2100,8 @@
     "image": "/media/logo.png",
     "excerpt": "En ledetekst for å lage en detaljert tidsplan og læringsmål når du skal lære deg programmering på egen hånd.",
     "excerpt_en": "A prompt for creating a detailed schedule and learning goals when teaching yourself programming on your own.",
-    "en_translated": true
+    "en_translated": true,
+    "listed": false
   },
   {
     "slug": "trafikklyset",
@@ -2244,10 +2230,6 @@
         "slug": "undervisningsaktiviteter"
       },
       {
-        "name": "Blogg",
-        "slug": "blogg"
-      },
-      {
         "name": "Andre ressurser",
         "slug": "andre-ressurser"
       }
@@ -2308,10 +2290,6 @@
         "slug": "undervisningsaktiviteter"
       },
       {
-        "name": "Blogg",
-        "slug": "blogg"
-      },
-      {
         "name": "Andre ressurser",
         "slug": "andre-ressurser"
       }
@@ -2340,10 +2318,6 @@
       {
         "name": "Undervisningsaktiviteter",
         "slug": "undervisningsaktiviteter"
-      },
-      {
-        "name": "Blogg",
-        "slug": "blogg"
       },
       {
         "name": "Andre ressurser",
@@ -2384,7 +2358,8 @@
     "image": "/media/logo.png",
     "excerpt": "Tre ledetekster for drilloppgaver: systematisk minimal variasjon, begrepseksempler med grensetilfeller, og drilling med tydelig formål.",
     "excerpt_en": "Three prompts for drill exercises: systematic minimal variation, concept examples with edge cases, and drilling with a clear purpose.",
-    "en_translated": true
+    "en_translated": true,
+    "listed": false
   },
   {
     "slug": "ki-og-vurdering",
@@ -2401,7 +2376,8 @@
     "image": "/media/logo.png",
     "excerpt": "En samling ledetekster for å generere læringsmål, oppgaver, prøver og vurderingsrubrikker basert på SOLO-taksonomien, samt et vurderingsskjema til nedlasting.",
     "excerpt_en": "A collection of prompts for generating learning goals, tasks, tests, and assessment rubrics based on the SOLO taxonomy, plus a downloadable assessment form.",
-    "en_translated": true
+    "en_translated": true,
+    "listed": false
   },
   {
     "slug": "vibbkoding",
@@ -2423,7 +2399,8 @@
     "image": "/media/logo.png",
     "excerpt": "En vibbekoding-workshop der elevene bruker KI til å bygge et eget programmeringsprosjekt, med ledetekster for idémyldring og rapportskriving.",
     "excerpt_en": "A vibe-coding workshop where students use AI to build their own programming project, with prompts for brainstorming and report writing.",
-    "en_translated": true
+    "en_translated": true,
+    "listed": false
   },
   {
     "slug": "fysikk2608",
@@ -2574,7 +2551,8 @@
     "image": "/media/logo.png",
     "excerpt": "Kompetansemål om næringsstoffer, energiinnhold og kjemiske bindinger i mat, klare til å limes inn i en KI-samtale.",
     "excerpt_en": "Learning objectives on nutrients, energy content, and chemical bonds in food, ready to paste into an AI conversation.",
-    "en_translated": true
+    "en_translated": true,
+    "listed": false
   },
   {
     "slug": "poeng",
@@ -2596,7 +2574,8 @@
     "image": "/media/logo.png",
     "excerpt": "Et interaktivt diagram som sammenligner poengsummer fra menneske- og KI-rettede prøver.",
     "excerpt_en": "An interactive chart comparing scores from human-graded and AI-graded tests.",
-    "en_translated": true
+    "en_translated": true,
+    "listed": false
   },
   {
     "slug": "avgrens-pc-tilgang-under-vurdering",

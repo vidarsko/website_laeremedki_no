@@ -121,13 +121,23 @@ document.addEventListener('DOMContentLoaded', async () => {
   const categoryOptions = [...new Map(posts.flatMap(p => p.categories.map(c => [c.slug, c.name]))).entries()]
     .sort((a, b) => a[1].localeCompare(b[1], 'no'));
 
-  // Which underkategori values make sense depends on which hovedkategori is selected (Fag under
-  // Undervisningsaktiviteter, Format under Andre ressurser, etc.) — see AGENTS.md, "Kategorier".
+  // Which underkategori slugs belong under which hovedkategori is curated by hand here rather than
+  // inferred from the data — a post can carry more than one hovedkategori (e.g. Undervisningsaktiviteter
+  // + Andre ressurser), so scanning posts alone would leak e.g. "KIOSK-episode" into
+  // Undervisningsaktiviteter's filter list. See AGENTS.md, "Kategorier".
+  const CATEGORY_SUBCATEGORIES = {
+    'undervisningsaktiviteter': ['naturfag', 'matematikk', 'norsk', 'samfunnsfag', 'fremmedsprak', 'programmering', 'skriving', 'starter'],
+    'andre-ressurser': ['podcast', 'video', 'nettside', 'ki-verktoy', 'foredrag', 'workshop', 'kiosk-episode'],
+    'blogg': ['tips-og-triks', 'presse', 'om-kunstig-intelligens']
+  };
+
   function subcategoryOptionsFor(kategoriSlug) {
-    if (!kategoriSlug) return [];
+    const allowed = CATEGORY_SUBCATEGORIES[kategoriSlug];
+    if (!allowed) return [];
     const relevant = posts.filter(p => p.categories.some(c => c.slug === kategoriSlug));
-    return [...new Map(relevant.flatMap(p => (p.subcategories || []).map(s => [s.slug, s.name]))).entries()]
-      .sort((a, b) => a[1].localeCompare(b[1], 'no'));
+    return [...new Map(
+      relevant.flatMap(p => (p.subcategories || []).filter(s => allowed.includes(s.slug)).map(s => [s.slug, s.name]))
+    ).entries()].sort((a, b) => a[1].localeCompare(b[1], 'no'));
   }
 
   function render() {
