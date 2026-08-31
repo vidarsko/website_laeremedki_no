@@ -112,7 +112,7 @@ a:focus-visible, button:focus-visible {
 
 /* Password gate — client-side soft gate for password-protected posts (e.g. bok/).
    Not real security (the hash + JS are visible in page source, same exposure level as
-   WordPress's own post-password feature) — see js/password-gate.js and CLAUDE.md. */
+   WordPress's own post-password feature) — see js/password-gate.js and AGENTS.md. */
 .gate-box {
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -483,7 +483,7 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
 .post-body .wp-block-visual-link-preview-link .summary { font-size: 14px; opacity: 0.75; margin: 0; }
 
 /* "Instrukser"-category copy-block — a labeled, copyable prompt/instruction.
-   Standard for Instrukser-posts, see CLAUDE.md "Instrukser — standard
+   Standard for Instrukser-posts, see AGENTS.md "Instrukser — standard
    copy-block-format". Copy-button click handling lives in js/copy-block.js. */
 .post-body .copy-block {
   border: 1px solid var(--border);

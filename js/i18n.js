@@ -46,7 +46,7 @@
     }
 
     // Full-article dual-language blocks: both <no> and <en> versions of a post body live in the
-    // same document at once (see CLAUDE.md, "Oversettelse"), toggled by visibility rather than
+    // same document at once (see AGENTS.md, "Oversettelse"), toggled by visibility rather than
     // the textContent-swap dict above (which can't carry rich HTML — paragraphs, lists, images).
     // Deliberately a separate attribute from the .lang-btn buttons' own [data-lang] — both used
     // "data-lang" originally, so this selector also matched the buttons themselves and force-hid

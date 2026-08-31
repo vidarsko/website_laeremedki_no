@@ -6,7 +6,7 @@ function currentLang() {
   return document.documentElement.getAttribute('lang') === 'en' ? 'en' : 'no';
 }
 
-// Fixed, small taxonomy (see CLAUDE.md, "Kategorier") — translated here rather than in
+// Fixed, small taxonomy (see AGENTS.md, "Kategorier") — translated here rather than in
 // data/posts.json, since every post referencing a given slug should show the same label instead
 // of needing its own duplicated EN category name.
 var CATEGORY_LABELS = {
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const response = await fetch('/data/posts.json');
   const allPosts = await response.json();
   // "Ikke oppført" posts (listed: false) are real, deployed pages — reachable by direct link —
-  // just never surfaced in any grid/filter here. See CLAUDE.md, "Ikke oppført".
+  // just never surfaced in any grid/filter here. See AGENTS.md, "Ikke oppført".
   const posts = allPosts.filter(p => p.listed !== false);
 
   const limit = grid.dataset.limit ? parseInt(grid.dataset.limit, 10) : null;
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     .sort((a, b) => a[1].localeCompare(b[1], 'no'));
 
   // Which underkategori values make sense depends on which hovedkategori is selected (Fag under
-  // Undervisningsaktiviteter, Format under Andre ressurser, etc.) — see CLAUDE.md, "Kategorier".
+  // Undervisningsaktiviteter, Format under Andre ressurser, etc.) — see AGENTS.md, "Kategorier".
   function subcategoryOptionsFor(kategoriSlug) {
     if (!kategoriSlug) return [];
     const relevant = posts.filter(p => p.categories.some(c => c.slug === kategoriSlug));
