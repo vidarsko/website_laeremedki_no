@@ -262,6 +262,34 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
 .section-lead.center { text-align: center; margin: 0 auto 32px; }
 
 /* ==========================================================================
+   Book promo band — homepage advert for the "Lære med KI" book (Skogvoll &
+   Haraldsrud, Universitetsforlaget). Cover image + pitch + purchase links.
+   ========================================================================== */
+.book-promo { padding: 56px 24px 8px; }
+.book-promo-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 32px;
+  align-items: center;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+}
+.book-promo-cover { margin: 0; }
+.book-promo-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+.book-promo-body h2 { margin-bottom: 4px; }
+.book-promo-byline { font-size: 15px; opacity: 0.7; margin: 0 0 16px; }
+.book-promo-lead { font-size: 17px; opacity: 0.85; max-width: 58ch; margin-bottom: 24px; }
+
+/* ==========================================================================
    Bento tile grid (category / subject hub pickers)
    ========================================================================== */
 .tile-grid {
@@ -604,12 +632,15 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
 
 @media (max-width: 900px) {
   .hero .wide { grid-template-columns: 1fr; }
+  .book-promo-card { grid-template-columns: 160px 1fr; gap: 24px; padding: 24px; }
 }
 
 @media (max-width: 780px) {
   h1 { font-size: 38px; }
   .tile-grid { grid-template-columns: repeat(2, 1fr); }
   .tile--featured { grid-column: span 2; grid-row: span 1; aspect-ratio: 16/9; }
+  .book-promo-card { grid-template-columns: 1fr; }
+  .book-promo-cover { max-width: 180px; }
   .posts-grid { grid-template-columns: 1fr; }
 
   .nav-toggle { display: flex; }
