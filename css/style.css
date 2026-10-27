@@ -288,6 +288,10 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
 .book-promo-body h2 { margin-bottom: 4px; }
 .book-promo-byline { font-size: 15px; opacity: 0.7; margin: 0 0 16px; }
 .book-promo-lead { font-size: 17px; opacity: 0.85; max-width: 58ch; margin-bottom: 24px; }
+/* Compact variant inside a .narrow column, e.g. above the gate on bok/. */
+.book-promo-inline { margin-bottom: 24px; }
+.book-promo-card.book-promo-card--compact { grid-template-columns: 130px 1fr; gap: 24px; padding: 24px; }
+.book-promo-card--compact .book-promo-lead { font-size: 16px; margin-bottom: 16px; }
 
 /* ==========================================================================
    Bento tile grid (category / subject hub pickers)
@@ -641,6 +645,8 @@ html[data-theme="dark"] .lang-btn.active { background: rgba(255,255,255,0.10); }
   .tile--featured { grid-column: span 2; grid-row: span 1; aspect-ratio: 16/9; }
   .book-promo-card { grid-template-columns: 1fr; }
   .book-promo-cover { max-width: 180px; }
+  .book-promo-card.book-promo-card--compact { grid-template-columns: 1fr; }
+  .book-promo-card--compact .book-promo-cover { max-width: 130px; }
   .posts-grid { grid-template-columns: 1fr; }
 
   .nav-toggle { display: flex; }
